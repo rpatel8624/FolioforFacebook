@@ -7,11 +7,12 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.creativtrendz.folio.activities.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:elevation="0dp"
         android:fitsSystemWindows="true">
 
         <android.support.v7.widget.Toolbar
@@ -19,7 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlways|snap"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 
@@ -33,11 +33,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="10dp"
-        fab:menu_labels_style="@style/MenuLabelsStyle"
-        fab:menu_labels_showAnimation="@anim/jump_from_down"
-        fab:menu_labels_hideAnimation="@anim/jump_to_down"
-        fab:menu_animationDelayPerItem="0"
-        fab:menu_shadowColor="#50000000"
         fab:menu_colorNormal="?attr/colorPrimary"
         fab:menu_colorPressed="?attr/colorPrimaryDark"
         fab:menu_colorRipple="?attr/colorPrimary">
@@ -56,7 +51,7 @@
             android:id="@+id/shareFab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_share"
+            android:src="@drawable/ic_share_now"
             fab:fab_label="@string/update_share"
             style="@style/MenuButtonsStyle" />
 
