@@ -8,20 +8,29 @@
 			android:key="notifications_settings"
             android:title="@string/notifications_settings"/>
 
-        <SwitchPreference
-            android:key="show_ads"
-            android:title="@string/ads_folio"
-            android:summary="@string/ads_folio_des"/>
-        
+
         <SwitchPreference
             android:key="allow_inside"
-            android:title="@string/open_link_title"/>
+            android:title="@string/open_link_title"
+            android:defaultValue="true"/>
 
+        <SwitchPreference
+            android:key="use_messenger"
+            android:title="Use Messenger"
+            android:summary="Use messenger.com to view and send messages."
+            android:defaultValue="false"/>
 
                 
         <SwitchPreference
             android:key="folio_locker"
             android:title="@string/folio_lock"/>
+
+        <SwitchPreference
+            android:key="allow_location"
+            android:title="Enable Location"
+            android:summary="Allow location for Check-ins"/>
+
+
    	</PreferenceCategory>
    
         
@@ -70,12 +79,12 @@
             android:title="@string/feed_choice"
             android:defaultValue="default_news" />
                
-        </PreferenceCategory>       
-       
-    
-          
-   		<PreferenceCategory
-        	android:title="@string/preference_about_category">
+        </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:title="@string/settings_more">
         
        	<Preference
             android:key="clear"
@@ -90,6 +99,10 @@
         <Preference
             android:key="credits_settings"
             android:title="@string/credits_settings"/>
+
+        <Preference
+            android:key="terms"
+            android:title="@string/terms_settings"/>
         
         
            
