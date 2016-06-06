@@ -363,5 +363,4 @@ public class QuickGoogle extends AppCompatActivity {
         }
     }
 
-
 }
