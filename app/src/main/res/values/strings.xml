@@ -6,8 +6,8 @@
 
 
     <!-- Start Basic Strings -->
-    <string name="app_name">Folio</string>
-    <string name="app_name_pro">Folio Pro</string>
+    <string name="app_name">Folio Free</string>
+    <string name="app_name_pro">Folio</string>
     <string name="app_name_toolbar">Folio</string>
     <string name="app_name_toolbar_pro">Folio Pro</string>
     <string name="app_name_about">Folio for Facebook</string>
@@ -15,7 +15,8 @@
     <string name="action_settings">Settings</string>
     <string name="closeDrawer">Navigation View</string>
     <string name="openDrawer">Open Left Drawer</string>
-    <string name="facebook_app_id">YOUR_ID_HERE</string><string name="get_started">Log In With Facebook</string>
+    <string name="facebook_app_id">749196541804006</string>
+    <string name="get_started">Log In With Facebook</string>
     <string name="status_updated">Status updated.</string>
     <string name="loading_video">Loading.</string>
     <string name="ok">OK</string>
@@ -31,6 +32,29 @@
     <string name="preference_set_category">All Set?</string>
     <string name="share_action">Share current page</string>
     <string name="share_action_subject">Facebook page</string>
+    <string name="not_valid_title">Not Valid</string>
+    <string name="not_valid_message">This version of Folio is not from the Play Store and will not function.</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="crash_toast_text">Something is wrong.</string>
+    <string name="crash_dialog_title">Folio Pro has crashed</string>
+    <string name="crash_dialog_text">Unfortunately Folio Pro has stopped. Please tap OK to send this report via email.</string>
+    <string name="crash_dialog_comment_prompt">You can leave comments about this crash here:</string>
+    <string name="permission_read_external_storage">Permission to read files is required</string>
+    <string name="permission_write_external_storage">Permission to write files is required</string>
+    <string name="permission_access_location">Permission to access your location is required</string>
+    <string name="permission_get_accounts">Permission to get accounts is required by notification service</string>
+    <string name="fragment_main_downloading">Downloading&#8230;</string>
+    <string name="like_on_facebook">Downloading&#8230;</string>
+    <string name="like_on">Like on Facebook</string>
+    <string name="join_on">Join Google+ Community</string>
+    <string name="follow_on">Follow On Twitter</string>
+    <string name="new_share">Enable New Sharer</string>
+    <string name="new_share_hint">This enables the desktop sharer which allows sharing links to friends, pages and groups.</string>
+    <string name="share_success">Item shared. Loading News Feed&#8230;</string>
+    <string name="terms_settings">Terms</string>
+    <string name="settings_more">More</string>
     <!-- End Basic Strings -->
 
 
@@ -72,35 +96,48 @@
     <string name="helpfeed">Feedback</string>
     <string name="bugs">Report A Bug</string>
     <string name="switch_to_folio">Switch to Folio</string>
+    <string name="switch_to_twitter">Switch to Twitter</string>
     <string name="switch_to_gplus">Switch to Google+</string>
     <string name="switch_to_gram">Switch to Instagram</string>
     <string name="switch_to_tum">Switch to Tumblr</string>
     <!-- End Folio Drawer -->
 
 
+    <!-- Start Twitter Drawer-->
+
+    <string name="discover">Discover</string>
+    <string name="connect">Connect</string>
+    <string name="twitter_search">Search</string>
+    <string name="twitter_home">Home</string>
+    <string name="twitter_me">Me</string>
+
+    <!-- End Twitter Drawer -->
+
+
 
 
     <!-- Start Add ons Custom Navigation Drawer Removals-->
     <string name="addons">Social Add-ons</string>
-    <string name="enable_google">Remove Google+</string>
-    <string name="enable_instagram">Remove Instagram</string>
-    <string name="enable_tumblr">Remove Tumblr</string>
+    <string name="enable_twitter">Show Twitter</string>
+    <string name="enable_google">Show Google+</string>
+    <string name="enable_instagram">Show Instagram</string>
+    <string name="enable_tumblr">Show Tumblr</string>
     <!-- End Add ons Custom Navigation Drawer Removals -->
 
 
     <!-- Start Navigation Drawer Removals -->
     <string name="navigation_pref">Navigation Drawer Items</string>
     <string name="navigation_pref_hint">Customize the navigation drawer by removing items you don\'t use.</string>
-    <string name="recent_nav">Remove News Feed</string>
-    <string name="top_nav">Remove Notes</string>
-    <string name="trending_nav">Remove Trending</string>
-    <string name="friends_nav">Remove Friends</string>
-    <string name="groups_nav">Remove Groups</string>
-    <string name="pages_nav">Remove Pages</string>
-    <string name="photos_nav">Remove Photos</string>
-    <string name="events_nav">Remove Events</string>
-    <string name="onday_nav">Remove On This Day</string>
-    <string name="saved_nav">Remove Saved</string>
+    <string name="recent_nav">Show News Feed</string>
+    <string name="top_nav">Show Notes</string>
+    <string name="trending_nav">Show Trending</string>
+    <string name="friends_nav">Show Friends</string>
+    <string name="groups_nav">Show Groups</string>
+    <string name="pages_nav">Show Pages</string>
+    <string name="photos_nav">Show Photos</string>
+    <string name="events_nav">Show Events</string>
+    <string name="onday_nav">Show On This Day</string>
+    <string name="saved_nav">Show Saved</string>
     <!-- Start Navigation Drawer Removals -->
 
 
@@ -110,9 +147,9 @@
     <string name="feed_choice_hint">Current sort: %s.</string>
 
     <string-array name="pref_default_feed">
-        <item>Default (Fast to load)</item>
-        <item>Most Recent (Slow to load)</item>
-        <item>Top News (Slow to load)</item>
+        <item>Default</item>
+        <item>Most Recent</item>
+        <item>Top News</item>
     </string-array>
     <!-- End News Feed Preference -->
 
@@ -164,19 +201,22 @@
     <string name="preference_category15">Folio Layout Settings</string>
     <string name="preference_facebook_layouts">Facebook Layout Settings</string>
     <string name="preference_category3">Facebook Themes</string>
+    <string name="hide_web">Hide WebView Loading</string>
+    <string name="hide_web_hint">Prevents default Facebook theme while page is loading. (Not recommended for Jelly Bean devices)</string>
 
     <string-array name="pref_theme_entries">
-    <item>Folio Theme</item>
-    <item>Pink Theme</item>
-    <item>Dark Theme</item>
-    <item>Blue Grey Theme</item>
+        <item>Folio Theme</item>
+        <item>Pink Theme</item>
+        <item>Dark Theme</item>
+        <item>Blue Grey Theme</item>
     </string-array>
 
     <string-array name="pref_theme_fb_entries">
-    <item>Facebook Theme</item>
-    <item>Black Theme</item>
-    <item>Dracula Theme</item>
-    <item>Folio Theme</item>
+        <item>Facebook Theme</item>
+        <item>Black Theme</item>
+        <item>Dracula Theme</item>
+        <item>Folio Theme</item>
+        <item>Folio Classic</item>
     </string-array>
     <!-- End Folio Main Customizations & Facebook Themes-->
 
@@ -193,12 +233,13 @@
     <string name="clear_cache">Clear Data</string>
     <string name="clear_cache_title">Are you sure?</string>
     <string name="clear_cache_message">Tap OK to clear Folio\'s data. This will also log you out.</string>
+    <string name="go_pro_message">Upgrade to Folio Pro and remove ads, get access to Twitter, get access to sharing links to friends, pages, groups or as a private message. Download files from groups. Access to Folio Pro\'s 41 themes. Frequent updates, and help support development. </string>
     <string name="clear_cache_description">Clear Folio\'s data. This will also log you out.</string>
     <string name="people_you">People You May Know</string>
-    <string name="people_you_hint">Hide people you may know. (BETA)</string>
+    <string name="people_you_hint">Hide people you may know.</string>
 
-    <string name="open_link_title">Chrome Custom Tabs</string>
-    <string name="open_link_hint">Open external links in Chrome Custom Tabs?</string>
+    <string name="open_link_title">Open Web Links In Folio</string>
+    <string name="open_link_hint">Turn on for faster browsing.</string>
 
     <string name="addPage">Add to Favorites</string>
     <string name="removePage">Remove from Favorites</string>
@@ -219,20 +260,16 @@
     <string name="credits_licenses">Tap here to read more about the licences used in Folio.</string>
     <string name="credits_licenses_description">Open source software licenses</string>
     <string name="preference_category6">Credits</string>
-    <string name="credits_bejan">Bejan Kanga</string>
-    <string name="credits_bejan_description">For launcher icons for Folio &amp; Folio Messenger. Also some navigation drawer icons. Also help with development on portions of the original app FrontPage. Tap here to visit his website.</string>
-    <string name="credits_bejan_link" translatable="true">http://bejank.com</string>
+    <string name="credits_bejan">Patryk Goworowski</string>
+    <string name="credits_bejan_description">For launcher icons for Folio Free &amp; Folio Pro. Tap here to purchase Cornie Icons.</string>
+    <string name="credits_bejan_link" translatable="true">https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons&amp;hl=en</string>
     <string name="credits_nam">Nam Nghiem</string>
     <string name="credits_nam_description">For help with cover photos.</string>
     <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrappe&amp;hl=en</string>
     <string name="credits_fadev">Florent Anders</string>
     <string name="credits_fadev_description">For help with Folio Lock.</string>
     <string name="credits_fadev_link" translatable="true">https://play.google.com/store/apps/details?id=com.fa.touch.app&amp;hl=en</string>
-    <string name="credits_beta">Facebook Group</string>
-    <string name="credits_beta_description">Join Creative Trends on Facebook.</string>
-    <string name="credits_beta_link" translatable="true">https://www.facebook.com/groups/creativtrendz/</string>
-    <string name="credits_google_plus">Google+</string>
-    <string name="credits_google_plus_description">Join Creative Trends on Google+</string>
+
     <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
     <string name="credits_janae">Janae</string>
     <string name="credits_janae_description">For sharing an interest in technology and being patient while daddy worked.</string>
@@ -269,12 +306,17 @@
     <string name="credits_rom_description">Romana</string>
     <string name="credits_rus">Артём Петров</string>
     <string name="credits_rus_description">Русский</string>
+    <string name="credits_swipe_description">Jeffrey Sera</string>
+    <string name="credits_swipe">Special thanks to Jeff of Happening Studios, for help with Messenger.com code and for pushing me to make Folio better. Swipe is an awesome app pushing innovation of wrappers.</string>
+
+
     <string name="help_trans">Help Translate</string>
-    <string name="help_trans_hint">Tap to help translate Folio into your language.</string>
+    <string name="about_translate">Folio Translators</string>
+    <string name="about_translate_hint">Tap here to see whose helped translate Folio.</string>
     <!-- END CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
 
 
-<!-- Start Notifications -->
+    <!-- Start Notifications -->
     <string name="interval_pref">Sync Interval. Tap To Change.</string>
     <string name="interval_pref_description">Notifications will be checked every: %s.</string>
     <string-array name="update_interval">
@@ -298,12 +340,13 @@
         <item>10800000</item>
         <item>21600000</item>
     </string-array>
-
+    <string name="folio_message_bubble">Message Bubbles (ALPHA)</string>
+    <string name="folio_message_bubble_hint">Tap to apply to activate.</string>
     <string name="notify_log">Notification Log</string>
     <string name="btn_chioce">Pick(%d)</string>
     <string name="you_have_one_message">You have 1 new message</string>
     <string name="you_have_n_messages">You have %d new messages</string>
-    <string name="sync_problem">Awe snap! That\'s an error. Folio couldn\'t get your notifications. Please close and reopen Folio.</string>
+    <string name="sync_problem">Please login to start getting notifications.</string>
     <string name="activate_notifications">Facebook Notifications</string>
     <string name="activate_messages">Message Notifications</string>
     <string name="notifications_service_created">Notifications Activated</string>
@@ -327,7 +370,7 @@
     <string name="quick_bar_hint">Show Folio\'s Notification QuickBar to open a floating window for your favorite network.</string>
     <string name="quick_bar_on">Folio QuickBar is now on.</string>
 
-  <!-- End Notifications -->
+    <!-- End Notifications -->
 
 
 
@@ -345,23 +388,24 @@
     <!-- End Folio Lock -->
 
 
+
     <!-- Start Saving Images Context Menu. -->
-    <string name="context_save_image">Save</string>
-    <string name="context_share_image">Share</string>
+    <string name="context_save_image">Download Image</string>
+    <string name="context_share_image">Share Image</string>
     <string name="context_copy_image_link">Copy link</string>
     <string name="context_share_link">Share link</string>
     <string name="context_copy_link">Copy link</string>
-    <string name="context_share_image_progress">Loading…</string>
+    <string name="context_share_image_progress">Preparing&#8230;</string>
     <string name="content_copy_link_done">Link copied to clipboard</string>
     <!-- End Saving Images Context Menu. -->
 
     <!-- Start Login -->
-    <string name="not_logged_in">You are not logged in</string>
+    <string name="not_logged_in">Not Connected With Folio</string>
     <string name="error_login">Something went wrong, please try logging in again</string>
-    <string name="error_super_wrong">Something went super wrong</string>
+    <string name="error_super_wrong">Login Cancelled</string>
     <string name="error_facebook_noconnection">Could not access Facebook</string>
-    <string name="error_facebook_error">Something went wrong on Facebook\'s end</string>
-    <string name="login_button">Login</string>
+    <string name="error_facebook_error">Getting Info&#8230;</string>
+    <string name="login_button">Connect With Folio</string>
     <!-- End Login-->
 
     <!-- Start Permissions -->
@@ -374,6 +418,59 @@
     <!-- End Ads -->
 
     <!-- START OF LICENSES: DO NOT TRANSLATE LEAVE AS IS-->
+       <string name="eula_string">EULA, Terms &amp; Policies:\n\n
+
+\nCopyright 2016 Creative Trends Apps. All Rights Reserved.
+
+\n\nThis software may not, in whole or in any part, be copied, reproduced, transmitted, translated (into any
+language, natural or computer), stored in a retrieval system, reduced to any electronic medium or machine readable
+format, or by any other form or means without prior consent, in writing, from Creative Trends.
+
+\n\nYou are granted a limited license to use this software. The software may be used or copied only in accordance
+with the terms of that license, which is described in the following paragraphs.
+
+\n\nTRADEMARKS:
+\n\nFolio for Facebook, NewsBite, Creative Trends, Creative Trends Apps. All Folio and NewsBite Icons and logos. All apps made or produced by Creative Trends.
+
+\n\nLICENSE:
+\n\n\"THE SOFTWARE\" shall be taken to mean the software contained in this app and any subsequent versions
+or upgrades received as a result of having purchased this app. \"BUYER\" shall be taken as the original
+purchaser of the software.
+
+\n\nBuyer has the non-exclusive right to the use of software only on a single device. Buyer may not electronically
+transfer the program from one device to another over any type of network. Buyer may not distribute copies
+of the software or the accompanying documentation to others either for a fee or without charge. Buyer may not modify
+or translate the program or documentation. User may not disassemble the program or allow it to be disassembled
+into its constituent source code. Buyer\'s use of the software indicates his/her acceptance of these terms
+and conditions. If buyer does not agree to these conditions, return the distribution media, documentation, and
+associated materials to the vendor from whom the software was purchased, and/or uninstall the software from the device,
+and erase the software from any and all storage devices upon which it may have been installed.
+
+\n\nThis license agreement shall be governed by the laws of The United States of America, New Jersey and
+shall inure to the benefit of Creative Trends Apps or its assigns.
+
+\n\nREFUNDS:
+\n\nCreative Trends Apps will grant the buyer of any of our apps a full refund of their purchase within two hours of purchase. After this time has passed refunds will only be granted at the discretion of Creative Trends.
+
+\n\nCHANGES:
+\n\nYou agree that Creative Trends has the right to test and remove features at it\'s discretion.
+
+\n\nDISCLAIMER / LIMITATION OF LIABILITY:
+\n\nBuyer acknowledges that the software may not be free from defects and may not satisfy all of buyer\'s
+needs. The software and any accompanying written materials are licensed \"AS IS\". Buyer\'s exclusive
+remedy during the warranty period (if any) shall be fixes via software updates if needed. In no event will Creative Trends be liable for direct, indirect, incidental or consequential damage or
+damages resulting from loss of use, or loss of anticipated profits resulting from any defect in the software,
+even if it has been advised of the possibility of such damage. Some laws do not allow exclusion or limitation
+of implied warranties or liabilities for incidental or consequential damages, so the above limitations or
+exclusion may not apply.
+
+\n\nSPECIFIC RESTRICTIONS:
+\n\nIn accordance with the COMPUTER SOFTWARE RENTAL ACT OF 1990, this software may not be rented, lent or leased.
+\n\nThe software and accompanying documentation may not be provided by a \"Backup Service\" or any other vendor
+which does not provide an original package as composed of Creative Trends, including but not limited to all original
+distribution media, documentation, registration cards, and insertions.</string>
+
+
     <string name="about_text"><![CDATA[
 
 
@@ -641,10 +738,23 @@
 
 
     <string name="about_header">Open source licenses\nNotices for files</string>
-    <string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
+    <string name="copyright">\u00A9 2016 Creative Trends Apps LLC.</string>
     <string name="allrights">All Rights Reserved.</string>
     <string name="about_version">http://www.creativetrendsapps.com</string>
     <string name="about_image">Image Credit: Klyph for Facebook</string>
+    <string name="download_complete">Image downloaded.</string>
+    <string name="fullscreen">Full Screen</string>
+    <string name="minimize">Minimize</string>
+    <string name="notifications_quickbar">Setup notifications &amp; disable QuickBar</string>
+    <string name="about_links">Switch off to open links externally</string>
+    <string name="new_share_about">Enables the desktop sharer and the ability to share links with the FAB. Swipe Folio Pro away from recents to turn on.</string>
+    <string name="error_general">Error</string>
+    <string name="save_img">Save</string>
+    <string name="download_manager_disabled">Download Manager Disabled</string>
+    <string name="new_feed_items">New Feed Items</string>
+    <string name="load_news_feed">Load News Feed</string>
+    <string name="enable_trans">Translucent Navigation</string>
+    <string name="enable_trans_hint">Enable translucent navigation. Works only KitKat+ devices with on screen buttons and system support.</string>
     <!-- END OF LICENSES -->
 
 
