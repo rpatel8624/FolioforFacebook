@@ -50,12 +50,12 @@ Copyright notice must remain here if you're using any part of this code.-->
         <SwitchPreference
             android:key="vibrate"
             android:title="@string/vibrate"
-            android:defaultValue="true"/>
+            android:defaultValue="flase"/>
 
         <SwitchPreference
             android:key="led_light"
             android:title="@string/led_light"
-            android:defaultValue="true"/>
+            android:defaultValue="false"/>
         
 
         
@@ -72,14 +72,8 @@ Copyright notice must remain here if you're using any part of this code.-->
             android:key="notifications_everywhere"
             android:title="@string/notifications_everywhere"
             android:summary="@string/notifications_everywhere_description"
-            android:defaultValue="true"/>
-        
-        <SwitchPreference
-            android:key="notify"
-            android:title="@string/notify_log"
-            android:defaultValue="false"/>     
-        
-        
+            android:defaultValue="false"/>
+
         
        </PreferenceCategory> 
         
