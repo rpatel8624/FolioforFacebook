@@ -15,10 +15,25 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowBackground">@color/white</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
-    </style>
-    
 
-    
+
+    </style>
+
+    <!-- DEFAULT FOLIO THEME DARK DRAWER. -->
+    <style name="FolioThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="colorAccent">@color/PrimaryDarkColor</item>
+        <item name="colorButtonNormal">@color/PrimaryColor</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+    </style>
+
     <!-- PINK FOLIO THEME. -->
     <style name="PinkTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -32,9 +47,27 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowBackground">@color/white</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
-     
+
+
     </style>
-    
+
+
+    <!-- PINK FOLIO THEME DARK DRAWER. -->
+    <style name="PinkThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/bcP</item>
+        <item name="colorPrimaryDark">@color/bcPD</item>
+        <item name="colorAccent">@color/bcP</item>
+        <item name="colorButtonNormal">@color/bcP</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
 
     <!-- DARK FOLIO THEME -->
     <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
@@ -51,16 +84,697 @@
         <item name="android:windowBackground">@color/black</item>
         <item name="android:textColorSecondary">@color/white</item>
 
-    </style>
-    
-    
-    
 
-    
-    	
-    	
-    	<!-- BLUE GREY FOLIO THEME -->
-    	<style name="BlueGreyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+    </style>
+
+
+
+    <!-- PURPLE FOLIO THEME -->
+    <style name="PurpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_purple_500</item>
+        <item name="colorPrimaryDark">@color/md_purple_700</item>
+        <item name="colorAccent">@color/md_purple_500</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorButtonNormal">@color/md_purple_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+
+
+
+    <!-- PURPLE FOLIO THEME DARK DRAWER-->
+    <style name="PurpleThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_purple_500</item>
+        <item name="colorPrimaryDark">@color/md_purple_700</item>
+        <item name="colorAccent">@color/md_purple_500</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorButtonNormal">@color/md_purple_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+
+    <!-- PURPLE FOLIO THEME -->
+    <style name="DeepPurpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_purple_700</item>
+        <item name="colorAccent">@color/md_deep_purple_500</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorButtonNormal">@color/md_deep_purple_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+
+
+
+    <!-- PURPLE FOLIO THEME DARK DRAWER-->
+    <style name="DeepPurpleThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_purple_700</item>
+        <item name="colorAccent">@color/md_deep_purple_500</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorButtonNormal">@color/md_deep_purple_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+
+    <!-- ORANGE FOLIO THEME -->
+    <style name="OrangeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_orange_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorButtonNormal">@color/md_orange_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_orange_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+    <style name="OrangeDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_orange_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_orange_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_orange_500</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+
+
+    <!-- ORANGE FOLIO THEME -->
+    <style name="DeepOrangeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_orange_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorButtonNormal">@color/md_deep_orange_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_deep_orange_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+    <style name="DeepOrangeDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_orange_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorButtonNormal">@color/md_deep_orange_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_deep_orange_500</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+    <!-- FALCON FOLIO THEME -->
+    <style name="FalconTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_falcon_500</item>
+        <item name="colorPrimaryDark">@color/md_falcon_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorButtonNormal">@color/md_falcon_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_falcon_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FalconDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_falcon_500</item>
+        <item name="colorPrimaryDark">@color/md_falcon_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorButtonNormal">@color/md_falcon_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_falcon_500</item>
+        <item name="android:windowBackground">@color/drawer_back</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+
+
+    <!-- LIME FOLIO THEME -->
+    <style name="LimeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_lime_500</item>
+        <item name="colorPrimaryDark">@color/md_lime_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_lime_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_lime_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+    <style name="LimeDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_lime_500</item>
+        <item name="colorPrimaryDark">@color/md_lime_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_lime_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_lime_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+    <!-- GREEN FOLIO THEME -->
+    <style name="GreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_green_500</item>
+        <item name="colorPrimaryDark">@color/md_green_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_green_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_green_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:navigationBarColor">@color/md_green_700</item>
+
+
+    </style>
+
+    <style name="GreenDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_green_500</item>
+        <item name="colorPrimaryDark">@color/md_green_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_green_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_green_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+
+    <!-- GREEN FOLIO THEME -->
+    <style name="LightGreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_light_green_500</item>
+        <item name="colorPrimaryDark">@color/md_light_green_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_light_green_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_light_green_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+    <style name="LightGreenDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_light_green_500</item>
+        <item name="colorPrimaryDark">@color/md_light_green_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_light_green_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_light_green_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+    <!-- AMBER FOLIO THEME -->
+    <style name="AmberTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_amber_500</item>
+        <item name="colorPrimaryDark">@color/md_amber_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_amber_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_amber_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+    <style name="AmberDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_amber_500</item>
+        <item name="colorPrimaryDark">@color/md_amber_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_amber_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_amber_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+
+    <!-- YELLOW FOLIO THEME -->
+    <style name="YellowTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_yellow_500</item>
+        <item name="colorPrimaryDark">@color/md_yellow_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_yellow_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_yellow_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="YellowDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_yellow_500</item>
+        <item name="colorPrimaryDark">@color/md_yellow_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_yellow_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_yellow_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+
+
+    <!-- RED FOLIO THEME -->
+    <style name="RedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_red_700</item>
+        <item name="colorPrimaryDark">@color/md_red_900</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_red_900</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_red_700</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="RedDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_red_700</item>
+        <item name="colorPrimaryDark">@color/md_red_900</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_red_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_red_900</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+    <!-- BLUE FOLIO THEME -->
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_blue_700</item>
+        <item name="colorPrimaryDark">@color/md_blue_900</item>
+        <item name="colorControlNormal">@color/md_blue_700</item>
+        <item name="colorControlActivated">@color/md_blue_700</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_blue_900</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_blue_700</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="BlueDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_blue_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_blue_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+
+    <!-- LIGHT BLUE FOLIO THEME -->
+    <style name="LightBlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_light_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_light_blue_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_light_blue_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_light_blue_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="LightBlueDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_light_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_light_blue_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_light_blue_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_light_blue_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+    <!-- CYAN FOLIO THEME -->
+    <style name="CyanTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_cyan_500</item>
+        <item name="colorPrimaryDark">@color/md_cyan_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_cyan_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_cyan_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="CyanDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_cyan_500</item>
+        <item name="colorPrimaryDark">@color/md_cyan_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_cyan_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_cyan_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+    <!-- TEAL FOLIO THEME -->
+    <style name="TealTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_teal_500</item>
+        <item name="colorPrimaryDark">@color/md_teal_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_teal_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_teal_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="TealDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_teal_500</item>
+        <item name="colorPrimaryDark">@color/md_teal_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_teal_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_teal_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+    <!-- BROWN FOLIO THEME -->
+    <style name="BrownTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_brown_500</item>
+        <item name="colorPrimaryDark">@color/md_brown_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_brown_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_brown_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="BrownDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_brown_500</item>
+        <item name="colorPrimaryDark">@color/md_brown_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_brown_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_brown_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+
+    <!-- GREY FOLIO THEME -->
+    <style name="GreyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_grey_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_grey_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_grey_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="GreyDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_grey_700</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_grey_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_grey_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+
+    </style>
+
+
+
+    <!-- BLUE GREY FOLIO THEME -->
+    <style name="BlueGreyTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="colorPrimary">@color/md_blue_grey_500</item>
@@ -74,7 +788,26 @@
         <item name="colorAccent">@color/md_blue_grey_500</item>
         <item name="android:windowBackground">@color/white</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
     </style>
+
+    <style name="BlueGreyDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_blue_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_grey_700</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/md_blue_grey_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@color/md_blue_grey_500</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
 
 
     <style name="FolioBlue" parent="Theme.AppCompat.Light.NoActionBar">
@@ -82,8 +815,6 @@
         <item name="windowActionModeOverlay">true</item>
         <item name="colorPrimary">@color/PrimaryColor</item>
         <item name="colorPrimaryDark">@color/PrimaryDarkColor</item>
-        <item name="android:colorPrimary">@color/PrimaryColor</item>
-        <item name="android:colorPrimaryDark">@color/PrimaryDarkColor</item>
         <item name="colorAccent">@color/PrimaryDarkColor</item>
         <item name="colorButtonNormal">@color/PrimaryColor</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
@@ -92,19 +823,41 @@
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 
+
+    <style name="FolioBlueDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="colorAccent">@color/PrimaryDarkColor</item>
+        <item name="colorButtonNormal">@color/PrimaryColor</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
     <style name="FolioPink" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="colorPrimary">@color/bcP</item>
         <item name="colorPrimaryDark">@color/bcPD</item>
-        <item name="android:colorPrimary">@color/bcP</item>
-        <item name="android:colorPrimaryDark">@color/bcPD</item>
         <item name="colorAccent">@color/bcP</item>
         <item name="colorButtonNormal">@color/bcP</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+    </style>
+
+    <style name="FolioPinkDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/bcP</item>
+        <item name="colorPrimaryDark">@color/bcPD</item>
+        <item name="colorAccent">@color/bcP</item>
+        <item name="colorButtonNormal">@color/bcP</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
 
     </style>
 
@@ -113,14 +866,587 @@
         <item name="windowActionModeOverlay">true</item>
         <item name="colorPrimary">@color/dcP</item>
         <item name="colorPrimaryDark">@color/dcPD</item>
-        <item name="android:colorPrimary">@color/dcP</item>
-        <item name="android:colorPrimaryDark">@color/dcPD</item>
         <item name="colorAccent">@color/md_grey_400</item>
         <item name="colorButtonNormal">@color/dcP</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowBackground">@color/dark_settings</item>
         <item name="android:textColorSecondary">@color/white</item>
+
+    </style>
+
+    <style name="FolioPurple" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_purple_500</item>
+        <item name="colorPrimaryDark">@color/md_purple_700</item>
+        <item name="colorAccent">@color/md_purple_500</item>
+        <item name="colorButtonNormal">@color/md_purple_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+
+
+
+    <!-- PURPLE FOLIO THEME DARK DRAWER-->
+    <style name="FolioPurpleDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_purple_500</item>
+        <item name="colorPrimaryDark">@color/md_purple_700</item>
+        <item name="colorAccent">@color/md_purple_500</item>
+        <item name="colorButtonNormal">@color/md_purple_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+    </style>
+
+
+    <!-- PURPLE FOLIO THEME -->
+    <style name="FolioDeepPurple" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_purple_700</item>
+        <item name="colorAccent">@color/md_deep_purple_500</item>
+        <item name="colorButtonNormal">@color/md_deep_purple_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+
+
+
+    <!-- PURPLE FOLIO THEME DARK DRAWER-->
+    <style name="FolioDeepPurpleDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_purple_700</item>
+        <item name="colorAccent">@color/md_deep_purple_500</item>
+        <item name="colorButtonNormal">@color/md_deep_purple_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+    </style>
+
+
+    <!-- ORANGE FOLIO THEME -->
+    <style name="FolioOrange" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_orange_700</item>
+        <item name="colorAccent">@color/md_orange_500</item>
+        <item name="colorButtonNormal">@color/md_orange_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+    <style name="FolioOrangeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_orange_700</item>
+        <item name="colorAccent">@color/md_orange_500</item>
+        <item name="colorButtonNormal">@color/md_orange_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+
+
+
+
+    </style>
+
+
+
+
+    <!-- ORANGE FOLIO THEME -->
+    <style name="FolioDeepOrange" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_orange_700</item>
+        <item name="colorAccent">@color/md_deep_orange_500</item>
+        <item name="colorButtonNormal">@color/md_deep_orange_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+    <style name="FolioDeepOrangeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_orange_700</item>
+        <item name="colorAccent">@color/md_deep_orange_500</item>
+        <item name="colorButtonNormal">@color/md_deep_orange_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+
+
+
+
+    </style>
+
+
+    <!-- FALCON FOLIO THEME -->
+    <style name="FolioFalcon" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_falcon_500</item>
+        <item name="colorPrimaryDark">@color/md_falcon_700</item>
+        <item name="colorAccent">@color/md_falcon_500</item>
+        <item name="colorButtonNormal">@color/md_falcon_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FolioFalconDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_falcon_500</item>
+        <item name="colorPrimaryDark">@color/md_falcon_700</item>
+        <item name="colorAccent">@color/md_falcon_500</item>
+        <item name="colorButtonNormal">@color/md_falcon_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/drawer_back</item>
+
+
+
+
+    </style>
+
+
+
+
+    <!-- LIME FOLIO THEME -->
+    <style name="FolioLime" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_lime_500</item>
+        <item name="colorPrimaryDark">@color/md_lime_700</item>
+        <item name="colorAccent">@color/md_lime_500</item>
+        <item name="colorButtonNormal">@color/md_lime_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+    <style name="FolioLimeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_lime_500</item>
+        <item name="colorPrimaryDark">@color/md_lime_700</item>
+        <item name="colorAccent">@color/md_lime_500</item>
+        <item name="colorButtonNormal">@color/md_lime_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+    </style>
+
+
+    <!-- GREEN FOLIO THEME -->
+    <style name="FolioGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_green_500</item>
+        <item name="colorPrimaryDark">@color/md_green_700</item>
+        <item name="colorAccent">@color/md_green_700</item>
+        <item name="colorButtonNormal">@color/md_green_700</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+    <style name="FolioGreenDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_green_500</item>
+        <item name="colorPrimaryDark">@color/md_green_700</item>
+        <item name="colorAccent">@color/md_green_700</item>
+        <item name="colorButtonNormal">@color/md_green_700</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+
+
+    <!-- GREEN FOLIO THEME -->
+    <style name="FolioLightGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_light_green_500</item>
+        <item name="colorPrimaryDark">@color/md_light_green_700</item>
+        <item name="colorAccent">@color/md_light_green_500</item>
+        <item name="colorButtonNormal">@color/md_light_green_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+    <style name="FolioLightGreenDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_light_green_500</item>
+        <item name="colorPrimaryDark">@color/md_light_green_700</item>
+        <item name="colorAccent">@color/md_light_green_500</item>
+        <item name="colorButtonNormal">@color/md_light_green_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+    </style>
+
+
+    <!-- AMBER FOLIO THEME -->
+    <style name="FolioAmber" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_amber_500</item>
+        <item name="colorPrimaryDark">@color/md_amber_700</item>
+        <item name="colorAccent">@color/md_amber_500</item>
+        <item name="colorButtonNormal">@color/md_amber_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+    <style name="FolioAmberDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_amber_500</item>
+        <item name="colorPrimaryDark">@color/md_amber_700</item>
+        <item name="colorAccent">@color/md_amber_500</item>
+        <item name="colorButtonNormal">@color/md_amber_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+
+    </style>
+
+
+
+    <!-- YELLOW FOLIO THEME -->
+    <style name="FolioYellow" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_yellow_500</item>
+        <item name="colorPrimaryDark">@color/md_yellow_700</item>
+        <item name="colorAccent">@color/md_yellow_500</item>
+        <item name="colorButtonNormal">@color/md_yellow_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FolioYellowDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_yellow_500</item>
+        <item name="colorPrimaryDark">@color/md_yellow_700</item>
+        <item name="colorAccent">@color/md_amber_500</item>
+        <item name="colorButtonNormal">@color/md_amber_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+
+    </style>
+
+
+
+
+    <!-- RED FOLIO THEME -->
+    <style name="FolioRed" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_red_700</item>
+        <item name="colorPrimaryDark">@color/md_red_900</item>
+        <item name="colorAccent">@color/md_red_500</item>
+        <item name="colorButtonNormal">@color/md_red_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FolioRedDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_red_700</item>
+        <item name="colorPrimaryDark">@color/md_red_900</item>
+        <item name="colorAccent">@color/md_red_500</item>
+        <item name="colorButtonNormal">@color/md_red_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+
+    </style>
+
+
+    <!-- BLUE FOLIO THEME -->
+    <style name="FolioBlu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_blue_700</item>
+        <item name="colorPrimaryDark">@color/md_blue_900</item>
+        <item name="colorAccent">@color/md_blue_700</item>
+        <item name="colorButtonNormal">@color/md_blue_700</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FolioBluDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorAccent">@color/md_blue_700</item>
+        <item name="colorButtonNormal">@color/md_blue_700</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+
+    </style>
+
+
+
+    <!-- LIGHT BLUE FOLIO THEME -->
+    <style name="FolioLightBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_light_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_light_blue_700</item>
+        <item name="colorAccent">@color/md_light_blue_500</item>
+        <item name="colorButtonNormal">@color/md_light_blue_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FolioLightBlueDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_light_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_light_blue_700</item>
+        <item name="colorAccent">@color/md_light_blue_500</item>
+        <item name="colorButtonNormal">@color/md_light_blue_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+
+    </style>
+
+
+    <!-- CYAN FOLIO THEME -->
+    <style name="FolioCyan" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_cyan_500</item>
+        <item name="colorPrimaryDark">@color/md_cyan_700</item>
+        <item name="colorAccent">@color/md_cyan_500</item>
+        <item name="colorButtonNormal">@color/md_cyan_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FolioCyanDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_cyan_500</item>
+        <item name="colorPrimaryDark">@color/md_cyan_700</item>
+        <item name="colorAccent">@color/md_cyan_500</item>
+        <item name="colorButtonNormal">@color/md_cyan_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+
+    </style>
+
+
+    <!-- TEAL FOLIO THEME -->
+    <style name="FolioTeal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_teal_500</item>
+        <item name="colorPrimaryDark">@color/md_teal_700</item>
+        <item name="colorAccent">@color/md_teal_500</item>
+        <item name="colorButtonNormal">@color/md_teal_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FolioTealDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_teal_500</item>
+        <item name="colorPrimaryDark">@color/md_teal_700</item>
+        <item name="colorAccent">@color/md_teal_500</item>
+        <item name="colorButtonNormal">@color/md_teal_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+
+
+
+
+    </style>
+
+
+    <!-- BROWN FOLIO THEME -->
+    <style name="FolioBrown" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_brown_500</item>
+        <item name="colorPrimaryDark">@color/md_brown_700</item>
+        <item name="colorAccent">@color/md_brown_500</item>
+        <item name="colorButtonNormal">@color/md_brown_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+
+    </style>
+
+    <style name="FolioBrownDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_brown_500</item>
+        <item name="colorPrimaryDark">@color/md_brown_700</item>
+        <item name="colorAccent">@color/md_brown_500</item>
+        <item name="colorButtonNormal">@color/md_brown_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+    </style>
+
+
+
+    <!-- GREY FOLIO THEME -->
+    <style name="FolioGrey" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_grey_700</item>
+        <item name="colorAccent">@color/md_grey_500</item>
+        <item name="colorButtonNormal">@color/md_grey_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="FolioGreyDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_grey_700</item>
+        <item name="colorAccent">@color/md_grey_500</item>
+        <item name="colorButtonNormal">@color/md_grey_500</item>
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
 
     </style>
 
@@ -129,49 +1455,78 @@
         <item name="windowActionModeOverlay">true</item>
         <item name="colorPrimary">@color/md_blue_grey_500</item>
         <item name="colorPrimaryDark">@color/md_blue_grey_700</item>
-        <item name="android:colorPrimary">@color/md_blue_grey_500</item>
-        <item name="android:colorPrimaryDark">@color/md_blue_grey_700</item>
         <item name="colorAccent">@color/md_blue_grey_500</item>
         <item name="colorButtonNormal">@color/md_blue_grey_500</item>
-        <item name="colorControlHighlight">@color/colorTransparent</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:windowBackground">@color/white</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 
-    
+    <style name="BlueGreyDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/md_blue_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_grey_700</item>
+        <item name="colorAccent">@color/md_blue_grey_500</item>
+        <item name="colorButtonNormal">@color/md_blue_grey_500</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
 
-     
-     <style name="AboutTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="InstaTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pcP</item>
+        <item name="colorPrimaryDark">@color/pcPD</item>
+        <item name="colorAccent">@color/PrimaryDarkColor</item>
+        <item name="android:textColorPrimary">@color/titleColor</item>
+        <item name="android:windowBackground">@color/pcP</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+    <style name="AboutTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/pcP</item>
         <item name="colorPrimaryDark">@color/pcPD</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorPrimary">@color/titleColor</item>
+        <item name="android:textColorPrimary">@color/md_grey_900</item>
+        <item name="android:textColorSecondary">@color/md_grey_900</item>
         <item name="android:windowBackground">@color/pcP</item>
-        <item name="android:windowTranslucentNavigation">true</item>
     </style>
-    
-    
-       
+
+
+
     <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
-    <item name="colorAccent">@color/PrimaryDarkColor</item>
-    <item name="android:textColorPrimary">@color/titleColor</item>
-    <item name="android:background">@color/white</item>
-	</style>
+        <item name="colorAccent">@color/PrimaryDarkColor</item>
+        <item name="android:textColorPrimary">@color/titleColor</item>
+        <item name="android:background">@color/white</item>
+    </style>
 
-        
 
-   <style name="NotificationTitle">      
-      <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
-      <item name="android:textAppearanceMedium">@android:style/TextAppearance.Medium</item>      
+
+    <style name="NotificationTitle">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textAppearanceMedium">@android:style/TextAppearance.Medium</item>
     </style>
     <style name="NotificationText">
-      <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
-      <item name="android:textAppearanceSmall">@android:style/TextAppearance.Small</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textAppearanceSmall">@android:style/TextAppearance.Small</item>
     </style>
-    
+
     <style name="NotificationIcons" parent="Theme.AppCompat.Light">
         <item name="android:tint">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Custom" parent="@style/Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FolioCrash" parent="@style/Custom">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
     </style>
 
 </resources>
