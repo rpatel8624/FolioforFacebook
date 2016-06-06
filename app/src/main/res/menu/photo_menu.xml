@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/photo_save"
+        android:title="@string/context_save_image"
+        android:icon="@drawable/ic_download"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+
+    <item
+        android:id="@+id/photo_share"
+        android:title="@string/context_share_image"
+        android:icon="@drawable/ic_share"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+
+
+    <item
+        android:id="@+id/photo_copy"
+        android:title="@string/context_copy_image_link"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/photo_open"
+        android:title="Open In Browser"
+        android:orderInCategory="5"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+
+</menu>
