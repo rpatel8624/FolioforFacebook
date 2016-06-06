@@ -402,7 +402,7 @@ public class FolioWebViewScroll extends WebView implements NestedScrollingChild 
 		final String databaseDir = filesDir.substring(0, filesDir.lastIndexOf("/")) + DATABASES_SUB_FOLDER;
 
 		final WebSettings webSettings = getSettings();
-		webSettings.setAllowFileAccess(false);
+		webSettings.setAllowFileAccess(true);
 		setAllowAccessFromFileUrls(webSettings, false);
 		webSettings.setBuiltInZoomControls(false);
 		webSettings.setJavaScriptEnabled(true);
