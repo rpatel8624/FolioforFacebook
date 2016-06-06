@@ -14,13 +14,12 @@
 
 package com.creativtrendz.folio.utils;
 
-import com.creativtrendz.folio.activities.FolioApplication;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.preference.PreferenceManager;
+
+import com.creativtrendz.folio.activities.FolioApplication;
 
 public final class PreferencesUtility {
 
@@ -46,10 +45,6 @@ public final class PreferencesUtility {
     }
 
 
-    public void setOnSharedPreferenceChangeListener(OnSharedPreferenceChangeListener listener){
-        mPreferences.registerOnSharedPreferenceChangeListener(listener);
-    }
-
 
     public String getTheme(){ return mPreferences.getString(THEME_PREFERNCE, "folio"); }
     
@@ -67,31 +62,6 @@ public final class PreferencesUtility {
 	return PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).getBoolean(key, defValue);
    }
 
-   public static void putBoolean(String key, boolean value) {
-	   Editor editor = PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).edit();
-	   editor.putBoolean(key, value);
-	   editor.apply();
-   }
-   
-   public static int getInt(String key, int defValue){
-   return PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).getInt(key, defValue);
-	   }
-   
-   public static void putInt(String key, int value) {
-	   Editor editor = PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).edit();
-	   editor.putInt(key, value);
-	   editor.apply();
-   }
-   
-   public static long getLong(String key, long defValue){
-   return PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).getLong(key, defValue);
-		   }
-   
-   public static void putLong(String key, long value) {
-	   Editor editor = PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).edit();
-	   editor.putLong(key, value);
-	   editor.apply();
-   }
    	   public static String getString(String key, String defValue){
 	   return PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).getString(key, defValue);
 	   }
@@ -108,17 +78,17 @@ public final class PreferencesUtility {
   	   editor.apply();
      }
    	
-   	public static void registerOnPreferenceChangeListener(OnSharedPreferenceChangeListener listener){
-   		try{
-   		PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).registerOnSharedPreferenceChangeListener(listener);
-   	}catch (Exception e) {
-   	}
-   	   		
+
+
+        public static String getAppVersionName(Context context) {
+            String res = "0.0.0.0";
+            try {
+                res = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            return res;
+        }
+
     }
-   	public static void unregisterOnPreferenceChangeListener(OnSharedPreferenceChangeListener listener){
-   		try{
-   		PreferenceManager.getDefaultSharedPreferences(FolioApplication.getContextOfApplication()).unregisterOnSharedPreferenceChangeListener(listener);
-   	}catch (Exception e) {
-   	}
-	}
-	} 
