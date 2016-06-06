@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-    
- <PreferenceCategory
-		android:title="@string/preference_category3">
+        <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <PreferenceCategory
+		    android:title="@string/preference_category3">
         
     
-   <ListPreference
+        <ListPreference
         	android:id="@+id/relativeLayoutChooseTheme"
             android:entries="@array/pref_theme_fb_entries"
             android:entryValues="@array/pref_theme_values_free"
@@ -15,25 +15,12 @@
             android:defaultValue="materialtheme" />
     
             
-    </PreferenceCategory>
+        </PreferenceCategory>
             
-    <PreferenceCategory
-		android:title="@string/preference_facebook_layouts">
+        <PreferenceCategory
+		    android:title="@string/preference_facebook_layouts">
 
-        <SwitchPreference
-            android:key="auto_scroll"
-            android:title="@string/preferences_auto"
-            android:defaultValue="false"
-            android:dependency="hidden"/>
 
-        <SwitchPreference
-            android:key="hidden"
-            android:title="@string/hidden_bar"
-            android:defaultValue="false"
-            android:disableDependentsState="true"/>
-                
-              
-                
         <SwitchPreference
             android:key="no_images"
             android:title="@string/no_images"
@@ -48,15 +35,15 @@
             android:defaultValue="false"/> 
               
                
-    </PreferenceCategory>
+        </PreferenceCategory>
     
     
-    <PreferenceCategory
-        android:title="@string/preference_category4">
+        <PreferenceCategory
+            android:title="@string/preference_category4">
         
            
        
-    <ListPreference
+        <ListPreference
         	android:id="@+id/relativeLayoutChooseTheme"
             android:entries="@array/pref_theme_entries"
             android:entryValues="@array/pref_theme_values"
@@ -65,22 +52,17 @@
             android:title="@string/choose_theme_folio"
             android:defaultValue="folio" />
     
-    </PreferenceCategory>
+        </PreferenceCategory>
     
-    <PreferenceCategory
-        android:title="@string/preference_category15">
-         
+        <PreferenceCategory
+            android:title="@string/preference_category15">
                 
-         <SwitchPreference
+        <SwitchPreference
             android:key="show_fab"
             android:title="@string/show_fab"
-            android:summary="@string/show_fab_hint"
-            android:defaultValue="false" />
-        
-         
-                     
+            android:defaultValue="true" />
+
         </PreferenceCategory>
-        
         
                
         
