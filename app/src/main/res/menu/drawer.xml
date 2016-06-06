@@ -12,18 +12,25 @@ Copyright notice must remain here if you're using any part of this code.-->
         android:title="@string/quickaccess">
         <menu>
             <group android:id="@+id/quick_access" android:checkableBehavior="single">
-                
-            <item
+
+                <item
+                    android:id="@+id/loginFolio"
+                    android:icon="@drawable/ic_connect"
+                    android:title="@string/login_button"
+                    android:visible="true"/>
+
+                <item
+                    android:id="@+id/goPro"
+                    android:icon="@drawable/ic_go_pro"
+                    android:title="@string/preference_donate_category"
+                    android:visible="true"/>
+
+                <item
             android:id="@+id/newsfeed"
             android:icon="@drawable/ic_newsfeed"
             android:title="@string/newsfeed"
             android:visible="true"/>                       
                         
-            <item
-            android:id="@+id/top_newsdrawer"
-            android:icon="@drawable/ic_notes"
-            android:title="@string/topnews"
-            android:visible="true" />
 
             <item
             android:id="@+id/fbmenu"
@@ -106,24 +113,19 @@ Copyright notice must remain here if you're using any part of this code.-->
             <group android:id="@+id/add_ons" 
                 android:checkableBehavior="single">
 
-            <item
-            android:id="@+id/googleplus"
-            android:icon="@drawable/ic_google"
-            android:title="@string/switch_to_gplus"
-            android:visible="true"/>
-            
+
             <item
             android:id="@+id/instagram"
             android:icon="@drawable/ic_instagram"
             android:title="@string/switch_to_gram"
             android:visible="true"/>
-            
+
             <item
-            android:id="@+id/tumblr"
-            android:icon="@drawable/ic_tumblr"
-            android:title="@string/switch_to_tum"
+            android:id="@+id/googleplus"
+            android:icon="@drawable/ic_google"
+            android:title="@string/switch_to_gplus"
             android:visible="true"/>
-            
+
             </group>
             </menu>
             </item>
