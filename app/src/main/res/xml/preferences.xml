@@ -13,23 +13,30 @@ Copyright notice must remain here if you're using any part of this code.-->
 			android:key="notifications_settings"
             android:title="@string/notifications_settings"/>
 
-        <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
-            android:key="show_ads"
-            android:title="@string/ads_folio"
-            android:summary="@string/ads_folio_des"/>
-        
+
      <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
             android:key="allow_inside"
             android:title="@string/open_link_title"
-            android:defaultValue="false"/>
+            android:defaultValue="true"/>
 
+        <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="use_messenger"
+            android:title="Use Messenger"
+            android:summary="Use messenger.com to view and send messages."
+            android:defaultValue="false"/>
 
           
      <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
             android:key="folio_locker"
             android:title="@string/folio_lock"
-            android:defaultValue="false"/> 
-                
+            android:defaultValue="false"/>
+
+        <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="allow_location"
+            android:title="Enable Location"
+            android:summary="Allow location for Check-ins"/>
+
+
    </com.creativtrendz.folio.preferences.PreferenceCategory>
    
         
@@ -79,11 +86,11 @@ Copyright notice must remain here if you're using any part of this code.-->
             android:defaultValue="default_news" />
         
         </com.creativtrendz.folio.preferences.PreferenceCategory>
-        
-        
-          
-   <com.creativtrendz.folio.preferences.PreferenceCategory
-        android:title="@string/preference_about_category">
+
+
+
+    <com.creativtrendz.folio.preferences.PreferenceCategory
+        android:title="@string/settings_more">
         
        <Preference
             android:key="clear"
@@ -98,6 +105,10 @@ Copyright notice must remain here if you're using any part of this code.-->
         <Preference
             android:key="credits_settings"
             android:title="@string/credits_settings"/>
+
+        <Preference
+            android:key="terms"
+            android:title="@string/terms_settings"/>
         
         
            
