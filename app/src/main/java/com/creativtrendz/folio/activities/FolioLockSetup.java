@@ -34,24 +34,23 @@ public class FolioLockSetup extends Activity {
         buttonOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (editText1.getText().toString().equals(editText2.getText().toString())){
-                	PreferencesUtility.putString("lockcode", editText1.getText().toString());
+                if (editText1.getText().toString().equals(editText2.getText().toString())) {
+                    PreferencesUtility.putString("lockcode", editText1.getText().toString());
                     finish();
-                } else if (editText1.getText().toString().equals("")){
+                } else if (editText1.getText().toString().equals("")) {
                     descriptionText.setText(R.string.lock_empty);
                 }
             }
         });
-        
+
         buttonCancel = (Button) findViewById(R.id.buttonStandard);
         buttonCancel.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {                
-            finish();
-           
-            }});
-        
-    }
-    
-}
+            public void onClick(View view) {
+                finish();
 
+            }
+        });
+
+    }
+}
