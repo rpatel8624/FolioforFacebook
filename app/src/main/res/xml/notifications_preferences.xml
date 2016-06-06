@@ -12,7 +12,7 @@ Copyright notice must remain here if you're using any part of this code.-->
         <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
             android:key="quickbar_pref"
             android:title="@string/quick_bar"
-            android:defaultValue="flase"/>
+            android:defaultValue="false"/>
         
         
         <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
@@ -49,7 +49,7 @@ Copyright notice must remain here if you're using any part of this code.-->
         <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
             android:key="vibrate"
             android:title="@string/vibrate"
-            android:defaultValue="true"/>
+            android:defaultValue="false"/>
 
         <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
             android:key="led_light"
@@ -71,15 +71,9 @@ Copyright notice must remain here if you're using any part of this code.-->
             android:key="notifications_everywhere"
             android:title="@string/notifications_everywhere"
             android:summary="@string/notifications_everywhere_description"
-            android:defaultValue="true"/>
-        
-        <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
-            android:key="notify"
-            android:title="@string/notify_log"
             android:defaultValue="false"/>
-      
         
-        
+
         
        </com.creativtrendz.folio.preferences.PreferenceCategory> 
         
