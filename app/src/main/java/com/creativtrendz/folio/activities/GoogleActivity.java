@@ -306,51 +306,37 @@ public class GoogleActivity extends AppCompatActivity {
             }
 
         });
-        
-       
-                 
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 
 
-            @Override
-            public boolean onNavigationItemSelected(MenuItem menuItem) {
+        if (navigationView != null) {
+            navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 
 
-                drawerLayout.closeDrawers();
+                @Override
+                public boolean onNavigationItemSelected(MenuItem menuItem) {
 
 
-                switch (menuItem.getItemId()) {
-
-                    case R.id.folio:
-                        Intent folio = new Intent(GoogleActivity.this, MainActivity.class);
-                        startActivity(folio);
-                        return true;
-
-                    case R.id.bugs:
-                        Intent bugIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                                "mailto", "bugs@creativetrendsapps.comcreativetrendz85@gmail.com", null));
-                        bugIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " Bug");
-                        bugIntent.putExtra(Intent.EXTRA_TEXT, "I found a bug in Folio \n\n--" + Miscellany.getDeviceInfo(GoogleActivity.this));
-                        startActivity(Intent.createChooser(bugIntent, getString(R.string.choose_email_client)));
-                        return true;
-
-                    case R.id.helpfeedback:
-                        Intent feedbackIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                                "mailto", "feedback@creativetrendsapps.com", null));
-                        feedbackIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " Feedback");
-                        feedbackIntent.putExtra(Intent.EXTRA_TEXT, "Here is some awesome feedback for " + getString(R.string.app_name));
-                        startActivity(Intent.createChooser(feedbackIntent, getString(R.string.choose_email_client)));
-                        return true;
+                    drawerLayout.closeDrawers();
 
 
-                    default:
+                    switch (menuItem.getItemId()) {
 
-                        return true;
+                        case R.id.folio:
+                            Intent folio = new Intent(GoogleActivity.this, MainActivity.class);
+                            startActivity(folio);
+                            return true;
+
+
+
+                        default:
+
+                            return true;
+                    }
                 }
-            }
-        });
+            });
+        }
 
-        
+
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_google);
         
         ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.openDrawer, R.string.closeDrawer){
@@ -444,9 +430,8 @@ public class GoogleActivity extends AppCompatActivity {
                    
                     
                 } else {
-                   
-                    Snackbar noPermission = Snackbar .make( drawerLayout, getString(R.string.permission_not_granted, Snackbar.LENGTH_SHORT), Snackbar.LENGTH_LONG);
-                    noPermission.show();
+
+                    Snackbar.make(drawerLayout, R.string.permission_not_granted, Snackbar.LENGTH_SHORT).show();
                 }
                 break;
             default:
