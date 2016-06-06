@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:title="@string/quickaccess" >
+
+        <SwitchPreference
+            android:key="recent_off"
+            android:title="@string/recent_nav"
+            android:defaultValue="true"/>
+
+
+        <SwitchPreference
+            android:key="trending_off"
+            android:title="@string/trending_nav"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/faved" >
+
+        <SwitchPreference
+            android:key="friends_off"
+            android:title="@string/friends_nav"
+            android:defaultValue="true"/>
+
+
+        <SwitchPreference
+            android:key="groups_off"
+            android:title="@string/groups_nav"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="pages_off"
+            android:title="@string/pages_nav"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="photos_off"
+            android:title="@string/photos_nav"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/reminders" >
+
+        <SwitchPreference
+            android:key="events_off"
+            android:title="@string/events_nav"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="thisday_off"
+            android:title="@string/onday_nav"
+            android:defaultValue="true"/>
+
+
+        <SwitchPreference
+            android:key="saved_off"
+            android:title="@string/saved_nav"
+            android:defaultValue="true"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/addons">
+
+
+    <SwitchPreference
+        android:key="enable_instagram"
+        android:title="@string/enable_instagram"
+        android:defaultValue="true"/>
+
+
+    <SwitchPreference
+        android:key="enable_gplus"
+        android:title="@string/enable_google"
+        android:defaultValue="true"/>
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/preference_set_category">
+
+        <Preference
+            android:key="tap"
+            android:title="@string/tap_to_set"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
