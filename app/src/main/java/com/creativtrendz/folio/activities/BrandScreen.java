@@ -10,7 +10,7 @@ import java.util.TimerTask;
 public class BrandScreen extends Activity {
 
     
-    private static final int TIME = 1200;
+    private static final int TIME = 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
