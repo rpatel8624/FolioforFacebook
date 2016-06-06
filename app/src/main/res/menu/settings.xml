@@ -20,20 +20,6 @@
         app:showAsAction="always"
         tools:ignore="AlwaysShowAction"/>
 	      
-    	<item 
-        android:id="@+id/settings_feedback"
-        android:title="@string/helpfeed"
-        android:icon="@drawable/sidebar_feedback"
-        android:orderInCategory="2"
-        app:showAsAction="never"
-        tools:ignore="AlwaysShowAction"/>
-        
-     
-    	<item 
-        android:id="@+id/settings_bugs"
-       	android:title="@string/bugs"
-       	android:icon="@drawable/sidebar_bugs"
-       	android:orderInCategory="1"
-       	app:showAsAction="never" />
+
 
 </menu>
