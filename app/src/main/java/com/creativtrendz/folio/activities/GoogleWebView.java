@@ -1,9 +1,11 @@
 package com.creativtrendz.folio.activities;
 
 import android.annotation.TargetApi;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.util.Log;
 import android.webkit.WebResourceError;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
@@ -26,11 +28,18 @@ public class GoogleWebView extends WebViewClient {
 
 		if (Uri.parse(url).getHost().endsWith("google.com")
 				|| Uri.parse(url).getHost().endsWith("accounts.google.com")
-				|| Uri.parse(url).getHost().endsWith("plus.google.com")) {
+				|| Uri.parse(url).getHost().endsWith("accounts.youtube.com")
+				|| Uri.parse(url).getHost().endsWith("plus.google.com")
+				|| Uri.parse(url).getHost().endsWith("*.google.com")) {
 			return false;
 		}
 		Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-		view.getContext().startActivity(intent);
+		try {
+			view.getContext().startActivity(intent);
+		} catch (ActivityNotFoundException e) {
+			Log.e("shouldOverrideUrlLoad", "" + e.getMessage());
+			e.printStackTrace();
+		}
 		return true;
 	}
 
