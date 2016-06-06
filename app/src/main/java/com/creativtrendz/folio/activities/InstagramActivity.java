@@ -11,7 +11,6 @@ package com.creativtrendz.folio.activities;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
@@ -37,6 +36,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.webkit.CookieManager;
 import android.webkit.GeolocationPermissions.Callback;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
@@ -47,16 +47,16 @@ import android.webkit.WebView;
 import android.widget.Toast;
 
 import com.creativetrends.folio.app.R;
-import com.creativtrendz.folio.utils.Miscellany;
 
 import java.io.File;
 import java.io.IOException;
 
 @SuppressWarnings("deprecation")
 public class InstagramActivity extends AppCompatActivity {
-	
-	
+
+
     public Toolbar toolbar;
+    private NavigationView navigationView;
     private DrawerLayout drawerLayout;
     private static final int REQUEST_STORAGE = 1;
     private WebView webView;
@@ -84,7 +84,7 @@ public class InstagramActivity extends AppCompatActivity {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.instagram_drawer);
+        navigationView = (NavigationView) findViewById(R.id.instagram_drawer);
         
             
      
@@ -96,6 +96,9 @@ public class InstagramActivity extends AppCompatActivity {
      
         webView = (WebView) findViewById(R.id.webViewI);
         webView.getSettings().setJavaScriptEnabled(true);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            webView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE);
+        }
         webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         webView.getSettings().setGeolocationEnabled(true);  
         webView.getSettings().setAllowFileAccess(true);
@@ -106,12 +109,17 @@ public class InstagramActivity extends AppCompatActivity {
         webView.getSettings().setSupportZoom(true);
         webView.getSettings().setDisplayZoomControls(false);
         webView.getSettings().setBuiltInZoomControls(true);
-        webView.getSettings().setSaveFormData(false);
+        webView.getSettings().setSaveFormData(true);
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setLoadWithOverviewMode(true);                
         webView.getSettings().setPluginState(PluginState.ON);
-        webView.getSettings().setRenderPriority(RenderPriority.NORMAL);
-        webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK); 
+        webView.getSettings().setRenderPriority(RenderPriority.HIGH);
+        webView.getSettings().setUserAgentString("Mozilla/5.0 (BB10; Touch) AppleWebKit/537.1+ (KHTML, like Gecko) Version/10.0.0.1337 Mobile Safari/537.1+");
+        CookieManager cookieManager = CookieManager.getInstance();
+        cookieManager.setAcceptCookie(true);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            cookieManager.setAcceptThirdPartyCookies(webView, true);
+        }
         webView.setOnTouchListener(new View.OnTouchListener() 
 		{ 
 		       
@@ -194,7 +202,7 @@ public class InstagramActivity extends AppCompatActivity {
     	
             public boolean onShowFileChooser(
                     WebView webView, ValueCallback<Uri[]> filePathCallback,
-                    WebChromeClient.FileChooserParams fileChooserParams) {
+                    FileChooserParams fileChooserParams) {
                 if (mFilePathCallback != null) {
                     mFilePathCallback.onReceiveValue(null);
                 }
@@ -275,7 +283,7 @@ public class InstagramActivity extends AppCompatActivity {
 
                     mCapturedImageURI = Uri.fromFile(file); // save to the private variable
 
-                    final Intent captureIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                    final Intent captureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                     captureIntent.putExtra(MediaStore.EXTRA_OUTPUT, mCapturedImageURI);
                     // captureIntent.putExtra(MediaStore.EXTRA_SCREEN_ORIENTATION, ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
@@ -310,51 +318,37 @@ public class InstagramActivity extends AppCompatActivity {
             }
 
         });
-        
-       
-                 
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 
 
-            @Override
-            public boolean onNavigationItemSelected(MenuItem menuItem) {
+
+            navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 
 
-                drawerLayout.closeDrawers();
+                @Override
+                public boolean onNavigationItemSelected(MenuItem menuItem) {
 
 
-                switch (menuItem.getItemId()) {
-
-                    case R.id.folio:
-                        Intent folio = new Intent(InstagramActivity.this, MainActivity.class);
-                        startActivity(folio);
-                        return true;
-
-                    case R.id.bugs:
-                        Intent bugIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                                "mailto", "bugs@creativetrendsapps.comcreativetrendz85@gmail.com", null));
-                        bugIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " Bug");
-                        bugIntent.putExtra(Intent.EXTRA_TEXT, "I found a bug in Folio \n\n--" + Miscellany.getDeviceInfo(InstagramActivity.this));
-                        startActivity(Intent.createChooser(bugIntent, getString(R.string.choose_email_client)));
-                        return true;
-
-                    case R.id.helpfeedback:
-                        Intent feedbackIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                                "mailto", "feedback@creativetrendsapps.com", null));
-                        feedbackIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " Feedback");
-                        feedbackIntent.putExtra(Intent.EXTRA_TEXT, "Here is some awesome feedback for " + getString(R.string.app_name));
-                        startActivity(Intent.createChooser(feedbackIntent, getString(R.string.choose_email_client)));
-                        return true;
+                    drawerLayout.closeDrawers();
 
 
-                    default:
+                    switch (menuItem.getItemId()) {
 
-                        return true;
+                        case R.id.folio:
+                            Intent folio = new Intent(InstagramActivity.this, MainActivity.class);
+                            startActivity(folio);
+                            return true;
+
+
+
+                        default:
+
+                            return true;
+                    }
                 }
-            }
-        });
+            });
 
-        
+
+
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_instagram);
         
         ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.openDrawer, R.string.closeDrawer){
@@ -448,9 +442,8 @@ public class InstagramActivity extends AppCompatActivity {
                    
                     
                 } else {
-                   
-                    Snackbar noPermission = Snackbar .make( drawerLayout, getString(R.string.permission_not_granted, Snackbar.LENGTH_SHORT), Snackbar.LENGTH_SHORT);
-                    noPermission.show();
+
+                    Snackbar.make(drawerLayout, R.string.permission_not_granted, Snackbar.LENGTH_SHORT).show();
                 }
                 break;
             default:
