@@ -57,14 +57,7 @@ public class Navigation extends PreferenceFragment {
         }
     });
     
-    findPreference("enable_tumblr").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-        @Override
-        public boolean onPreferenceClick(Preference preference) {
-        	
-            return true;
-        }
-    });
-    
+
     
     findPreference("recent_off").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
         @Override
@@ -74,15 +67,7 @@ public class Navigation extends PreferenceFragment {
         }
     });
     
-    findPreference("top_off").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-        @Override
-        public boolean onPreferenceClick(Preference preference) {
-        	
-            return true;
-        }
-    });
-    
-        
+
     findPreference("trending_off").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
         @Override
         public boolean onPreferenceClick(Preference preference) {
