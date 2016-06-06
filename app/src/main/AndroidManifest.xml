@@ -22,11 +22,13 @@ Copyright notice must remain here if you're using any part of this code.-->
 
     <application
         android:name="com.creativtrendz.folio.activities.FolioApplication"
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/FolioTheme">
+        android:theme="@style/FolioTheme"
+        tools:replace="android:allowBackup">
+
 
         <meta-data android:name="com.facebook.sdk.ApplicationId"
                    android:value="@string/facebook_app_id"
@@ -42,7 +44,6 @@ Copyright notice must remain here if you're using any part of this code.-->
             </intent-filter>
         </receiver>
 
-    
         <service
             android:name="com.creativtrendz.folio.notifications.FolioNotifications"
             android:enabled="true"
@@ -161,6 +162,7 @@ Copyright notice must remain here if you're using any part of this code.-->
         </activity>
 
 
+
         <activity
             android:name="com.creativtrendz.folio.activities.AboutActivity"
             android:label="@string/title_activity_about"
@@ -185,6 +187,16 @@ Copyright notice must remain here if you're using any part of this code.-->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.creativtrendz.folio.activities.MainActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="plus.google.com"
+                    android:scheme="http"/>
+            </intent-filter>
         </activity>
 
 
@@ -193,7 +205,7 @@ Copyright notice must remain here if you're using any part of this code.-->
             android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
             android:label="Instagram"
             android:configChanges="screenSize|orientation"
-            android:theme="@style/FolioTheme" tools:ignore="UnusedAttribute">
+            android:theme="@style/InstaTheme" tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.creativtrendz.folio.activities.MainActivity" />
@@ -201,14 +213,15 @@ Copyright notice must remain here if you're using any part of this code.-->
 
 
         <activity
-            android:name="com.creativtrendz.folio.activities.TumblrActivity"
+            android:name="com.creativtrendz.folio.activities.FolioBrowser"
             android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
-            android:label="Tumblr"
-            android:configChanges="screenSize|orientation"
-            android:theme="@style/FalconTheme" tools:ignore="UnusedAttribute">
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|screenSize|orientation|locale"
+            android:theme="@style/AboutTheme" tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.creativtrendz.folio.activities.MainActivity" />
+
         </activity>
 
         <activity
@@ -232,16 +245,6 @@ Copyright notice must remain here if you're using any part of this code.-->
             tools:ignore="ExportedActivity" />
 
         <activity
-            android:name="com.creativtrendz.folio.activities.QuickTumblr"
-            android:theme="@style/Theme.FloatingWindow.Popup"
-            android:label="Tumblr"
-            android:configChanges="orientation|screenSize"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
-            android:clearTaskOnLaunch="true"
-            android:exported="true"
-            tools:ignore="ExportedActivity" />
-
-        <activity
             android:name="com.creativtrendz.folio.activities.QuickFacebook"
             android:theme="@style/Theme.FloatingWindow.Popup"
             android:label="@string/app_name"
@@ -250,12 +253,6 @@ Copyright notice must remain here if you're using any part of this code.-->
             android:clearTaskOnLaunch="true"
             android:exported="true"
             tools:ignore="ExportedActivity" />
-
-        <activity
-            android:name="com.creativtrendz.folio.activities.FolioBrowser"
-            android:label="@string/app_name"
-            android:theme="@style/FolioTheme">
-        </activity>
 
 
         <activity
@@ -267,11 +264,61 @@ Copyright notice must remain here if you're using any part of this code.-->
             android:name="com.creativtrendz.folio.activities.FolioLockSetup" />
 
         <activity
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:name="com.facebook.LoginActivity" />
+            android:name="org.acra.CrashReportDialog"
+            android:theme="@style/FolioCrash"
+            android:process=":error_report"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true" />
 
-        <activity android:name="com.purplebrain.adbuddiz.sdk.AdBuddizActivity"
-            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.creativtrendz.folio.activities.Messenger"
+            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
+            android:label="@string/messages"
+            android:configChanges="keyboard|keyboardHidden|screenSize|orientation|locale"
+            android:theme="@style/FolioBlue" tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.OldMessages"
+            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
+            android:label="@string/messages"
+            android:configChanges="keyboard|keyboardHidden|screenSize|orientation|locale"
+            android:theme="@style/FolioBlue" tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.SearchActivity"
+            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
+            android:label="@string/search"
+            android:configChanges="keyboard|keyboardHidden|screenSize|orientation|locale"
+            android:theme="@style/AboutTheme" tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:theme="@style/FolioDark"
+            android:label="@string/photos"
+            android:name="com.creativtrendz.folio.activities.PhotoViewer"
+            android:configChanges="orientation|screenSize" />
+
 
         <provider
             android:name="net.grandcentrix.tray.provider.TrayProvider"
