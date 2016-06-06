@@ -470,5 +470,3 @@ public class QuickFacebook extends AppCompatActivity {
         }
     }
 }
-
-
