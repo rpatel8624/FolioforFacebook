@@ -37,7 +37,6 @@ import java.io.InputStream;
  * Created by Jorell on 5/23/2016.
  */
 public class OldMessages extends AppCompatActivity {
-    private int injections = 0;
     private static final int FILECHOOSER_RESULTCODE = 1;
     private ValueCallback<Uri> mUploadMessage;
     private Uri mCapturedImageURI = null;
