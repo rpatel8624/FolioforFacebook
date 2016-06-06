@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,7 +31,12 @@ public class FolioUnlock extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lock);
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND,
+                WindowManager.LayoutParams.FLAG_DIM_BEHIND);
+        WindowManager.LayoutParams params = getWindow().getAttributes();
+        params.alpha = 1.0f;
+        params.dimAmount = 0.9f;
+        getWindow().setAttributes(params);
         descriptionText = (TextView) findViewById(R.id.textView);
         descriptionText.setText(R.string.unlock_text);
         editText1 = (EditText) findViewById(R.id.first_edittext);
