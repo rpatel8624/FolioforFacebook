@@ -7,12 +7,6 @@
 
 package com.creativtrendz.folio.activities;
 
-import com.creativetrends.folio.app.R;
-import com.creativtrendz.folio.fragments.Settings;
-import com.creativtrendz.folio.ui.SnackBar;
-import com.creativtrendz.folio.utils.Miscellany;
-import com.creativtrendz.folio.utils.PreferencesUtility;
-
 import android.annotation.TargetApi;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -28,6 +22,11 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.creativetrends.folio.app.R;
+import com.creativtrendz.folio.fragments.Settings;
+import com.creativtrendz.folio.ui.SnackBar;
+import com.creativtrendz.folio.utils.PreferencesUtility;
+
 @TargetApi(23)
 public class SettingsActivity extends AppCompatActivity {
 	
@@ -36,6 +35,7 @@ public class SettingsActivity extends AppCompatActivity {
 
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
+
         boolean isFolioTheme = PreferencesUtility.getInstance(this).getTheme().equals("folio");
         final boolean isPinkTheme = PreferencesUtility.getInstance(this).getTheme().equals("pink");
         boolean isDarkTheme = PreferencesUtility.getInstance(this).getTheme().equals("darktheme");
@@ -44,10 +44,9 @@ public class SettingsActivity extends AppCompatActivity {
         boolean mCreatingActivity = true;
         if (!mCreatingActivity) {
             if (isFolioTheme)
-            setTheme(R.style.FolioBlue);
+                setTheme(R.style.FolioBlue);
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_settings);
-
         } else {
 
 
@@ -109,23 +108,7 @@ public class SettingsActivity extends AppCompatActivity {
             case R.id.rate_folio:
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.get_app_store))));
                 return true;
-        
-    	case R.id.settings_bugs:
-    		
-        	Intent bugIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                    "mailto", "bugs@creativetrendsapps.com", null));
-            bugIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " Bug");
-            bugIntent.putExtra(Intent.EXTRA_TEXT, "I found a bug in Folio \n\n--"  + Miscellany.getDeviceInfo(this));
-            startActivity(Intent.createChooser(bugIntent, getString(R.string.choose_email_client)));
-            return true;
-             
-        case R.id.settings_feedback:
-        	Intent feedbackIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                    "mailto", "feedback@creativetrendsapps.com", null));
-            feedbackIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " Feedback");
-            feedbackIntent.putExtra(Intent.EXTRA_TEXT, "Here is some awesome feedback for " + getString(R.string.app_name));
-            startActivity(Intent.createChooser(feedbackIntent, getString(R.string.choose_email_client)));
-            return true;
+
        
     default:
         return super.onOptionsItemSelected(item);
