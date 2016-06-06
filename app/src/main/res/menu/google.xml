@@ -4,8 +4,7 @@
 This file is originally apart of Folio for Facebook.
 Copyright notice must remain here if you're using any part of this code.-->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/white"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:background="@color/white">
     
     
     
@@ -19,16 +18,7 @@ Copyright notice must remain here if you're using any part of this code.-->
             android:title="@string/switch_to_folio"
             android:visible="true"/> 
             
-            <item
-            android:id="@+id/bugs"
-            android:icon="@drawable/sidebar_bugs"
-            android:title="@string/bugs"/>
-            
-            <item
-            android:id="@+id/helpfeedback"
-            android:title="@string/helpfeed"
-            android:icon="@drawable/sidebar_feedback"/>
-         
+
             </group>
         </menu>
     </item>
