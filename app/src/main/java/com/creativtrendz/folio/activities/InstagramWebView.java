@@ -1,9 +1,11 @@
 package com.creativtrendz.folio.activities;
 
 import android.annotation.TargetApi;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.util.Log;
 import android.webkit.WebResourceError;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
@@ -23,11 +25,19 @@ public class InstagramWebView extends WebViewClient {
 	@Override
 	public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
-		if (Uri.parse(url).getHost().endsWith("instagram.com")) {
+		if (Uri.parse(url).getHost().endsWith("instagram.com")
+				|| Uri.parse(url).getHost().endsWith("instagram.com/accounts/signup/")
+				|| Uri.parse(url).getHost().endsWith("facebook.com")
+				|| Uri.parse(url).getHost().endsWith("*facebook.com")) {
 			return false;
 		}
 		Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-		view.getContext().startActivity(intent);
+		try {
+			view.getContext().startActivity(intent);
+		} catch (ActivityNotFoundException e) {
+			Log.e("shouldOverrideUrlLoad", "" + e.getMessage());
+			e.printStackTrace();
+		}
 		return true;
 	}
 
