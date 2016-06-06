@@ -10,7 +10,6 @@ import com.creativetrends.folio.app.R;
 import com.creativtrendz.folio.activities.MainActivity;
 import com.creativtrendz.folio.activities.QuickFacebook;
 import com.creativtrendz.folio.activities.QuickGoogle;
-import com.creativtrendz.folio.activities.QuickTumblr;
 import com.creativtrendz.folio.activities.QuickInstagram;
 import com.creativtrendz.folio.activities.FolioApplication;
 import com.creativtrendz.folio.notifications.FolioNotifications;
@@ -47,7 +46,7 @@ private static final String TAG = Notify.class.getSimpleName();
 private static final int REQUEST_STORAGE = 1;
 private static Context context;
 private SharedPreferences preferences;
-public static final String KEY_PREF_UPDATE_INTERVAL = "interval_pref";
+public static final String KEY_PREF_UPDATE_INTERVAL = "50000";
 public static final String FACEBOOK = "https://m.facebook.com/";
 private TrayAppPreferences trayPreferences;
 
@@ -73,27 +72,42 @@ private TrayAppPreferences trayPreferences;
         String temp2 = lp.getSummary().toString();
         if (temp1.equals(temp2))
             lp.setValueIndex(2);
-        
-        
-       
-        
-                
+
+
+
+
+
         myPrefListner = new SharedPreferences.OnSharedPreferenceChangeListener() {
             public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
-                
+
                 final Intent intent = new Intent(context, FolioNotifications.class);
 
                 switch (key) {
-                case "interval_pref":
-                    
-                    trayPreferences.put("interval_pref", Integer.parseInt(preferences.getString("interval_pref", "1800000")));
-                    
-                    if (prefs.getBoolean("notifications_activated", false)) {
-                        context.stopService(intent);
-                        context.startService(intent);
-                    }
-                    break;                 
-                        
+                    case "interval_pref":
+                        // update Tray Preference before restarting the service
+                        trayPreferences.put("interval_pref", Integer.parseInt(preferences.getString("interval_pref", "1800000")));
+                        // restart the service after time interval change
+                        if (prefs.getBoolean("notifications_activated", false)) {
+                            context.stopService(intent);
+                            context.startService(intent);
+                        }
+                        break;
+                    case "ringtone":
+                        trayPreferences.put("ringtone", preferences.getString("ringtone", "content://settings/system/notification_sound"));
+                        break;
+                    case "ringtone_msg":
+                        trayPreferences.put("ringtone_msg", preferences.getString("ringtone_msg", "content://settings/system/notification_sound"));
+                        break;
+                    case "vibrate":
+                        trayPreferences.put("vibrate", preferences.getBoolean("vibrate", false));
+                        break;
+                    case "led_light":
+                        trayPreferences.put("led_light", preferences.getBoolean("led_light", false));
+                        break;
+                    case "notifications_everywhere":
+                        trayPreferences.put("notifications_everywhere", preferences.getBoolean("notifications_everywhere", true));
+                        break;
+
                     case "notifications_activated":
                         trayPreferences.put("notifications_activated", preferences.getBoolean("notifications_activated", false));
                         if (prefs.getBoolean("notifications_activated", false) && preferences.getBoolean("messages_activated", false)) {
@@ -101,11 +115,11 @@ private TrayAppPreferences trayPreferences;
                             context.startService(intent);
                         } else //noinspection StatementWithEmptyBody
                             if (!prefs.getBoolean("notifications_activated", false) && preferences.getBoolean("messages_activated", false)) {
-                            // ignore this case
-                        } else if (prefs.getBoolean("notifications_activated", false) && !preferences.getBoolean("messages_activated", false)) {
-                            context.startService(intent);
-                        } else
-                            context.stopService(intent);
+                                // ignore this case
+                            } else if (prefs.getBoolean("notifications_activated", false) && !preferences.getBoolean("messages_activated", false)) {
+                                context.startService(intent);
+                            } else
+                                context.stopService(intent);
                         break;
                     case "messages_activated":
                         trayPreferences.put("messages_activated", preferences.getBoolean("messages_activated", false));
@@ -114,40 +128,15 @@ private TrayAppPreferences trayPreferences;
                             context.startService(intent);
                         } else //noinspection StatementWithEmptyBody
                             if (!prefs.getBoolean("messages_activated", false) && preferences.getBoolean("notifications_activated", false)) {
-                            // ignore this case
-                        } else if (prefs.getBoolean("messages_activated", false) && !preferences.getBoolean("notifications_activated", false)) {
-                            context.startService(intent);
-                        } else
-                            context.stopService(intent);
+                                // ignore this case
+                            } else if (prefs.getBoolean("messages_activated", false) && !preferences.getBoolean("notifications_activated", false)) {
+                                context.startService(intent);
+                            } else
+                                context.stopService(intent);
                         break;
-
-
-                    case "ringtone":
-                        preferences.getString("ringtone", "content://settings/system/notification_sound");
-                        break;
-                    case "ringtone_msg":
-                        preferences.getString("ringtone_msg", "content://settings/system/notification_sound");
-                        break;
-                    case "vibrate":
-                        preferences.getBoolean("vibrate", false);
-                        break;
-                    case "led_light":
-                        preferences.getBoolean("led_light", false);
-                        break;
-                    case "notifications_everywhere":
-                        trayPreferences.put("notifications_everywhere", preferences.getBoolean("notifications_everywhere", true));
-                        break;
-                        
-                    case "notify":
-                    	trayPreferences.put("notify", preferences.getBoolean("notify", false));
-                        if (prefs.getBoolean("notify", false))
-                            requestStoragePermission();
-                        break;
-                        
-                   
                 }
 
-                
+                // what's going on, dude?
                 Log.v("SharedPreferenceChange", key + " changed in NotificationsSettingsFragment");
             }
         };
@@ -200,14 +189,7 @@ private TrayAppPreferences trayPreferences;
              PendingIntent.FLAG_UPDATE_CURRENT);
              remoteView.setOnClickPendingIntent(R.id.quick_friends, friendsIntent);
              
-             
-             Intent quickNotifications = new Intent(getActivity().getApplicationContext(), QuickTumblr.class);
-             quickNotifications.setData(Uri.parse(FACEBOOK ));
-             quickNotifications.setAction(Intent.ACTION_VIEW);
-             PendingIntent notificationsIntent = PendingIntent.getActivity(getActivity().getApplicationContext(), 0, quickNotifications,
-             PendingIntent.FLAG_UPDATE_CURRENT);
-             remoteView.setOnClickPendingIntent(R.id.quick_about, notificationsIntent);
-                          
+
              
              notificationmanager.notify(22, builder.build());
             
