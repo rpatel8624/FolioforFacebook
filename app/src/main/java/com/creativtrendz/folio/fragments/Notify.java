@@ -136,8 +136,7 @@ private TrayAppPreferences trayPreferences;
                         break;
                 }
 
-                // what's going on, dude?
-                Log.v("SharedPreferenceChange", key + " changed in NotificationsSettingsFragment");
+                
             }
         };
     
