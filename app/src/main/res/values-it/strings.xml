@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Start Basic Strings -->
+    <string name="app_name">Folio Free</string>
+    <string name="app_name_pro">Folio</string>
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_toolbar_pro">Folio Pro</string>
+    <string name="app_name_about">Folio per Facebook</string>
+    <string name="app_name_about_pro">Folio per Facebook Pro</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="closeDrawer">Vista navigazione</string>
+    <string name="openDrawer">Apri il drawer di sinistra</string>
+    <string name="get_started">Accedi con Facebook</string>
+    <string name="status_updated">Stato aggiornato.</string>
+    <string name="loading_video">Caricamento.</string>
+    <string name="ok">OK</string>
+    <string name="tap_to_set">Applica le modifiche</string>
+    <string name="send_feedback">Feedback su Folio</string>
+    <string name="applying_changes">Pulendo la cache. Riavviando Folio.</string>
+    <string name="cancel">Annulla</string>
+    <string name="choose_email_client">Scegli il client e-mail</string>
+    <string name="no_network">Non sei online.</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="title_activity_about">Info</string>
+    <string name="preference_about_category">Info</string>
+    <string name="preference_set_category">Tutto pronto?</string>
+    <string name="share_action">Condividi la pagina attuale</string>
+    <string name="share_action_subject">Pagina Facebook</string>
+    <string name="not_valid_title">Non Valido</string>
+    <string name="not_valid_message">Questa versione di Folio non proviene dal Play Store e non funzionerà.</string>
+    <string name="success">Successo</string>
+    <string name="successfully_posted_post">ID Post: %1$s</string>
+    <string name="error">Errore</string>
+    <string name="crash_toast_text">Qualcosa è andato storto.</string>
+    <string name="crash_dialog_title">Folio Pro si è arresto in modo anomalo</string>
+    <string name="crash_dialog_text">Sfortunatamente Folio Pro si è arrestato in modo anomalo. Per favore premi OK per inviare questa segnalazione via email.</string>
+    <string name="crash_dialog_comment_prompt">Puoi lasciare un commento su questo arresto anomalo qui:</string>
+    <string name="permission_read_external_storage">E\' richiesto il permesso per la lettura dei file</string>
+    <string name="permission_write_external_storage">E\' richiesto il permesso per modificare i file</string>
+    <string name="permission_access_location">E\' richiesto il permesso per accedere alla tua posizione</string>
+    <string name="permission_get_accounts">Il servizio di notifica richiede il permesso ad accedere all\'account</string>
+    <string name="fragment_main_downloading">Scaricando&#8230;</string>
+    <string name="like_on_facebook">Scaricando&#8230;</string>
+    <string name="like_on">Mi piace su Facebook</string>
+    <string name="join_on">Entra nella community di Google+</string>
+    <string name="follow_on">Segui su Twitter</string>
+    <string name="new_share">Abilita il nuovo menù di condivisione</string>
+    <string name="new_share_hint">Abilita il menù di condivisione desktop che permette di condividere i link con gli amici, pagine e gruppi.</string>
+    <string name="share_success">Oggetto condiviso. Caricando le Notizie&#8230;</string>
+    <string name="terms_settings">Condizioni</string>
+    <string name="settings_more">Di Più</string>
+    <!-- End Basic Strings -->
+    <!-- Start FAB Labels -->
+    <string name="folio_video">Carica Video</string>
+    <string name="folio_checkins">Check-in</string>
+    <string name="folio_tags">Tagga un amico</string>
+    <string name="folio_images">Carica un\'immagine dalla galleria</string>
+    <string name="update_share">Condividi ora</string>
+    <string name="update_status">Pubblica uno stato</string>
+    <string name="update_photo">Aggiungi foto</string>
+    <string name="show_fab">Mostra FAB</string>
+    <string name="show_fab_hint">Mostra un pulsante flottante nella parte in basso a destra dello schermo</string>
+    <!-- End FAB Labels -->
+    <!-- Start Folio Drawer -->
+    <string name="quickaccess">Accesso Rapido</string>
+    <string name="newsfeed">Notizie</string>
+    <string name="topnews">Note</string>
+    <string name="fbmenu">Menù di Facebook</string>
+    <string name="trending">Popolari</string>
+    <string name="messages">Messaggi</string>
+    <string name="faved">Preferiti</string>
+    <string name="friends">Amici</string>
+    <string name="groups">Gruppi</string>
+    <string name="pages">Pagine</string>
+    <string name="photos">Foto</string>
+    <string name="reminders">Promemoria</string>
+    <string name="events">Eventi</string>
+    <string name="onthisday">Accadde oggi</string>
+    <string name="saved">Salvati</string>
+    <string name="prefs">Preferenze</string>
+    <string name="settings">Impostazioni</string>
+    <string name="helpfeed">Feedback</string>
+    <string name="bugs">Segnala Bug</string>
+    <string name="switch_to_folio">Torna su Folio</string>
+    <string name="switch_to_twitter">Passa a Twitter</string>
+    <string name="switch_to_gplus">Passa a Google+</string>
+    <string name="switch_to_gram">Passa a Instagram</string>
+    <string name="switch_to_tum">Passa a Tumblr</string>
+    <!-- End Folio Drawer -->
+    <!-- Start Twitter Drawer-->
+    <string name="discover">Scopri</string>
+    <string name="connect">Connetti</string>
+    <string name="twitter_search">Cerca</string>
+    <string name="twitter_home">Home</string>
+    <string name="twitter_me">Io</string>
+    <!-- End Twitter Drawer -->
+    <!-- Start Add ons Custom Navigation Drawer Removals-->
+    <string name="addons">Social Add-ons</string>
+    <string name="enable_twitter">Mostra Twitter</string>
+    <string name="enable_google">Mostra Google+</string>
+    <string name="enable_instagram">Mostra Instagram</string>
+    <string name="enable_tumblr">Mostra Tumblr</string>
+    <!-- End Add ons Custom Navigation Drawer Removals -->
+    <!-- Start Navigation Drawer Removals -->
+    <string name="navigation_pref">Pulsanti Navigation drawer</string>
+    <string name="navigation_pref_hint">Personalizza il Drawer laterale rimuovendo quello che non ti serve</string>
+    <string name="recent_nav">Mostra Notizie</string>
+    <string name="top_nav">Visualizza note</string>
+    <string name="trending_nav">Mostra Popolari</string>
+    <string name="friends_nav">Mostra Amici</string>
+    <string name="groups_nav">Mostra Gruppi</string>
+    <string name="pages_nav">Mostra Pagine</string>
+    <string name="photos_nav">Mostra Foto</string>
+    <string name="events_nav">Mostra Eventi</string>
+    <string name="onday_nav">Mostra Accadde oggi</string>
+    <string name="saved_nav">Mostra Salvati</string>
+    <!-- Start Navigation Drawer Removals -->
+    <!-- Start News Feed Preference -->
+    <string name="news_feed_preferences">Preferenze Notizie</string>
+    <string name="feed_choice">Ordine Notizie</string>
+    <string name="feed_choice_hint">Scelta attuale: %s.</string>
+    <string-array name="pref_default_feed">
+        <item>Default (Veloce a caricare)</item>
+        <item>Recenti (Lento a caricare)</item>
+        <item>Principali (Lento a caricare)</item>
+    </string-array>
+    <!-- End News Feed Preference -->
+    <!-- Start Font Preference -->
+    <string name="choose_font_facebook">Dimensione font Facebook</string>
+    <string name="choose_font_facebook_hint">Dimensione attuale: %s.</string>
+    <string name="font_preference">Preferenze Font Facebook</string>
+    <string-array name="font_choice">
+        <item>Default</item>
+        <item>Piccolo</item>
+        <item>Medio</item>
+        <item>Grande</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+    <!-- End Font Preference -->
+    <!-- Start Overflow Menu-->
+    <string name="top">Sail in cima</string>
+    <string name="fb_settings">Impostazioni Facebook</string>
+    <string name="fb_chat">Amici Attivi</string>
+    <string name="fb_recent">Recenti</string>
+    <string name="refresh">Aggiorna</string>
+    <string name="notifications">Notifiche</string>
+    <string name="notifications_about_hint">Configurazione notifiche.</string>
+    <string name="search">Cerca</string>
+    <string name="end">Log out</string>
+    <string name="exit">Chiudi</string>
+    <!-- End Overflow Menu-->
+    <!-- Start Folio Main Customizations & Facebook Themes-->
+    <string name="customize_folio">Personalizza Folio</string>
+    <string name="customize_folio_hint">Modifica l\'aspetto e il layout.</string>
+    <string name="preferences_auto">Disabilita la barra di Facebook</string>
+    <string name="preferences_auto_hint">Abilita la Toolbar di Folio</string>
+    <string name="hidden_bar">Disabilita la Toolbar di Folio</string>
+    <string name="hidden_bar_hint">Usa solamente la barra di Facebook. Per favore disabilita la toolbar di Folio prima.</string>
+    <string name="choose_theme_folio">Scegli il tema dell\'applicazione</string>
+    <string name="choose_theme_facebook">Scegli il tema di Facebook</string>
+    <string name="choose_theme_facebook_hint">Tema attuale: %s</string>
+    <string name="choose_theme_folio_hint">Tema attuale: %s</string>
+    <string name="preference_category7">Personalizzazione</string>
+    <string name="preference_category4">Temi Folio</string>
+    <string name="preference_category15">Impostazioni layout Folio</string>
+    <string name="preference_facebook_layouts">Impostazioni layout Facebook</string>
+    <string name="preference_category3">Temi Facebook</string>
+    <string name="hide_web">Nascondi il caricamento pagina</string>
+    <string name="hide_web_hint">Impedisce al tema predefinito di Facebook di apparire mentre la pagina è in caricamento. (Non raccomandato per i dispositivi con Jelly Bean)</string>
+
+    <string-array name="pref_theme_entries">
+        <item>Folio Theme</item>
+        <item>Pink Theme</item>
+        <item>Dark Theme</item>
+        <item>Blue Grey Theme</item>
+    </string-array>
+
+    <string-array name="pref_theme_fb_entries">
+        <item>Tema Facebook</item>
+        <item>Nero</item>
+        <item>Tema Dracula</item>
+        <item>Tema Folio</item>
+        <item>Folio Classique</item>
+    </string-array>
+    <!-- End Folio Main Customizations & Facebook Themes-->
+    <!-- START MIXED STRINGS -->
+    <string name="fb_offline">Errore</string>
+    <string name="cancelled">Annullato</string>
+    <string name="permission_not_granted">Non posso continuare perché non ho i permessi.</string>
+    <string name="image_chooser">Selettore immagine</string>
+    <string name="donate_jorell">Supporta lo sviluppo e sblocca funzionalità</string>
+    <string name="preference_donate_category">Compra Folio Pro</string>
+    <string name="preferences_feedback">Invia Feedback</string>
+    <string name="preferences_rate_description">Valuta Folio</string>
+    <string name="clear_cache">Pulisci Dati</string>
+    <string name="clear_cache_title">Sei sicuro?</string>
+    <string name="clear_cache_message">Premi Ok per pulire i dati di Folio. Questo ti disconnetterá anche.</string>
+    <string name="clear_cache_description">Pulisci i dati di Folio.(Ti disconnetterá da facebook)</string>
+    <string name="people_you">Persone che potresti conoscere</string>
+    <string name="people_you_hint">Nascondi Persone che potresti conoscere.</string>
+    <string name="open_link_title">Apri link dentro Folio</string>
+    <string name="open_link_hint">Abilitalo per navigare più velocemente</string>
+    <string name="addPage">Aggiungi ai preferiti</string>
+    <string name="removePage">Rimuovi dai preferiti</string>
+    <string name="preference_category5">Generali</string>
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    <string name="get_app_store">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app</string>
+    <string name="no_images">Disabilita immagini</string>
+    <string name="no_images_hint">Riduce l\'utilizzo dei dati rimuovendo le immagini.</string>
+    <!-- END MIXED STRINGS -->
+    <!-- START CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <string name="credits_settings">Crediti</string>
+    <string name="credits_licenses">Tocca qui per saperne di più sulle licenze usate in Folio</string>
+    <string name="credits_licenses_description">Licenze Open source</string>
+    <string name="preference_category6">Crediti</string>
+    <string name="credits_bejan">Patryk Goworowski</string>
+    <string name="credits_bejan_description">Per le nuove icone di Folio e Folio Pro. Tocca qui per comprare le sue icone.</string>
+    <string name="credits_bejan_link" translatable="true">https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons&amp;hl=en</string>
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">Per l\'aiuto dato con le copertine di Facebook.</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrappe&amp;hl=en</string>
+    <string name="credits_fadev">Florent Anders</string>
+    <string name="credits_fadev_description">Per l\'aiuto con Folio lock.</string>
+    <string name="credits_fadev_link" translatable="true">https://play.google.com/store/apps/details?id=com.fa.touch.app&amp;hl=en</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">Per essere paziente quando suo padre lavora.</string>
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">Per il supporto e gli incoraggiamenti degli ultimi anni. Grazie per il portatile.</string>
+    <string name="credits_facebook">Facebook Inc.</string>
+    <string name="credits_facebook_description">Per le loro api. E per il loro sito Mobile</string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">Per AppCompat v7, e per le icone Material Design.</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    <string name="preference_category10">Software Open source usati</string>
+    <string name="preference_category8">Licenze Open source</string>
+    <string name="preference_category12">Traduzioni</string>
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">Italiano</string>
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">Spagnolo</string>
+    <string name="credits_german">Lucas Krause</string>
+    <string name="credits_german_description">Tedesco</string>
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Portoghese</string>
+    <string name="credits_turk">Mehmet Çalışkan</string>
+    <string name="credits_turk_description">Turco</string>
+    <string name="credits_fren">Jean Philippe</string>
+    <string name="credits_fren_description">Francese</string>
+    <string name="credits_pol">seba112</string>
+    <string name="credits_pol_description">Polacco</string>
+    <string name="credits_dut">Robert Boes</string>
+    <string name="credits_dut_description">Olandese</string>
+    <string name="credits_dut2">Dennis</string>
+    <string name="credits_dut2_description">Nederlands</string>
+    <string name="credits_rom">Iulian Szidelo</string>
+    <string name="credits_rom_description">Romana</string>
+    <string name="credits_rus">Артём Петров</string>
+    <string name="credits_rus_description">Русский</string>
+    <string name="help_trans">Aiuta a tradurre</string>
+    <string name="about_translate">Traduttori di Folio</string>
+    <string name="about_translate_hint">Tocca qui per vedere chi ha aiutato nella traduzione di Folio</string>
+    <!-- END CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <!-- Start Notifications -->
+    <string name="interval_pref">Intervallo di sincronizzazione. Tocca per modificare.</string>
+    <string name="interval_pref_description">La presenza di notifiche sarà controllata ogni %s.</string>
+    <string-array name="update_interval">
+        <item>Istantaneo ( elevato utilizzo della batteria e della rete dati)</item>
+        <item>1 minuto</item>
+        <item>5 minuti</item>
+        <item>15 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>6 ore</item>
+        <item>3 ore</item>
+    </string-array>
+    <string name="folio_message_bubble">Messaggi in \"bolle\" (ALPHA)</string>
+    <string name="folio_message_bubble_hint">Premi per attivare</string>
+    <string name="notify_log">Log delle notifiche</string>
+    <string name="btn_chioce">Scegli(%d)</string>
+    <string name="you_have_one_message">Hai ricevuto 1 nuovo messaggio</string>
+    <string name="you_have_n_messages">Hai ricevuto %d nuovi messaggi</string>
+    <string name="sync_problem">Per favore accedi per iniziare a ricevere le notifiche.</string>
+    <string name="activate_notifications">Notifiche di Facebook</string>
+    <string name="activate_messages">Notifiche Messaggi</string>
+    <string name="notifications_service_created">Notifiche Attivate</string>
+    <string name="notifications_settings">Notifiche</string>
+    <string name="all_notifications">Vedi le notifiche</string>
+    <string name="all_messages">Vedi i messaggi</string>
+    <string name="all_requests">Vedi le richieste di amicizia</string>
+    <string name="notification_sound">Suono Notifiche</string>
+    <string name="notification_sound_description">"Attuale: "</string>
+    <string name="message_sound">Suono notifica Messaggi</string>
+    <string name="message_sound_description">"Attuale: "</string>
+    <string name="silent">Nessun suono</string>
+    <string name="vibrate">Vibrazione</string>
+    <string name="led_light">LED di Notifica</string>
+    <string name="led_color">Colore LED</string>
+    <string name="led_color_description">Colore LED attuale: %s.</string>
+    <string name="notifications_extra">Aggiuntive</string>
+    <string name="notifications_everywhere">Notifica Sempre</string>
+    <string name="notifications_everywhere_description">Anche quando usi Folio.</string>
+    <string name="quick_bar">QuickBar</string>
+    <string name="quick_bar_hint">Mostra la notifica a barra rapida di folio per aprire una finestra per i tuoi social preferiti.</string>
+    <string name="quick_bar_on">QuickBar abilitata</string>
+    <!-- End Notifications -->
+    <!-- Start Folio Lock -->
+    <string name="folio_lock">Abilita il blocco di folio.</string>
+    <string name="unlock_text">Inserisci il codice di sblocco</string>
+    <string name="lock_abort">Annulla</string>
+    <string name="lock_pin">Codice di blocco</string>
+    <string name="lock_text">Proteggi Folio con un codice di blocco</string>
+    <string name="lock_confirm">Conferma codice di blocco</string>
+    <string name="lock_wrong">Codice errato</string>
+    <string name="lock_empty">Il codice di sblocco non può essere vuoto</string>
+    <!-- End Folio Lock -->
+    <!-- Start Saving Images Context Menu. -->
+    <string name="context_save_image">Salva immagine</string>
+    <string name="context_share_image">Condividi immagine</string>
+    <string name="context_copy_image_link">Copia link</string>
+    <string name="context_share_link">Condividi Link</string>
+    <string name="context_copy_link">Copia link</string>
+    <string name="context_share_image_progress">Preparazione</string>
+    <string name="content_copy_link_done">Link copiato</string>
+    <!-- End Saving Images Context Menu. -->
+    <!-- Start Login -->
+    <string name="not_logged_in">Non connesso con Folio</string>
+    <string name="error_login">Qualcosa è andato storto, prova a loggare di nuovo</string>
+    <string name="error_super_wrong">Login annullato</string>
+    <string name="error_facebook_noconnection">Non posso accedere a Facebook</string>
+    <string name="error_facebook_error">Ottenendo info&#8230;</string>
+    <string name="login_button">Connetti con Folio</string>
+    <!-- End Login-->
+    <!-- Start Permissions -->
+    <string name="permission_denied">Permesso negato. Non posso procedere.</string>
+    <!-- End Permissions-->
+    <!-- Start Ads -->
+    <string name="ads_folio">Mostra App &amp; Giochi consigliati</string>
+    <string name="ads_folio_des">Visualizzare contenuti che potrebbero interessarti? Puoi disattivarlo in ogni momento</string>
+    <!-- End Ads -->
+    <!-- START OF LICENSES: DO NOT TRANSLATE LEAVE AS IS-->
+
+    <string name="about_header">Licenze Open source\nusate per i file</string>
+    <string name="copyright">\u00a9 2016 Creative Trends Apps LLC.</string>
+    <string name="allrights">Tutti i diritti sono riservati</string>
+    <string name="about_version">http://www.creativetrendsapps.com</string>
+    <string name="about_image">Crediti immagine: Klyph for Facebook</string>
+    <!-- END OF LICENSES -->
+</resources>

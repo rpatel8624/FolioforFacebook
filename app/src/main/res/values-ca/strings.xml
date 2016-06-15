@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Start Basic Strings -->
+    <string name="app_name">Folio Free</string>
+    <string name="app_name_pro">Folio</string>
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_toolbar_pro">Folio Pro</string>
+    <string name="app_name_about">Folio per a Facebook</string>
+    <string name="app_name_about_pro">Folio per a Facebook Pro</string>
+    <string name="action_settings">Configuració</string>
+    <string name="closeDrawer">Vista de navegació</string>
+    <string name="openDrawer">Obrir menú lateral</string>
+    <string name="get_started">Iniciar la sessió amb Facebook</string>
+    <string name="status_updated">Estat actualitzat.</string>
+    <string name="loading_video">Carregant.</string>
+    <string name="ok">D\'acord</string>
+    <string name="tap_to_set">Prem per aplicar els canvis</string>
+    <string name="send_feedback">Comentaris de Folio</string>
+    <string name="applying_changes">Netejant la memòria cau i reiniciant Folio.</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="choose_email_client">Seleccionar el client de correu electrònic</string>
+    <string name="no_network">No esteu en línia</string>
+    <string name="title_activity_settings">Configuració</string>
+    <string name="title_activity_about">Quant a</string>
+    <string name="preference_about_category">Quant a</string>
+    <string name="preference_set_category">Tot preparat?</string>
+    <string name="share_action">Compartir la pàgina actual</string>
+    <string name="share_action_subject">Pàgina de Facebook</string>
+    <string name="not_valid_title">No és vàlid</string>
+    <string name="not_valid_message">Aquesta versió de Folio no prové de Play Store i pot no funcionar correctament.</string>
+    <string name="success">Fet!</string>
+    <string name="successfully_posted_post">ID de l\'entrada: %1$s</string>
+    <string name="error">Error</string>
+    <string name="crash_toast_text">Alguna cosa no funciona.</string>
+    <string name="crash_dialog_title">Folio Pro s\'ha tancat inesperadament.</string>
+    <string name="crash_dialog_text">Malauradament, Folio Pro s\'ha aturat. Si us plau, premeu \"D\'acord\" per enviar l\'informe per correu electrònic.</string>
+    <string name="crash_dialog_comment_prompt">Podeu deixar els vostres comentaris en quant a la tancada inesperada aquí:</string>
+    <string name="permission_read_external_storage">El permís per llegir arxius és necessari</string>
+    <string name="permission_write_external_storage">El permís per a llegir arxius és necessari</string>
+    <string name="permission_access_location">El permís per a detectar la vostra ubicació és necessari</string>
+    <string name="permission_get_accounts">El permís per a obtenir els comptes és necessari pel servei de notificacions</string>
+    <string name="fragment_main_downloading">Descarregant&#8230;</string>
+    <string name="like_on_facebook">Descarregant&#8230;</string>
+    <string name="like_on">M\'agrada al Facebook</string>
+    <string name="join_on">Uniu-vos a la comunitat de Google+</string>
+    <string name="follow_on">Seguiu-nos a Twitter</string>
+    <string name="new_share">Activar el nou compartidor</string>
+    <string name="new_share_hint">Això activa el compartidor d\'escriptori, que us permet compartir enllaços a amics, pàgines o grups.</string>
+    <string name="share_success">Ítem compartit. Actualitzant el canal de notícies&#8230;</string>
+    <!-- End Basic Strings -->
+    <!-- Start FAB Labels -->
+    <string name="folio_video">Pujar vídeo</string>
+    <string name="folio_checkins">Check-in</string>
+    <string name="folio_tags">Etiquetar un amic</string>
+    <string name="folio_images">Pujar imatge des de la vostra galeria</string>
+    <string name="update_share">Compartir ara</string>
+    <string name="update_status">Estat</string>
+    <string name="update_photo">Agregar fotos</string>
+    <string name="show_fab">Mostrar botó d\'accions flotant</string>
+    <string name="show_fab_hint">Mostrar un botó d\'acció flotant a la part inferior dreta de la pantalla.</string>
+    <!-- End FAB Labels -->
+    <!-- Start Folio Drawer -->
+    <string name="quickaccess">Dreceres</string>
+    <string name="newsfeed">Canal de notícies</string>
+    <string name="topnews">Notes</string>
+    <string name="fbmenu">Menú de Facebook</string>
+    <string name="trending">Tendències</string>
+    <string name="messages">Missatges</string>
+    <string name="faved">Preferits</string>
+    <string name="friends">Amistats</string>
+    <string name="groups">Grups</string>
+    <string name="pages">Pàgines</string>
+    <string name="photos">Fotos</string>
+    <string name="reminders">Recordatoris</string>
+    <string name="events">Esdeveniments</string>
+    <string name="onthisday">En aquest dia</string>
+    <string name="saved">Desat</string>
+    <string name="prefs">Opcions</string>
+    <string name="settings">Configuració</string>
+    <string name="helpfeed">Comentaris</string>
+    <string name="bugs">Informar d\'una incidència</string>
+    <string name="switch_to_folio">Canviar a Folio</string>
+    <string name="switch_to_twitter">Canviar a Twitter</string>
+    <string name="switch_to_gplus">Canviar a Google+</string>
+    <string name="switch_to_gram">Canviar a Instagram</string>
+    <string name="switch_to_tum">Canviar a Tumblr</string>
+    <!-- End Folio Drawer -->
+    <!-- Start Twitter Drawer-->
+    <string name="discover">Descobrir</string>
+    <string name="connect">Connectar</string>
+    <string name="twitter_search">Cercar</string>
+    <string name="twitter_home">Inici</string>
+    <string name="twitter_me">Jo</string>
+    <!-- End Twitter Drawer -->
+    <!-- Start Add ons Custom Navigation Drawer Removals-->
+    <string name="addons">Complements socials</string>
+    <string name="enable_twitter">Mostrar Twitter</string>
+    <string name="enable_google">Mostrar Google+</string>
+    <string name="enable_instagram">Mostrar Instagram</string>
+    <string name="enable_tumblr">Mostrar Tumblr</string>
+    <!-- End Add ons Custom Navigation Drawer Removals -->
+    <!-- Start Navigation Drawer Removals -->
+    <string name="navigation_pref">Elements del menú lateral</string>
+    <string name="navigation_pref_hint">Personalitzar el menú lateral amagant els elements que no necessiteu.</string>
+    <string name="recent_nav">Mostrar canal de notícies</string>
+    <string name="top_nav">Mostrar notes</string>
+    <string name="trending_nav">Mostrar tendències</string>
+    <string name="friends_nav">Mostrar amics</string>
+    <string name="groups_nav">Mostrar grups</string>
+    <string name="pages_nav">Mostrar pàgines</string>
+    <string name="photos_nav">Mostrar fotos</string>
+    <string name="events_nav">Mostrar esdeveniments</string>
+    <string name="onday_nav">Mostrar en aquest dia</string>
+    <string name="saved_nav">Mostrar desats</string>
+    <!-- Start Navigation Drawer Removals -->
+    <!-- Start News Feed Preference -->
+    <string name="news_feed_preferences">Opcions del canal de notícies</string>
+    <string name="feed_choice">Mostrar les notícies amb l\'ordre segons</string>
+    <string name="feed_choice_hint">Visualització actual: %s.</string>
+    <string-array name="pref_default_feed">
+        <item>Predeterminat (carrega ràpidament)</item>
+        <item>Més recent (Tarda en carregar)</item>
+        <item>Els més vistos (carrega més lentament)</item>
+    </string-array>
+    <!-- End News Feed Preference -->
+    <!-- Start Font Preference -->
+    <string name="choose_font_facebook">Mida de la lletra de Facebook</string>
+    <string name="choose_font_facebook_hint">Mida actual: %s</string>
+    <string name="font_preference">Opcions de la lletra de Facebook</string>
+    <string-array name="font_choice">
+        <item>Mida predeterminada</item>
+        <item>Mida petita</item>
+        <item>Mida mitjana</item>
+        <item>Mida gran</item>
+        <item>Mida molt gran</item>
+        <item>Mida extra gran</item>
+    </string-array>
+    <!-- End Font Preference -->
+    <!-- Start Overflow Menu-->
+    <string name="top">Tornar amunt</string>
+    <string name="fb_settings">Configuració de Facebook</string>
+    <string name="fb_chat">Amistats actives</string>
+    <string name="fb_recent">Més recents</string>
+    <string name="refresh">Actualitzar</string>
+    <string name="notifications">Notificacions</string>
+    <string name="notifications_about_hint">Configurar notificacions</string>
+    <string name="search">Cercar al Facebook</string>
+    <string name="end">Tancar la sessió</string>
+    <string name="exit">Sortir</string>
+    <!-- End Overflow Menu-->
+    <!-- Start Folio Main Customizations & Facebook Themes-->
+    <string name="customize_folio">Personalitzar Folio</string>
+    <string name="customize_folio_hint">Canviar aparença i distribució.</string>
+    <string name="preferences_auto">Desactivar barra de Facebook.</string>
+    <string name="preferences_auto_hint">Això desactiva la barra d\'eines de Folio.</string>
+    <string name="hidden_bar">Desactivar la barra de Folio</string>
+    <string name="hidden_bar_hint">Només utilitzar la barra de Facebook. Si us plau, desactiveu primer la barra d\'eines de Folio.</string>
+    <string name="choose_theme_folio">Escollir el tema de l\'aplicació</string>
+    <string name="choose_theme_facebook">Escollir el tema de Faceboook</string>
+    <string name="choose_theme_facebook_hint">Tema actual: %s</string>
+    <string name="choose_theme_folio_hint">Tema actual: %s</string>
+    <string name="preference_category7">Personalitzacions</string>
+    <string name="preference_category4">Aspecte de Facebook</string>
+    <string name="preference_category15">Opcions de visualització de Folio</string>
+    <string name="preference_facebook_layouts">Opcions de visualització de Facebook</string>
+    <string name="preference_category3">Aspecte de Folio</string>
+    <string name="hide_web">Amagar \"Carregant\" de WebView</string>
+    <string name="hide_web_hint">Prevenir el tema predeterminat de Facebook quan es carrega la pàgina (no es recomana per als usuaris de Jelly Bean)</string>
+
+    <string-array name="pref_theme_entries">
+        <item>Folio Theme</item>
+        <item>Pink Theme</item>
+        <item>Dark Theme</item>
+        <item>Blue Grey Theme</item>
+    </string-array>
+
+    <string-array name="pref_theme_fb_entries">
+        <item>Tema de Facebook</item>
+        <item>Tema negre</item>        
+        <item>Tema de dràcula</item>
+        <item>Tema de Folio</item>
+        <item>Clàssic de Folio</item>
+    </string-array>
+    <!-- End Folio Main Customizations & Facebook Themes-->
+    <!-- START MIXED STRINGS -->
+    <string name="fb_offline">Error</string>
+    <string name="cancelled">Cancel·lat</string>
+    <string name="permission_not_granted">No s\'ha pogut realitzar l\'acció seleccionada, ja que no se li ha concedit els permisos necessaris.</string>
+    <string name="image_chooser">Selecció d\'imatges</string>
+    <string name="donate_jorell">Ajudeu-nos amb el desenvolupament i tingueu més funcions</string>
+    <string name="preference_donate_category">Comprar Folio Pro</string>
+    <string name="preferences_feedback">Enviar comentaris</string>
+    <string name="preferences_rate_description">Valorar Folio</string>
+    <string name="clear_cache">Esborrar les dades</string>
+    <string name="clear_cache_title">N\'esteu segur?</string>
+    <string name="clear_cache_message">Premeu D\'acord per a netejar les dades de Folio. Això comportarà el tancament de la sessió.</string>
+    <string name="clear_cache_description">Netejar totes les dades de Folio. Això comportarà el tancament de la sessió.</string>
+    <string name="people_you">Gent que pots conèixer</string>
+    <string name="people_you_hint">Amagar Gent que pots conèixer.</string>
+    <string name="open_link_title">Obrir els enllaços web a Folio</string>
+    <string name="open_link_hint">Activar per a una navegació més ràpida.</string>
+    <string name="addPage">Afegir a preferits</string>
+    <string name="removePage">Esborrar dels preferits</string>
+    <string name="preference_category5">General</string>
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    <string name="get_app_store">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app</string>
+    <string name="no_images">Amagar les imatges</string>
+    <string name="no_images_hint">Reduir el consum de dades mòbils eliminant les fotos.</string>
+    <!-- END MIXED STRINGS -->
+    <!-- START CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <string name="credits_settings">Crèdits</string>
+    <string name="credits_licenses">Premeu aquí per llegir més coses sobre les llicències utilitzades a Folio.</string>
+    <string name="credits_licenses_description">Llicències de codi obert</string>
+    <string name="preference_category6">Crèdits</string>
+    <string name="credits_bejan">Patryk Goworowski</string>
+    <string name="credits_bejan_description">Premeu aquí per comprar les icones Cornie de Folio al menú.</string>
+    <string name="credits_bejan_link" translatable="true">https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons&amp;hl=ca</string>
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">Per ajuda sobre les imatges de portada.</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrappe&amp;hl=ca</string>
+    <string name="credits_fadev">Florent Anders</string>
+    <string name="credits_fadev_description">Per ajuda amb Folio Lock.</string>
+    <string name="credits_fadev_link" translatable="true">https://play.google.com/store/apps/details?id=com.fa.touch.app&amp;hl=ca</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">Per compartir el seu interès amb la tecnologia i tenir molta paciència mentre el pare treballava.</string>
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">Per donar-me suport i encoratjar-me tots aquests anys. Gràcies per facilitar-me el portàtil.</string>
+    <string name="credits_facebook">Facebook Inc.</string>
+    <string name="credits_facebook_description">For their new graph api. Also for their mobile site which is used in Folio.</string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">Per a AppCompat v7, també per les teves icones Material Design de codi obert.</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    <string name="preference_category10">Programes de codi obert utilitzats</string>
+    <string name="preference_category8">Llicències de codi obert</string>
+    <string name="preference_category12">Traduccons</string>
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">Italià</string>
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">Espanyol</string>
+    <string name="credits_german">Lucas Krause</string>
+    <string name="credits_german_description">Alemany</string>
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Portuguès de Brasil</string>
+    <string name="credits_turk">Mehmet Çalışkan</string>
+    <string name="credits_turk_description">Turc</string>
+    <string name="credits_fren">Jean Philippe</string>
+    <string name="credits_fren_description">Francès</string>
+    <string name="credits_pol">seba112</string>
+    <string name="credits_pol_description">Polac</string>
+    <string name="credits_dut">Robert Boes</string>
+    <string name="credits_dut_description">Holandès</string>
+    <string name="credits_dut2">Dennis</string>
+    <string name="credits_dut2_description">Holandès</string>
+    <string name="credits_rom">Iulian Szidelo</string>
+    <string name="credits_rom_description">Romanès</string>
+    <string name="credits_rus">Артём Петров</string>
+    <string name="credits_rus_description">Rus</string>
+    <string name="credits_swipe_description">Jeffrey Sera</string>
+    <string name="credits_swipe">Un agraïment especial a Jeff de Happening Studios, per l\'ajuda amb el codi de Messenger.com i per empènyer-me per fer Folio millor. Swipe és una aplicació impressionant amb la innovació dels menús.</string>
+    <string name="help_trans">Ajuda\'ns amb les traduccions</string>
+    <string name="about_translate">Traductors de Folio</string>
+    <string name="about_translate_hint">Premeu aquí per a veure qui ha traduït Folio.</string>
+    <!-- END CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <!-- Start Notifications -->
+    <string name="interval_pref">Interval de sincronització. Premeu per canviar-ho.</string>
+    <string name="interval_pref_description">Les notificacions seran actualitzades cada: %s.</string>
+    <string-array name="update_interval">
+        <item>En cada moment (Consumeix molta bateria i dades mòbils!)</item>
+        <item>1 minut</item>
+        <item>5 minuts</item>
+        <item>15 minuts</item>
+        <item>30 minuts</item>
+        <item>1 hora</item>
+        <item>6 hores</item>
+        <item>3 hores</item>
+    </string-array>
+    <string name="folio_message_bubble">Bombolles de missatges (Alpha)</string>
+    <string name="folio_message_bubble_hint">Premeu per activar-ho.</string>
+    <string name="notify_log">Registre de notifiacions</string>
+    <string name="btn_chioce">Seleccionar(%d)</string>
+    <string name="you_have_one_message">Teniu un nou missatge</string>
+    <string name="you_have_n_messages">Teniu %d nous missatges</string>
+    <string name="sync_problem">Si us plau, inicieu la sessió per començar a rebre notificacions.</string>
+    <string name="activate_notifications">Notificacions de Facebook</string>
+    <string name="activate_messages">Notificacacions de nous missatges</string>
+    <string name="notifications_service_created">Notificacions activades</string>
+    <string name="notifications_settings">Notificacions</string>
+    <string name="all_notifications">Veure notificacions</string>
+    <string name="all_messages">Veure missatges</string>
+    <string name="all_requests">Veure sol·licituds d\'amistat</string>
+    <string name="notification_sound">So de notificació</string>
+    <string name="notification_sound_description">"Actual: "</string>
+    <string name="message_sound">So de missatge de notificació</string>
+    <string name="message_sound_description">"Actual: "</string>
+    <string name="silent">Sense so</string>
+    <string name="vibrate">Vibració</string>
+    <string name="led_light">Llum de notifiació</string>
+    <string name="led_color">Color de la llum de notificació</string>
+    <string name="led_color_description">Color de llum actual: %s</string>
+    <string name="notifications_extra">Addicional</string>
+    <string name="notifications_everywhere">Notificar sempre</string>
+    <string name="notifications_everywhere_description">Sempre que estigueu utilitzant Folio.</string>
+    <string name="quick_bar">Barra ràpida</string>
+    <string name="quick_bar_hint">Mostrar la barra ràpida de notificacions de Folio per obrir una finestra flotant de la vostra xarxa social preferida.</string>
+    <string name="quick_bar_on">La barra ràpida de Folio està activa.</string>
+    <!-- End Notifications -->
+    <!-- Start Folio Lock -->
+    <string name="folio_lock">Activar Folio Lock</string>
+    <string name="unlock_text">Si us plau, escriviu un codi de bloqueig</string>
+    <string name="lock_abort">Cancel·lar</string>
+    <string name="lock_pin">Codi de bloqueig</string>
+    <string name="lock_text">Fes que Folio sigui més segur amb un codi de bloqueig</string>
+    <string name="lock_confirm">Confirmar el codi de bloqueig</string>
+    <string name="lock_wrong">Codi de bloqueig incorrecte</string>
+    <string name="lock_empty">El codi de bloqueig no pot estar buit</string>
+    <!-- End Folio Lock -->
+    <!-- Start Saving Images Context Menu. -->
+    <string name="context_save_image">Descarregar imatge</string>
+    <string name="context_share_image">Compartir imatge</string>
+    <string name="context_copy_image_link">Copiar enllaç</string>
+    <string name="context_share_link">Compartir enllaç</string>
+    <string name="context_copy_link">Copiar enllaç</string>
+    <string name="context_share_image_progress">Preparant&#8230;</string>
+    <string name="content_copy_link_done">Enllaç copiat al portapapers</string>
+    <!-- End Saving Images Context Menu. -->
+    <!-- Start Login -->
+    <string name="not_logged_in">No esteu connectats amb Folio</string>
+    <string name="error_login">Alguna cosa ha fallat, torneu a iniciar sessió més tard</string>
+    <string name="error_super_wrong">Inici de sessió cancel·lat</string>
+    <string name="error_facebook_noconnection">No es pot accedir a Facebook</string>
+    <string name="error_facebook_error">Aconseguint informació&#8230;</string>
+    <string name="login_button">Connectar amb Folio</string>
+    <!-- End Login-->
+    <!-- Start Permissions -->
+    <string name="permission_denied">Permís denegat. Aquesta acció no s\'ha pogut completar.</string>
+    <!-- End Permissions-->
+    <!-- Start Ads -->
+    <string name="ads_folio">Mostrar aplicacions i jocs</string>
+    <string name="ads_folio_des">Mostrar aplicacions i jocs al iniciar podria ser del vostre interès? Les aplicacions i jocs poden ser apagats en qualsevol moment.</string>
+    <!-- End Ads -->
+    <!-- START OF LICENSES: DO NOT TRANSLATE LEAVE AS IS-->
+    <string name="eula_string">EULA, Terms &amp; Policies:\n\n 
+
+\nCopyright 2016 Creative Trends Apps. All Rights Reserved. 
+
+\n\nThis software may not, in whole or in any part, be copied, reproduced, transmitted, translated (into any 
+language, natural or computer), stored in a retrieval system, reduced to any electronic medium or machine readable 
+format, or by any other form or means without prior consent, in writing, from Creative Trends. 
+
+\n\nYou are granted a limited license to use this software. The software may be used or copied only in accordance 
+with the terms of that license, which is described in the following paragraphs. 
+
+\n\nTRADEMARKS: 
+\n\nFolio for Facebook, NewsBite, Creative Trends, Creative Trends Apps. All Folio and NewsBite Icons and logos. All apps made or produced by Creative Trends. 
+
+\n\nLICENSE: 
+\n\n\"THE SOFTWARE\" shall be taken to mean the software contained in this app and any subsequent versions 
+or upgrades received as a result of having purchased this app. \"BUYER\" shall be taken as the original 
+purchaser of the software. 
+
+\n\nBuyer has the non-exclusive right to the use of software only on a single device. Buyer may not electronically 
+transfer the program from one device to another over any type of network. Buyer may not distribute copies 
+of the software or the accompanying documentation to others either for a fee or without charge. Buyer may not modify 
+or translate the program or documentation. User may not disassemble the program or allow it to be disassembled 
+into its constituent source code. Buyer\'s use of the software indicates his/her acceptance of these terms 
+and conditions. If buyer does not agree to these conditions, return the distribution media, documentation, and 
+associated materials to the vendor from whom the software was purchased, and/or uninstall the software from the device, 
+and erase the software from any and all storage devices upon which it may have been installed. 
+
+\n\nThis license agreement shall be governed by the laws of The United States of America, New Jersey and 
+shall inure to the benefit of Creative Trends Apps or its assigns. 
+
+\n\nREFUNDS: 
+\n\nCreative Trends Apps will grant the buyer of any of our apps a full refund of their purchase within two hours of purchase. After this time has passed refunds will only be granted at the discretion of Creative Trends. 
+
+\n\nCHANGES: 
+\n\nYou agree that Creative Trends has the right to test and remove features at it\'s discretion.
+
+\n\nDISCLAIMER / LIMITATION OF LIABILITY: 
+\n\nBuyer acknowledges that the software may not be free from defects and may not satisfy all of buyer\'s 
+needs. The software and any accompanying written materials are licensed \"AS IS\". Buyer\'s exclusive 
+remedy during the warranty period (if any) shall be fixes via software updates if needed. In no event will Creative Trends be liable for direct, indirect, incidental or consequential damage or 
+damages resulting from loss of use, or loss of anticipated profits resulting from any defect in the software, 
+even if it has been advised of the possibility of such damage. Some laws do not allow exclusion or limitation 
+of implied warranties or liabilities for incidental or consequential damages, so the above limitations or 
+exclusion may not apply. 
+
+\n\nSPECIFIC RESTRICTIONS: 
+\n\nIn accordance with the COMPUTER SOFTWARE RENTAL ACT OF 1990, this software may not be rented, lent or leased. 
+\n\nThe software and accompanying documentation may not be provided by a \"Backup Service\" or any other vendor 
+which does not provide an original package as composed of Creative Trends, including but not limited to all original 
+distribution media, documentation, registration cards, and insertions.</string>
+    <string name="about_header">Llicències de codi obert\nNotícies per fitxers</string>
+    <string name="copyright">\u00a9 2016 Creative Trends Apps LLC.</string>
+    <string name="allrights">Tots els drets reservats.</string>
+    <string name="about_version">http://www.creativetrendsapps.com</string>
+    <string name="about_image">Font de la imatge: Klyph per a Facebook</string>
+    <string name="download_complete">Imatge descarregada.</string>
+    <string name="fullscreen">Pantalla completa</string>
+    <string name="minimize">Minimitzar</string>
+    <string name="notifications_quickbar">Configurar notificacions i desactivar la barra ràpida</string>
+    <string name="about_links">Desactiveu-ho per obrir els enllaços externament.</string>
+    <string name="new_share_about">Enables the desktop sharer and the ability to share links with the FAB. Swipe Folio Pro away from recents to turn on.</string>
+    <string name="error_general">Problema</string>
+    <string name="save_img">Desar</string>
+    <string name="download_manager_disabled">Administrador de descàrregues desactivat</string>
+    <string name="new_feed_items">Nous ítems del canal</string>
+    <string name="load_news_feed">Carregant el canal de notícies</string>
+    <string name="new_notifications">Notificacions noves</string>
+    <string name="use_messenger">Utilitzar Messenger</string>
+    <string name="use_messenger_hint">Utilitzar messenger.com per a veure i enviar missatges.</string>
+    <string name="enable_location">Activar la localització</string>
+    <string name="enable_location_hint">Permetre la ubicació per a check-ins i esdeveniments a prop vostre.</string>
+    <string name="hide_editor">Amagar l\'editor d\'estat</string>
+    <string name="hide_editor_hint">Quan s\'activa això s\'amaga l\'editor d\'estat de la part superior de la pantalla principal. Es pot escriure una nova entrada amb el botó flotant.</string>
+    <string name="showtabs">Mostrar pestanyes</string>
+    <string name="showtabs_hint">Les pestanyes substitueixen la barra de Facebook. Aquestes pestanyes no es llisquen.</string>
+    <string name="round_pics">Imatges rodones</string>
+    <string name="round_pics_hint">Mostrar les imatges rodones enlloc de quadrades.</string>
+    <!-- END OF LICENSES -->
+
+    <string name="hide_ads">Eliminar les entrades publicitàries</string>
+    <string name="hide_ads_hint">Activar per eliminar les entrades publicitàries.</string>
+</resources>

@@ -34,7 +34,7 @@
                 tools:ignore="ContentDescription" />
 
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/lockButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,9 +42,9 @@
                 android:background="@android:color/transparent"
                 android:layout_gravity="start|center_horizontal"
                 android:paddingStart="12dp"
+                android:paddingLeft="12dp"
                 tools:ignore="ContentDescription,RtlSymmetry"
-                android:visibility="gone"
-                android:paddingLeft="12dp" />
+                android:visibility="gone"/>
 
 
             <RelativeLayout
@@ -68,12 +68,12 @@
                         android:layout_height="wrap_content"
                         android:textStyle="normal"
                         android:layout_marginStart="4dp"
-                        android:textSize="15sp"
+                        android:layout_marginLeft="4dp"
+                        android:textSize="16sp"
                         android:textColor="@color/md_grey_900"
                         android:ellipsize="end"
                         android:lines="1"
-                        android:layout_gravity="start|center_horizontal"
-                        android:layout_marginLeft="4dp" />
+                        android:layout_gravity="start|center_horizontal" />
 
                     <TextView
                         android:id="@+id/toolbarSub"
@@ -81,12 +81,12 @@
                         android:layout_height="wrap_content"
                         android:textStyle="normal"
                         android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
                         android:textSize="12sp"
                         android:textColor="@color/md_grey_900"
                         android:ellipsize="end"
                         android:lines="1"
-                        android:layout_gravity="start|center_horizontal"
-                        android:layout_marginLeft="4dp" />
+                        android:layout_gravity="start|center_horizontal" />
 
                 </LinearLayout>
             </RelativeLayout>

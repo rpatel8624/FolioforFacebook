@@ -147,9 +147,9 @@
     <string name="feed_choice_hint">Current sort: %s.</string>
 
     <string-array name="pref_default_feed">
-        <item>Default</item>
-        <item>Most Recent</item>
-        <item>Top News</item>
+        <item>Default (Fast to load)</item>
+        <item>Most Recent (Slow to load)</item>
+        <item>Top News (Slow to load)</item>
     </string-array>
     <!-- End News Feed Preference -->
 
@@ -223,7 +223,7 @@
     <!-- START MIXED STRINGS -->
 
     <string name="fb_offline">Error</string>
-    <string name="cancelled">Cancelled</string>
+    <string name="cancelled">Canceled</string>
     <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
     <string name="image_chooser">Image Chooser</string>
     <string name="donate_jorell">Support Development &amp; Unlock Features</string>
@@ -233,7 +233,6 @@
     <string name="clear_cache">Clear Data</string>
     <string name="clear_cache_title">Are you sure?</string>
     <string name="clear_cache_message">Tap OK to clear Folio\'s data. This will also log you out.</string>
-    <string name="go_pro_message">Upgrade to Folio Pro and remove ads, get access to Twitter, get access to sharing links to friends, pages, groups or as a private message. Download files from groups. Access to Folio Pro\'s 41 themes. Frequent updates, and help support development. </string>
     <string name="clear_cache_description">Clear Folio\'s data. This will also log you out.</string>
     <string name="people_you">People You May Know</string>
     <string name="people_you_hint">Hide people you may know.</string>
@@ -418,7 +417,7 @@
     <!-- End Ads -->
 
     <!-- START OF LICENSES: DO NOT TRANSLATE LEAVE AS IS-->
-       <string name="eula_string">EULA, Terms &amp; Policies:\n\n
+    <string name="eula_string">EULA, Terms &amp; Policies:\n\n
 
 \nCopyright 2016 Creative Trends Apps. All Rights Reserved.
 
@@ -471,11 +470,42 @@ which does not provide an original package as composed of Creative Trends, inclu
 distribution media, documentation, registration cards, and insertions.</string>
 
 
+
+    <string name="about_header">Open source licenses\nNotices for files</string>
+    <string name="copyright">\u00A9 2016 Creative Trends Apps LLC.</string>
+    <string name="allrights">All Rights Reserved.</string>
+    <string name="about_version">http://www.creativetrendsapps.com</string>
+    <string name="about_image">Image Credit: Klyph for Facebook</string>
+    <string name="download_complete">Image downloaded.</string>
+    <string name="fullscreen">Full Screen</string>
+    <string name="minimize">Minimize</string>
+    <string name="notifications_quickbar">Setup notifications &amp; disable QuickBar</string>
+    <string name="about_links">Switch off to open links externally</string>
+    <string name="new_share_about">Enables the desktop sharer and the ability to share links with the FAB. Swipe Folio Pro away from recents to turn on.</string>
+    <string name="error_general">Error</string>
+    <string name="save_img">Save</string>
+    <string name="download_manager_disabled">Download Manager Disabled</string>
+    <string name="new_feed_items">New Feed Items</string>
+    <string name="load_news_feed">Load News Feed</string>
+    <string name="new_notifications">New Notifications</string>
+    <string name="use_messenger">Use Messenger</string>
+    <string name="use_messenger_hint">Use messenger.com to view and send messages.</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="enable_location_hint">Allow location for check-ins and nearby events.</string>
+    <string name="hide_editor">Hide Status Editor</string>
+    <string name="hide_editor_hint">When enabled this hides the status editor on top of the News Feed. Posting can be done with the FAB.</string>
+    <string name="showtabs">Show Tabs</string>
+    <string name="showtabs_hint">Tabs replace the Facebook Bar. These tabs do not swipe.</string>
+    <string name="round_pics">Rounded Images</string>
+    <string name="round_pics_hint">Show rounded pictures instead of squared.</string>
+    <!-- END OF LICENSES -->
+
+
     <string name="about_text"><![CDATA[
 
 
     <b>Tray Preferences</b><br><br>
-    Copyright 2015 grandcentrix GmbH<br><br>
+    Copyright &#169; 2015 grandcentrix GmbH<br><br>
 
    	Licensed under the Apache License, Version 2.0 (the "License");
    	you may not use this file except in compliance with the License.<br>
@@ -561,7 +591,7 @@ distribution media, documentation, registration cards, and insertions.</string>
 	<br><br>
 
 	<b>Picasso</b><br><br>
-	Copyright 2013 Square, Inc.<br><br>
+	Copyright &#169; 2013 Square, Inc.<br><br>
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -578,7 +608,7 @@ distribution media, documentation, registration cards, and insertions.</string>
 
 
 	<b>Clans Floating Action Button</b><br><br>
-	Copyright 2015 Dmytro Tarianyk
+	Copyright &#169; 2015 Dmytro Tarianyk
 	<br><br>
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -595,7 +625,7 @@ distribution media, documentation, registration cards, and insertions.</string>
 
 
 	<b>ActionItemBadge</b><br><br>
-	Copyright 2015 Mike Penz
+	Copyright &#169; 2015 Mike Penz
 	<br><br>
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -612,7 +642,7 @@ distribution media, documentation, registration cards, and insertions.</string>
 
 
 	<b>Android-Iconics</b><br><br>
-	Copyright 2015 Mike Penz
+	Copyright &#169; 2015 Mike Penz
 	<br><br>
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -629,7 +659,7 @@ distribution media, documentation, registration cards, and insertions.</string>
 
 
 	<b>AdvancedWebView</b><br><br>
-	Copyright 2015 delight.im <info@delight.im>
+	Copyright &#169; 2015 delight.im <info@delight.im>
 	<br><br>
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -670,7 +700,7 @@ distribution media, documentation, registration cards, and insertions.</string>
 	SOFTWARE.<br><br><br>
 
 
-	<b>Facebook Wrapper</b><br><br>
+	<b>Toffeed for Facebook</b><br><br>
 
    	The MIT License (MIT)<br><br>
 
@@ -733,29 +763,64 @@ distribution media, documentation, registration cards, and insertions.</string>
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.<br><br><br>
+
+	<b>Glide</b><br><br>
+	Copyright &#169; 2014 Google, Inc.
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+
+	<b>PhotoView</b><br><br>
+	Copyright &#169; 2011, 2012 Chris Banes
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+
+	<b>MLManager</b><br><br>
+	Copyright &#169; 2015 Javier Santos
+	<br><br>
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+	<br><br>
+   	This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+	<br><br>
+	You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>
+	<br><br>
     ]]></string>
-
-
-
-    <string name="about_header">Open source licenses\nNotices for files</string>
-    <string name="copyright">\u00A9 2016 Creative Trends Apps LLC.</string>
-    <string name="allrights">All Rights Reserved.</string>
-    <string name="about_version">http://www.creativetrendsapps.com</string>
-    <string name="about_image">Image Credit: Klyph for Facebook</string>
-    <string name="download_complete">Image downloaded.</string>
-    <string name="fullscreen">Full Screen</string>
-    <string name="minimize">Minimize</string>
-    <string name="notifications_quickbar">Setup notifications &amp; disable QuickBar</string>
-    <string name="about_links">Switch off to open links externally</string>
-    <string name="new_share_about">Enables the desktop sharer and the ability to share links with the FAB. Swipe Folio Pro away from recents to turn on.</string>
-    <string name="error_general">Error</string>
-    <string name="save_img">Save</string>
-    <string name="download_manager_disabled">Download Manager Disabled</string>
-    <string name="new_feed_items">New Feed Items</string>
-    <string name="load_news_feed">Load News Feed</string>
-    <string name="enable_trans">Translucent Navigation</string>
-    <string name="enable_trans_hint">Enable translucent navigation. Works only KitKat+ devices with on screen buttons and system support.</string>
-    <!-- END OF LICENSES -->
+    <string name="hide_ads">Remove Sponsored Posts</string>
+    <string name="hide_ads_hint">Turn on to remove sponsored posts.</string>
+    <string name="selectable_text">Selectable Text</string>
+    <string name="selectable_text_hint">Enable to allow text to be selectable for copying.</string>
+    <string name="messenger">Messenger</string>
+    <string name="hidden_bar_new">Disable Folio Toolbar. Turn on tabs to navigate or use Folio\'s navigation drawer.</string>
+    <string name="exit_folio">Close Folio?</string>
+    <string name="exit_folio_message">Are you sure you want to close Folio?</string>
 
 
 </resources>

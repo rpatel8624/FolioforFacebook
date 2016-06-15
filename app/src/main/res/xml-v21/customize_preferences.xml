@@ -64,16 +64,5 @@
 
         </PreferenceCategory>
         
-               
-        
-        <PreferenceCategory
-        android:title="@string/preference_set_category">
-        
-        <Preference
-            android:key="tap"
-            android:title="@string/tap_to_set"/>
-        
-        </PreferenceCategory>
-                
-        
+
 </PreferenceScreen>

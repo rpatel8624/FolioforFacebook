@@ -10,10 +10,6 @@
     <dimen name="loading_video_text_size">14sp</dimen>
     <dimen name="tool_bar_top_padding">0dp</dimen>
 
-    <dimen name="app_defaultsize_w">632.0dip</dimen>
-    <dimen name="app_defaultsize_h">598.0dip</dimen>
-    <dimen name="app_minimumsize_w">632.0dip</dimen>
-    <dimen name="app_minimumsize_h">598.0dip</dimen>
 
     <dimen name="drawer_top">24dp</dimen>
     <dimen name="drawer_left">16dp</dimen>
@@ -25,22 +21,27 @@
     <dimen name="drawer_min_width_phone">320dp</dimen>
     <dimen name="drawer_min_width_tablet">400dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    
-    
+
+
     <dimen name="dialog_frame_margin">24dp</dimen>
-	<dimen name="dialog_content_padding_top">8dp</dimen>
-	<dimen name="dialog_content_padding_bottom">8dp</dimen>
-	<dimen name="dialog_content_textsize">14sp</dimen>
-	<dimen name="pref_title_space">8dp</dimen>
-	
-	<dimen name="statusbar_margin">0dp</dimen>
-	
-	
-	<dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="dialog_content_padding_top">8dp</dimen>
+    <dimen name="dialog_content_padding_bottom">8dp</dimen>
+    <dimen name="dialog_content_textsize">14sp</dimen>
+    <dimen name="pref_title_space">8dp</dimen>
+
+    <dimen name="statusbar_margin">0dp</dimen>
+
+
+    <dimen name="image_thumbnail_size">100dp</dimen>
     <dimen name="image_thumbnail_spacing">3dp</dimen>
     <dimen name="default_space">8dp</dimen>
-    
+
     <dimen name="launch_screen_logo_bottom">16.0dip</dimen>
     <dimen name="launch_screen_text_bottom">88.0dip</dimen>
     <dimen name="fab_scroll_threshold">6dip</dimen>
+
+    <dimen name="app_defaultsize_w">632.0dip</dimen>
+    <dimen name="app_defaultsize_h">598.0dip</dimen>
+    <dimen name="app_minimumsize_w">632.0dip</dimen>
+    <dimen name="app_minimumsize_h">598.0dip</dimen>
 </resources>

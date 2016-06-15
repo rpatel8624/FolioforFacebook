@@ -15,7 +15,7 @@
     <item
         android:id="@+id/photo_share"
         android:title="@string/context_share_image"
-        android:icon="@drawable/ic_share"
+        android:icon="@drawable/ic_share_now"
         android:orderInCategory="3"
         app:showAsAction="always"
         tools:ignore="AlwaysShowAction"/>

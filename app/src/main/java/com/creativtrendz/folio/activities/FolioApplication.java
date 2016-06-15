@@ -18,7 +18,7 @@ import org.acra.annotation.ReportsCrashes;
         mode = ReportingInteractionMode.DIALOG,
         resToastText = R.string.crash_toast_text,
         resDialogText = R.string.crash_dialog_text,
-        resDialogIcon = R.drawable.ic_launcher,
+        resDialogIcon = R.mipmap.ic_launcher,
         resDialogTitle = R.string.crash_dialog_title,
         resDialogCommentPrompt = R.string.crash_dialog_comment_prompt
 )

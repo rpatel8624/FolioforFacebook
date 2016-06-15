@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Start Basic Strings -->
+    <string name="app_name">Folio Free</string>
+    <string name="app_name_pro">Folio</string>
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_toolbar_pro">Folio Pro</string>
+    <string name="app_name_about">Folio voor Facebook</string>
+    <string name="app_name_about_pro">Folio voor Facebook Pro</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="closeDrawer">Navigatie uiterlijk</string>
+    <string name="openDrawer">Open linkse balk</string>
+    <string name="get_started">Aanmelden met Facebook</string>
+    <string name="status_updated">Status geüpdate.</string>
+    <string name="loading_video">Laden.</string>
+    <string name="ok">OK</string>
+    <string name="tap_to_set">Klik om de veranderingen toe te passen</string>
+    <string name="send_feedback">Folio terugkoppeling</string>
+    <string name="applying_changes">Cache wissen. Folio herstarten.</string>
+    <string name="cancel">Annuleren</string>
+    <string name="choose_email_client">Kies e-mail client</string>
+    <string name="no_network">Je bent offline.</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="title_activity_about">Over</string>
+    <string name="preference_about_category">Over</string>
+    <string name="preference_set_category">Alles ingesteld?</string>
+    <string name="share_action">Deel huidige pagina</string>
+    <string name="share_action_subject">Facebook pagina</string>
+    <string name="not_valid_title">Niet geldig</string>
+    <string name="not_valid_message">Dit is geen versie uit de Play Store en zal niet functioneren.</string>
+    <string name="success">Gelukt</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Fout</string>
+    <string name="crash_toast_text">Er is iets mis gegaan.</string>
+    <string name="crash_dialog_title">Folio Pro is gestopt.</string>
+    <string name="crash_dialog_text">Folio is gestopt. Klik OK om een terugkoppeling te verzenden via email.</string>
+    <string name="crash_dialog_comment_prompt">Je kan hier commentaar geven over de crash:</string>
+    <string name="permission_read_external_storage">Toestemming om bestanden te lezen is verplicht</string>
+    <string name="permission_write_external_storage">Toestemming om bestanden te schrijven is verplicht</string>
+    <string name="permission_access_location">Toestemming om uw locatie te delen is verplicht</string>
+    <string name="permission_get_accounts">Toestemming tot accounts is verplicht voor meldingen</string>
+    <string name="fragment_main_downloading">Downloaden...</string>
+    <string name="like_on_facebook">Downloaden...</string>
+    <string name="like_on">Vindt dit leuk op Facebook</string>
+    <string name="join_on">Join Google+ Community</string>
+    <string name="follow_on">Volg op Twitter</string>
+    <string name="new_share">Activeer nieuwe deler</string>
+    <string name="new_share_hint">Dit activeert de bureaublad deler welke toestaan om koppelingen te delen met uw vrienden, pagina\'s en groepen.</string>
+    <string name="share_success">Item gedeeld. Nieuwoverzicht &#8230; aan het laden</string>
+    <!-- End Basic Strings -->
+    <!-- Start FAB Labels -->
+    <string name="folio_video">Upload video</string>
+    <string name="folio_checkins">Inchecken</string>
+    <string name="folio_tags">Tag een vriend</string>
+    <string name="folio_images">Upload een foto van de gallery</string>
+    <string name="update_share">Deel nu</string>
+    <string name="update_status">Post uw status</string>
+    <string name="update_photo">Voeg foto\'s toe</string>
+    <string name="show_fab">Toon FAB</string>
+    <string name="show_fab_hint">Toon een drijvende actie knop rechts beneden.</string>
+    <!-- End FAB Labels -->
+    <!-- Start Folio Drawer -->
+    <string name="quickaccess">Snelle toegang</string>
+    <string name="newsfeed">Nieuwsoverzicht</string>
+    <string name="topnews">Notities</string>
+    <string name="fbmenu">Facebook menu</string>
+    <string name="trending">Trending</string>
+    <string name="messages">Berichten</string>
+    <string name="faved">Favorieten</string>
+    <string name="friends">Vrienden</string>
+    <string name="groups">Groepen</string>
+    <string name="pages">Pagina\'s</string>
+    <string name="photos">Foto\'s</string>
+    <string name="reminders">Herinneringen</string>
+    <string name="events">Evenementen</string>
+    <string name="onthisday">Op deze dag</string>
+    <string name="saved">Opgeslagen</string>
+    <string name="prefs">Voorkeuren</string>
+    <string name="settings">Instellingen</string>
+    <string name="helpfeed">Terugkoppeling</string>
+    <string name="bugs">Rapporteer een fout</string>
+    <string name="switch_to_folio">Schakel over naar Folio</string>
+    <string name="switch_to_twitter">Schakel over naar Twitter</string>
+    <string name="switch_to_gplus">Schakel over naar Google+</string>
+    <string name="switch_to_gram">Schakel over naar Instagram</string>
+    <string name="switch_to_tum">Schakel over naar Tumblr</string>
+    <!-- End Folio Drawer -->
+    <!-- Start Twitter Drawer-->
+    <string name="discover">Ontdek</string>
+    <string name="connect">Verbind</string>
+    <string name="twitter_search">Zoeken</string>
+    <string name="twitter_home">Home</string>
+    <string name="twitter_me">Ikzelf</string>
+    <!-- End Twitter Drawer -->
+    <!-- Start Add ons Custom Navigation Drawer Removals-->
+    <string name="addons">Sociale extenties</string>
+    <string name="enable_twitter">Laat Twitter zien</string>
+    <string name="enable_google">Laat Google+ zien</string>
+    <string name="enable_instagram">Laat Instagram zien</string>
+    <string name="enable_tumblr">Laat Tumblr zien</string>
+    <!-- End Add ons Custom Navigation Drawer Removals -->
+    <!-- Start Navigation Drawer Removals -->
+    <string name="navigation_pref">Onderdelen navigatiebalk</string>
+    <string name="navigation_pref_hint">Pas de navigatiebalk aan door onderdelen te verwijderen die u niet gebruikt.</string>
+    <string name="recent_nav">Laat nieuwsoverzicht zien</string>
+    <string name="top_nav">Bekijk notities</string>
+    <string name="trending_nav">Laat Trending zien</string>
+    <string name="friends_nav">Laat vrienden zien</string>
+    <string name="groups_nav">Laat groepen zien</string>
+    <string name="pages_nav">Laat pagina\'s zien</string>
+    <string name="photos_nav">Laat Foto\'s zien</string>
+    <string name="events_nav">Laat evenementen zien</string>
+    <string name="onday_nav">Laat op deze dag zien</string>
+    <string name="saved_nav">Laat bewaarde zien</string>
+    <!-- Start Navigation Drawer Removals -->
+    <!-- Start News Feed Preference -->
+    <string name="news_feed_preferences">Nieuwsoverzicht voorkeuren</string>
+    <string name="feed_choice">Sorteer Nieuwsoverzicht volgens</string>
+    <string name="feed_choice_hint">Huidige sortering: %s.</string>
+    <string-array name="pref_default_feed">
+        <item>Standaard (laad snel)</item>
+        <item>Meest recent (laad traag)</item>
+        <item>Topverslagen (laad traag)</item>
+    </string-array>
+    <!-- End News Feed Preference -->
+    <!-- Start Font Preference -->
+    <string name="choose_font_facebook">Facebook lettergrootte</string>
+    <string name="choose_font_facebook_hint">Huidige lettergrootte: %s</string>
+    <string name="font_preference">Facebook lettertype</string>
+    <string-array name="font_choice">
+        <item>Standaard lettertype</item>
+        <item>Klein lettertype</item>
+        <item>Medium lettertype</item>
+        <item>Groot lettertype</item>
+        <item>Heel groot lettertype</item>
+        <item>Extra groot lettertype</item>
+    </string-array>
+    <!-- End Font Preference -->
+    <!-- Start Overflow Menu-->
+    <string name="top">Terug naar boven</string>
+    <string name="fb_settings">Facebook instellingen</string>
+    <string name="fb_chat">Actieve vrienden</string>
+    <string name="fb_recent">Meest recent</string>
+    <string name="refresh">Ververs</string>
+    <string name="notifications">Meldingen</string>
+    <string name="notifications_about_hint">Instellingen meldingen.</string>
+    <string name="search">Zoeken op Facebook</string>
+    <string name="end">Afmelden</string>
+    <string name="exit">Sluiten</string>
+    <!-- End Overflow Menu-->
+    <!-- Start Folio Main Customizations & Facebook Themes-->
+    <string name="customize_folio">Folio aanpassen</string>
+    <string name="customize_folio_hint">Wijzig uiterlijk en layout.</string>
+    <string name="preferences_auto">Facebook balk uitschakelen</string>
+    <string name="preferences_auto_hint">Dit schakelt de Folio werkbalk aan.</string>
+    <string name="hidden_bar">Folio werkbalk uitschakelen</string>
+    <string name="hidden_bar_hint">Gebruik alleen de Facebook balk. Schakel eerst de Folio werkbalk uit.</string>
+    <string name="choose_theme_folio">Kies programma thema</string>
+    <string name="choose_theme_facebook">Kies Facebook thema</string>
+    <string name="choose_theme_facebook_hint">Huidig thema: %s</string>
+    <string name="choose_theme_folio_hint">Huidig thema: %s</string>
+    <string name="preference_category7">Aanpassingen</string>
+    <string name="preference_category4">Folio thema\'s</string>
+    <string name="preference_category15">Instellingen Folio uiterlijk</string>
+    <string name="preference_facebook_layouts">Instellingen Facebook uiterlijk</string>
+    <string name="preference_category3">Folio thema\'s</string>
+    <string name="hide_web">Verberg WebView laden</string>
+    <string name="hide_web_hint">Voorkomt standaard Facebook thema wanneer een pagina laadt. (Niet aangewezen voor Jelly Bean toestellen)</string>
+
+    <string-array name="pref_theme_entries">
+        <item>Folio Theme</item>
+        <item>Pink Theme</item>
+        <item>Dark Theme</item>
+        <item>Blue Grey Theme</item>
+    </string-array>
+
+    <string-array name="pref_theme_fb_entries">
+        <item>Facebook thema</item>
+        <item>Zwart thema</item>
+        <item>Dracula thema</item>
+        <item>Folio thema</item>
+        <item>Folio Classic</item>
+    </string-array>
+    <!-- End Folio Main Customizations & Facebook Themes-->
+    <!-- START MIXED STRINGS -->
+    <string name="fb_offline">Fout</string>
+    <string name="cancelled">Geannuleerd</string>
+    <string name="permission_not_granted">Kan de geselecteerde actie niet uitvoeren omdat er geen toestemming gegeven is.</string>
+    <string name="image_chooser">Fotokiezer</string>
+    <string name="donate_jorell">Ondersteun ontwikkeling &amp; ontgrendel functies</string>
+    <string name="preference_donate_category">Koop Folio Pro</string>
+    <string name="preferences_feedback">Verzend terugkoppeling</string>
+    <string name="preferences_rate_description">Beoordeel Folio</string>
+    <string name="clear_cache">Verwijder gegevens</string>
+    <string name="clear_cache_title">Bent u zeker?</string>
+    <string name="clear_cache_message">Klik OK om de Folio gegevens te wissen. U wordt afgemeld.</string>
+    <string name="clear_cache_description">Wis Folio gegevens. U wordt afgemeld</string>
+    <string name="people_you">Mensen die u misschien kent</string>
+    <string name="people_you_hint">Verberg mensen die u misschien kent. (BETA)</string>
+    <string name="open_link_title">Open internetkoppelingen in Folio</string>
+    <string name="open_link_hint">Schakel aan voor snel surfen.</string>
+    <string name="addPage">Voeg toe aan favorieten</string>
+    <string name="removePage">Verwijder van favorieten</string>
+    <string name="preference_category5">Algemeen</string>
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    <string name="get_app_store">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app</string>
+    <string name="no_images">Foto\'s uitzetten</string>
+    <string name="no_images_hint">Verminder dataverbruik door foto\'s te verwijderen</string>
+    <!-- END MIXED STRINGS -->
+    <!-- START CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <string name="credits_settings">Credits</string>
+    <string name="credits_licenses">Klik hier om de licenties te lezen voor het gebruik van Folio.</string>
+    <string name="credits_licenses_description">Open source software licenties</string>
+    <string name="preference_category6">Credits</string>
+    <string name="credits_bejan">Patryk Goworowski</string>
+    <string name="credits_bejan_description">Voor launcher iconen voor Folio Free &amp; Folio Pro. klik hier om Cornie iconen te kopen.</string>
+    <string name="credits_bejan_link" translatable="true">https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons&amp;hl=en</string>
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">Voor hulp met omslagfoto\'s.</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrappe&amp;hl=en</string>
+    <string name="credits_fadev">Florent Anders</string>
+    <string name="credits_fadev_description">Voor hulp met Folio vergrendeling</string>
+    <string name="credits_fadev_link" translatable="true">https://play.google.com/store/apps/details?id=com.fa.touch.app&amp;hl=en</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">For sharing an interest in technology and being patient while daddy worked.</string>
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">For being supportive and encouraging throughout the past years. Thanks for letting me borrow the laptop.</string>
+    <string name="credits_facebook">Facebook Inc.</string>
+    <string name="credits_facebook_description">For their new graph api. Also for their mobile site which is used in Folio.</string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">For AppCompat v7, also for open sourcing your Material Design icons.</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    <string name="preference_category10">Open source software</string>
+    <string name="preference_category8">Open source licenties</string>
+    <string name="preference_category12">Vertalingen</string>
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">Italiaans</string>
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">Spaans</string>
+    <string name="credits_german">Lucas Krause</string>
+    <string name="credits_german_description">Duits</string>
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Portugees (Brazilië)</string>
+    <string name="credits_turk">Mehmet Çalışkan</string>
+    <string name="credits_turk_description">Turks</string>
+    <string name="credits_fren">Jean Philippe</string>
+    <string name="credits_fren_description">Frans</string>
+    <string name="credits_pol">seba112</string>
+    <string name="credits_pol_description">Pools</string>
+    <string name="credits_dut">Robert Boes</string>
+    <string name="credits_dut_description">Nederlands</string>
+    <string name="credits_dut2">Dennis</string>
+    <string name="credits_dut2_description">Nederlands</string>
+    <string name="credits_rom">Iulian Szidelo</string>
+    <string name="credits_rom_description">Romana</string>
+    <string name="credits_rus">Артём Петров</string>
+    <string name="credits_rus_description">Russisch</string>
+    <string name="help_trans">Help vertalen</string>
+    <string name="about_translate">Folio vertalers</string>
+    <string name="about_translate_hint">Klik hier om te zien wie geholpen heeft om Folio te vertalen.</string>
+    <!-- END CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <!-- Start Notifications -->
+    <string name="interval_pref">Synchronisatie interval. Klik om aan te passen.</string>
+    <string name="interval_pref_description">Meldingen worden elke %s gecontroleerd.</string>
+    <string-array name="update_interval">
+        <item>Onmiddellijk (verbruikt veel batterij &amp; data)</item>
+        <item>1 minuut</item>
+        <item>5 minuten</item>
+        <item>15 minuten</item>
+        <item>30 minuten</item>
+        <item>1 uur</item>
+        <item>6 uren</item>
+        <item>3 uren</item>
+    </string-array>
+    <string name="folio_message_bubble">Tekstballonnen (ALPHA)</string>
+    <string name="folio_message_bubble_hint">Klik om de veranderingen op te slaan.</string>
+    <string name="notify_log">Meldingen log</string>
+    <string name="btn_chioce">Kies(%d)</string>
+    <string name="you_have_one_message">Je hebt 1 nieuw bericht</string>
+    <string name="you_have_n_messages">Je hebt %d nieuwe berichten</string>
+    <string name="sync_problem">Meldt u aan om met meldingen te starten.</string>
+    <string name="activate_notifications">Facebook meldingen</string>
+    <string name="activate_messages">Berichtmeldingen</string>
+    <string name="notifications_service_created">Meldingen geactiveerd.</string>
+    <string name="notifications_settings">Meldingen</string>
+    <string name="all_notifications">Bekijk meldingen</string>
+    <string name="all_messages">Bekijk berichten</string>
+    <string name="all_requests">Bekijk vriendschapsverzoeken</string>
+    <string name="notification_sound">Meldingsgeluid</string>
+    <string name="notification_sound_description">"Huidig: "</string>
+    <string name="message_sound">Geluid berichtmeldingen</string>
+    <string name="message_sound_description">"Huidig: "</string>
+    <string name="silent">Geen geluid</string>
+    <string name="vibrate">Trillen</string>
+    <string name="led_light">Meldingen LED</string>
+    <string name="led_color">LED kleur</string>
+    <string name="led_color_description">Huidige LED kleur: %s.</string>
+    <string name="notifications_extra">Overige</string>
+    <string name="notifications_everywhere">Alle meldingen</string>
+    <string name="notifications_everywhere_description">Ook wanneer je Folio gebruikt.</string>
+    <string name="quick_bar">Snelle balk</string>
+    <string name="quick_bar_hint">Toon de Folio snelle meldingsbalk om een venster te openen voor uw favoriete netwerk.</string>
+    <string name="quick_bar_on">Folio snelle balk wordt getoond.</string>
+    <!-- End Notifications -->
+    <!-- Start Folio Lock -->
+    <string name="folio_lock">Activeer Folio vergrendeling</string>
+    <string name="unlock_text">Geef uw code in</string>
+    <string name="lock_abort">Annuleer</string>
+    <string name="lock_pin">Vergrendelingscode</string>
+    <string name="lock_text">Beveilig Folio met een vergrendingscode</string>
+    <string name="lock_confirm">Bevestig beveiligingscode</string>
+    <string name="lock_wrong">Foute beveiligingscode</string>
+    <string name="lock_empty">Beveiligingscode kan niet leeg zijn</string>
+    <!-- End Folio Lock -->
+    <!-- Start Saving Images Context Menu. -->
+    <string name="context_save_image">Bewaar</string>
+    <string name="context_share_image">Deel</string>
+    <string name="context_copy_image_link">Kopieer koppeling</string>
+    <string name="context_share_link">Deel koppeling</string>
+    <string name="context_copy_link">Kopieer koppeling</string>
+    <string name="context_share_image_progress">Laden...</string>
+    <string name="content_copy_link_done">Koppeling gekopieerd naar klembord</string>
+    <!-- End Saving Images Context Menu. -->
+    <!-- Start Login -->
+    <string name="not_logged_in">Niet aangemeld bij Folio</string>
+    <string name="error_login">Er is iets mis gegaan, probeer u opnieuw aan te melden.</string>
+    <string name="error_super_wrong">Aanmelden geannuleerd</string>
+    <string name="error_facebook_noconnection">Kan niet aanmelden bij Facebook</string>
+    <string name="error_facebook_error">Info verzamelen&#8230;</string>
+    <string name="login_button">Aangemeld bij Folio.</string>
+    <!-- End Login-->
+    <!-- Start Permissions -->
+    <string name="permission_denied">Niet toegestaan. Actie wordt geannuleerd.</string>
+    <!-- End Permissions-->
+    <!-- Start Ads -->
+    <string name="ads_folio">Laat programma\'s &amp; spellen zien</string>
+    <string name="ads_folio_des">Laat programma\'s &amp; spellen zien bij het opstarten die u misschien interesseren? Deze kunnen altijd terug uitgezet worden.</string>
+    <!-- End Ads -->
+    <!-- START OF LICENSES: DO NOT TRANSLATE LEAVE AS IS-->
+    <string name="about_header">Open source licentie \nNotities voor bestanden</string>
+    <string name="copyright">\u00a9 2016 Creative Trends Apps LLC.</string>
+    <string name="allrights">Alle rechten voorbehouden.</string>
+    <string name="about_version">http://www.creativetrendsapps.com</string>
+    <string name="about_image">Image Credit: Klyph voor Facebook</string>
+    <!-- END OF LICENSES -->
+
+</resources>

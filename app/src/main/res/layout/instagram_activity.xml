@@ -52,8 +52,7 @@
             <WebView
                 android:id="@+id/webViewI"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="-52dp" />
+                android:layout_height="match_parent" />
             
          
 			           

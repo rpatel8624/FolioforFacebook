@@ -23,8 +23,9 @@ Copyright notice must remain here if you're using any part of this code.-->
     <application
         android:name="com.creativtrendz.folio.activities.FolioApplication"
         android:allowBackup="false"
+        android:fullBackupContent="false"
         android:hardwareAccelerated="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/FolioTheme"
         tools:replace="android:allowBackup">
@@ -48,7 +49,7 @@ Copyright notice must remain here if you're using any part of this code.-->
             android:name="com.creativtrendz.folio.notifications.FolioNotifications"
             android:enabled="true"
             android:exported="false"
-            android:icon="@drawable/ic_launcher" >
+            android:icon="@mipmap/ic_launcher" >
         </service>
 
         <activity
@@ -212,6 +213,19 @@ Copyright notice must remain here if you're using any part of this code.-->
         </activity>
 
 
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.TumblrActivity"
+            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
+            android:label="Tumblr"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/FalconTheme" tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.MainActivity" />
+        </activity>
+
+
         <activity
             android:name="com.creativtrendz.folio.activities.FolioBrowser"
             android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
@@ -273,18 +287,6 @@ Copyright notice must remain here if you're using any part of this code.-->
 
         <activity
             android:name="com.creativtrendz.folio.activities.Messenger"
-            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
-            android:label="@string/messages"
-            android:configChanges="keyboard|keyboardHidden|screenSize|orientation|locale"
-            android:theme="@style/FolioBlue" tools:ignore="UnusedAttribute">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.creativtrendz.folio.activities.MainActivity" />
-
-        </activity>
-
-        <activity
-            android:name="com.creativtrendz.folio.activities.OldMessages"
             android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
             android:label="@string/messages"
             android:configChanges="keyboard|keyboardHidden|screenSize|orientation|locale"

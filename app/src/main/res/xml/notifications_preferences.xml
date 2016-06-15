@@ -54,7 +54,7 @@ Copyright notice must remain here if you're using any part of this code.-->
         <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
             android:key="led_light"
             android:title="@string/led_light"
-            android:defaultValue="true"/>
+            android:defaultValue="false"/>
         
 
         
@@ -64,7 +64,7 @@ Copyright notice must remain here if you're using any part of this code.-->
         	android:summary="@string/interval_pref_description"
         	android:entries="@array/update_interval"
         	android:entryValues="@array/update_interval_values"
-            android:defaultValue="900000"/>
+            android:defaultValue="1800000"/>
         
         
         <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
@@ -77,17 +77,6 @@ Copyright notice must remain here if you're using any part of this code.-->
         
        </com.creativtrendz.folio.preferences.PreferenceCategory> 
         
-        <com.creativtrendz.folio.preferences.PreferenceCategory
-        android:title="@string/preference_set_category">
-        
-        <Preference
-            android:key="tap"
-            android:title="@string/tap_to_set"/>
-        
-              
-
-    </com.creativtrendz.folio.preferences.PreferenceCategory>
-
 
 
 </PreferenceScreen>

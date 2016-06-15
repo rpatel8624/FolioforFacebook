@@ -7,13 +7,11 @@
 
 package com.creativtrendz.folio.fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 
 import com.creativetrends.folio.app.R;
-import com.creativtrendz.folio.activities.MainActivity;
 
 
 public class Navigation extends PreferenceFragment {
@@ -31,14 +29,7 @@ public class Navigation extends PreferenceFragment {
 
 
         
-    findPreference("tap").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-        @Override
-        public boolean onPreferenceClick(Preference preference) {
-        	relaunch();
-            return true;
-        }
-    });
-    
+
     
 
     findPreference("enable_gplus").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
@@ -145,15 +136,6 @@ public class Navigation extends PreferenceFragment {
     
      
     
-
-		private void relaunch() {  
-        	
-            Intent intent = new Intent(getActivity(), MainActivity.class);
-            intent.putExtra("apply_changes_to_app", true);
-            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-		}
-        
 
 
 @Override

@@ -24,15 +24,16 @@
             android:adjustViewBounds="true"
             android:contentDescription="@string/app_name"
             android:background="?attr/colorPrimary"
-            android:scaleType="centerCrop" />
+            android:src="@drawable/ic_cover"
+            android:scaleType="fitXY" />
 
         <ImageView
             android:contentDescription="@string/app_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            android:background="#40000000" />
+            android:scaleType="fitXY"
+            android:background="#20000000" />
 
 
 
@@ -48,7 +49,8 @@
         android:paddingLeft="@dimen/drawer_left"
         android:paddingRight="@dimen/drawer_right"
         android:paddingStart="@dimen/drawer_left"
-        android:paddingTop="@dimen/drawer_top" >
+        android:paddingTop="@dimen/drawer_top"
+        tools:ignore="RtlHardcoded">
 
         <LinearLayout
             android:orientation="vertical"
@@ -92,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:paddingTop="3.0dip"
-                android:text="@string/app_name_about"
+                android:text="@string/not_logged_in"
                 android:alpha="8.0"
                 android:textColor="@color/white" />
 

@@ -82,15 +82,10 @@
         android:defaultValue="true"/>
 
 
-    </PreferenceCategory>
-
-
-    <PreferenceCategory
-        android:title="@string/preference_set_category">
-
-        <Preference
-            android:key="tap"
-            android:title="@string/tap_to_set"/>
+    <SwitchPreference
+            android:key="enable_tumblr"
+            android:title="@string/enable_tumblr"
+            android:defaultValue="false"/>
 
     </PreferenceCategory>
 

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Start Basic Strings -->
+    <string name="app_name">Folio Free</string>
+    <string name="app_name_pro">Folio</string>
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_toolbar_pro">Folio 专业版</string>
+    <string name="app_name_about">Folio for Facebook</string>
+    <string name="app_name_about_pro">Folio for Facebook 专业版</string>
+    <string name="action_settings">设置</string>
+    <string name="closeDrawer">导航栏视图</string>
+    <string name="openDrawer">打开左侧抽屉</string>
+    <string name="get_started">用Facebook登陆</string>
+    <string name="status_updated">状态更新成功！</string>
+    <string name="loading_video">载入中....</string>
+    <string name="ok">👌</string>
+    <string name="tap_to_set">点击以更改设置</string>
+    <string name="send_feedback">Folio反馈</string>
+    <string name="applying_changes">清除缓存，重新载入 Folio</string>
+    <string name="cancel">取消</string>
+    <string name="choose_email_client">选择电子邮箱客户端</string>
+    <string name="no_network">你处于离线状态</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_about">关于</string>
+    <string name="preference_about_category">关于</string>
+    <string name="preference_set_category">全部应用？</string>
+    <string name="share_action">分享当前页面</string>
+    <string name="share_action_subject">Facebook页面</string>
+    <string name="not_valid_title">不可用</string>
+    <string name="not_valid_message">这个Folio版本不是从谷歌商店获取因此部分功能不予支持（你可能是盗版软件的受害者）</string>
+    <string name="success">成功</string>
+    <string name="successfully_posted_post">发布账号：%1$s</string>
+    <string name="error">错误</string>
+    <string name="crash_toast_text">出错了</string>
+    <string name="crash_dialog_title">Folio 专业版已崩溃</string>
+    <string name="crash_dialog_text">很抱歉Folio专业版已停止运行，请点击确认发送崩溃日志</string>
+    <string name="crash_dialog_comment_prompt">你可以在此对崩溃提出建议：</string>
+    <string name="permission_read_external_storage">需要读取文件的权限</string>
+    <string name="permission_write_external_storage">需要写入文件的权限</string>
+    <string name="permission_access_location">需要获取位置权限</string>
+    <string name="permission_get_accounts">通知服务需要获取账户权限</string>
+    <string name="fragment_main_downloading">正在下载&#8230;</string>
+    <string name="like_on_facebook">正在下载&#8230;</string>
+    <string name="like_on">在Facebook上点赞</string>
+    <string name="join_on">加入G+群组</string>
+    <string name="follow_on">在Twitter上关注</string>
+    <string name="new_share">允许新的分享</string>
+    <string name="new_share_hint">该选项允许桌面版分享链接到好友，网页或小组。</string>
+    <string name="share_success">信息已分享，正在加载动态消息&#8230;</string>
+    <!-- End Basic Strings -->
+    <!-- Start FAB Labels -->
+    <string name="folio_video">上传视频</string>
+    <string name="folio_checkins">签到</string>
+    <string name="folio_tags">圈出好友</string>
+    <string name="folio_images">从图库上传图片</string>
+    <string name="update_share">立即分享</string>
+    <string name="update_status">发布状态</string>
+    <string name="update_photo">添加图片</string>
+    <string name="show_fab">显示悬浮按钮</string>
+    <string name="show_fab_hint">在屏幕右部底端显示悬浮按钮</string>
+    <!-- End FAB Labels -->
+    <!-- Start Folio Drawer -->
+    <string name="quickaccess">快速通道</string>
+    <string name="newsfeed">动态消息</string>
+    <string name="topnews">信息</string>
+    <string name="fbmenu">Facebook菜单</string>
+    <string name="trending">热门</string>
+    <string name="messages">消息</string>
+    <string name="faved">最爱</string>
+    <string name="friends">朋友</string>
+    <string name="groups">小组</string>
+    <string name="pages">页</string>
+    <string name="photos">照片</string>
+    <string name="reminders">提醒</string>
+    <string name="events">事件</string>
+    <string name="onthisday">今天</string>
+    <string name="saved">已保存</string>
+    <string name="prefs">喜好</string>
+    <string name="settings">设置</string>
+    <string name="helpfeed">反馈</string>
+    <string name="bugs">报告错误</string>
+    <string name="switch_to_folio">切回Folio</string>
+    <string name="switch_to_twitter">切换到Twitter</string>
+    <string name="switch_to_gplus">切换到Google+</string>
+    <string name="switch_to_gram">切换到Instagram</string>
+    <string name="switch_to_tum">切换到Tumblr</string>
+    <!-- End Folio Drawer -->
+    <!-- Start Twitter Drawer-->
+    <string name="discover">发现</string>
+    <string name="connect">绑定</string>
+    <string name="twitter_search">搜索</string>
+    <string name="twitter_home">主页</string>
+    <string name="twitter_me">我</string>
+    <!-- End Twitter Drawer -->
+    <!-- Start Add ons Custom Navigation Drawer Removals-->
+    <string name="addons">社交插件</string>
+    <string name="enable_twitter">显示Twitter</string>
+    <string name="enable_google">显示Google+</string>
+    <string name="enable_instagram">显示Instagram</string>
+    <string name="enable_tumblr">显示Tumblr</string>
+    <!-- End Add ons Custom Navigation Drawer Removals -->
+    <!-- Start Navigation Drawer Removals -->
+    <string name="navigation_pref">导航抽屉项目</string>
+    <string name="navigation_pref_hint">通过移除你不需要的项目来定制导航抽屉</string>
+    <string name="recent_nav">显示新动态</string>
+    <string name="top_nav">显示信息</string>
+    <string name="trending_nav">显示热门</string>
+    <string name="friends_nav">显示朋友</string>
+    <string name="groups_nav">显示小组</string>
+    <string name="pages_nav">显示页数</string>
+    <string name="photos_nav">显示照片</string>
+    <string name="events_nav">显示事件</string>
+    <string name="onday_nav">今日时事</string>
+    <string name="saved_nav">显示保存</string>
+    <!-- Start Navigation Drawer Removals -->
+    <!-- Start News Feed Preference -->
+    <string name="news_feed_preferences">动态偏好设置</string>
+    <string name="feed_choice">按...排列动态</string>
+    <string name="feed_choice_hint">当前排序类型：%s</string>
+    <string-array name="pref_default_feed">
+        <item>默认（读取最快）</item>
+        <item>最多信息（加载时间较长）</item>
+        <item>最新信息（加载时间较长）</item>
+    </string-array>
+    <!-- End News Feed Preference -->
+    <!-- Start Font Preference -->
+    <string name="choose_font_facebook">Facebook字体大小</string>
+    <string name="choose_font_facebook_hint">当前字体大小：%s</string>
+    <string name="font_preference">Facebook字体设置</string>
+    <string-array name="font_choice">
+        <item>默认字体</item>
+        <item>小号字体</item>
+        <item>中号字体</item>
+        <item>大号字体</item>
+        <item>XL号字体</item>
+        <item>XXL号字体</item>
+    </string-array>
+    <!-- End Font Preference -->
+    <!-- Start Overflow Menu-->
+    <string name="top">回到顶端</string>
+    <string name="fb_settings">Facebook设置</string>
+    <string name="fb_chat">在线好友</string>
+    <string name="fb_recent">最近信息</string>
+    <string name="refresh">刷新</string>
+    <string name="notifications">通知</string>
+    <string name="notifications_about_hint">通知设置</string>
+    <string name="search">搜索Facebook</string>
+    <string name="end">注销</string>
+    <string name="exit">关闭</string>
+    <!-- End Overflow Menu-->
+    <!-- Start Folio Main Customizations & Facebook Themes-->
+    <string name="customize_folio">自定义Folio</string>
+    <string name="customize_folio_hint">改变外观及布局</string>
+    <string name="preferences_auto">禁用Facebook原生导航栏</string>
+    <string name="preferences_auto_hint">开启Folio工具栏</string>
+    <string name="hidden_bar">禁用Folio工具栏</string>
+    <string name="hidden_bar_hint">仅使用Facebook原生导航栏，请先关闭Folio工具栏</string>
+    <string name="choose_theme_folio">选择应用主题</string>
+    <string name="choose_theme_facebook">选择Facebook主题</string>
+    <string name="choose_theme_facebook_hint">当前主题：%s</string>
+    <string name="choose_theme_folio_hint">当前主题：%s</string>
+    <string name="preference_category7">自定义</string>
+    <string name="preference_category4">Folio主题</string>
+    <string name="preference_category15">Folio布局设置</string>
+    <string name="preference_facebook_layouts">Facebook布局设置</string>
+    <string name="preference_category3">Facebook主题</string>
+    <string name="hide_web">隐藏网页加载视图</string>
+    <string name="hide_web_hint">页面载入时禁用Facebook默认主题（不推荐 Jelly Bean系统及以下版本使用）</string>
+
+    <string-array name="pref_theme_entries">
+        <item>Folio Theme</item>
+        <item>Pink Theme</item>
+        <item>Dark Theme</item>
+        <item>Blue Grey Theme</item>
+    </string-array>
+
+    <string-array name="pref_theme_fb_entries">
+        <item>Facebook主题</item>
+        <item>黑色主题</item>
+        <item>吸血鬼主题</item>
+        <item>Folio主题</item>
+        <item>Folio经典</item>
+    </string-array>
+    <!-- End Folio Main Customizations & Facebook Themes-->
+    <!-- START MIXED STRINGS -->
+    <string name="fb_offline">错误</string>
+    <string name="cancelled">取消</string>
+    <string name="permission_not_granted">没有授予权限，无法应用设置。</string>
+    <string name="image_chooser">选择照片</string>
+    <string name="donate_jorell">支持开发者并解锁更多特性</string>
+    <string name="preference_donate_category">购买Folio专业版</string>
+    <string name="preferences_feedback">发送反馈意见</string>
+    <string name="preferences_rate_description">评价Folio</string>
+    <string name="clear_cache">清除数据</string>
+    <string name="clear_cache_title">是否确定？</string>
+    <string name="clear_cache_message">点击OK来清除Folio数据，并退出登录。</string>
+    <string name="clear_cache_description">清除Folio数据并退出登录。</string>
+    <string name="people_you">可能认识的人</string>
+    <string name="people_you_hint">隐藏可能认识的人。</string>
+    <string name="open_link_title">用内置浏览器打开链接</string>
+    <string name="open_link_hint">关闭以提升加载速度</string>
+    <string name="addPage">加入最爱</string>
+    <string name="removePage">从最爱中移除</string>
+    <string name="preference_category5">全部</string>
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    <string name="get_app_store">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app</string>
+    <string name="no_images">不显示图片</string>
+    <string name="no_images_hint">不显示图片来减少流量使用。</string>
+    <!-- END MIXED STRINGS -->
+    <!-- START CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <string name="credits_settings">制作名单</string>
+    <string name="credits_licenses">点击以显示更多Foilo使用条款。</string>
+    <string name="credits_licenses_description">打开应用条款</string>
+    <string name="preference_category6">制作名单</string>
+    <string name="credits_bejan">Patryk Goworowski 公司</string>
+    <string name="credits_bejan_description">点此购买Cornie图标包，Folio Free 和 Folio Pro均可使用。</string>
+    <string name="credits_bejan_link" translatable="true">https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons&amp;hl=en</string>
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">封面图片帮助</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrappe&amp;hl=en</string>
+    <string name="credits_fadev">Florent Anders</string>
+    <string name="credits_fadev_description">Folio锁定帮助。</string>
+    <string name="credits_fadev_link" translatable="true">https://play.google.com/store/apps/details?id=com.fa.touch.app&amp;hl=en</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">仅仅是因为兴趣开发了这个软件，请对更新速度保持耐心(●\'◡\'●)</string>
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">感谢多年的支持与鼓励~尤其感谢借给我电脑码字*^____^*</string>
+    <string name="credits_facebook">Facebook Inc.</string>
+    <string name="credits_facebook_description">支持新的图像API，尤其支持Folio所用的移动端的显示网页</string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">基于AppCompat v7,更好地支持开源的Material Design图标</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    <string name="preference_category10">基于开源软件开发</string>
+    <string name="preference_category8">开源条款</string>
+    <string name="preference_category12">翻译</string>
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">意大利语</string>
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">西班牙语</string>
+    <string name="credits_german">Lucas Krause</string>
+    <string name="credits_german_description">德语</string>
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Português de Brasil</string>
+    <string name="credits_turk">Mehmet Çalışkan</string>
+    <string name="credits_turk_description">Türkçe</string>
+    <string name="credits_fren">Jean Philippe</string>
+    <string name="credits_fren_description">法语</string>
+    <string name="credits_pol">seba112</string>
+    <string name="credits_pol_description">波兰语</string>
+    <string name="credits_dut">Robert Boes</string>
+    <string name="credits_dut_description">荷兰语</string>
+    <string name="credits_dut2">Dennis</string>
+    <string name="credits_dut2_description">荷兰语</string>
+    <string name="credits_rom">Iulian Szidelo</string>
+    <string name="credits_rom_description">罗马纳语</string>
+    <string name="credits_rus">俄语</string>
+    <string name="credits_rus_description">Русский</string>
+    <string name="credits_swipe_description">Jeffrey Sera</string>
+    <string name="credits_swipe">特别感谢Happening Studios的Jeff在Messenger.com代码上的帮助并让我使Folio变得更好。Swipe是一个很不错的推动包装革新的软件。</string>
+    <string name="help_trans">帮助翻译</string>
+    <string name="about_translate">Folio翻译贡献</string>
+    <string name="about_translate_hint">点击此处查看贡献翻译人员</string>
+    <!-- END CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <!-- Start Notifications -->
+    <string name="interval_pref">同步频率。点击更改</string>
+    <string name="interval_pref_description">通知接收频率：%s</string>
+    <string-array name="update_interval">
+        <item>及时（高耗电&amp;数据使用量）</item>
+        <item>1分钟</item>
+        <item>5分钟</item>
+        <item>15分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>6小时</item>
+        <item>3小时</item>
+    </string-array>
+    <string name="folio_message_bubble">气泡信息（测试版）</string>
+    <string name="folio_message_bubble_hint">点击以更改活动</string>
+    <string name="notify_log">通知日志</string>
+    <string name="btn_chioce">获取(%d)</string>
+    <string name="you_have_one_message">你有1个新消息</string>
+    <string name="you_have_n_messages">你有 %d 个新消息</string>
+    <string name="sync_problem">请登录以获取通知</string>
+    <string name="activate_notifications">Facebook通知</string>
+    <string name="activate_messages">消息通知</string>
+    <string name="notifications_service_created">通知已激活</string>
+    <string name="notifications_settings">通知</string>
+    <string name="all_notifications">查看通知</string>
+    <string name="all_messages">查看消息</string>
+    <string name="all_requests">查看好友请求</string>
+    <string name="notification_sound">通知声音</string>
+    <string name="notification_sound_description">"\u5f53\u524d\uff1a "</string>
+    <string name="message_sound">消息提醒铃声</string>
+    <string name="message_sound_description">"\u5f53\u524d\uff1a "</string>
+    <string name="silent">静音</string>
+    <string name="vibrate">震动</string>
+    <string name="led_light">消息提示灯</string>
+    <string name="led_color">LED灯颜色</string>
+    <string name="led_color_description">当前LED灯颜色：%s</string>
+    <string name="notifications_extra">附加</string>
+    <string name="notifications_everywhere">始终提醒</string>
+    <string name="notifications_everywhere_description">当你在使用Folio的时候。</string>
+    <string name="quick_bar">快速下拉栏</string>
+    <string name="quick_bar_hint">通过Folio的快速下拉栏来以浮动窗口的形式打开你的常用网站。</string>
+    <string name="quick_bar_on">Folio快速下拉栏被激活。</string>
+    <!-- End Notifications -->
+    <!-- Start Folio Lock -->
+    <string name="folio_lock">允许Folio锁</string>
+    <string name="unlock_text">请输入密码</string>
+    <string name="lock_abort">取消</string>
+    <string name="lock_pin">密码</string>
+    <string name="lock_text">通过密码保护Folio</string>
+    <string name="lock_confirm">确认密码</string>
+    <string name="lock_wrong">密码错误</string>
+    <string name="lock_empty">密码不能为空</string>
+    <!-- End Folio Lock -->
+    <!-- Start Saving Images Context Menu. -->
+    <string name="context_save_image">保存图片</string>
+    <string name="context_share_image">分享图片</string>
+    <string name="context_copy_image_link">复制链接</string>
+    <string name="context_share_link">分享链接</string>
+    <string name="context_copy_link">复制链接</string>
+    <string name="context_share_image_progress">读取中...&#8230;</string>
+    <string name="content_copy_link_done">链接已复制到剪贴板</string>
+    <!-- End Saving Images Context Menu. -->
+    <!-- Start Login -->
+    <string name="not_logged_in">与Folio解绑</string>
+    <string name="error_login">出错了，请再次登录</string>
+    <string name="error_super_wrong">取消登录</string>
+    <string name="error_facebook_noconnection">无法进入Facebook</string>
+    <string name="error_facebook_error">获得消息&#8230;</string>
+    <string name="login_button">与Folio绑定</string>
+    <!-- End Login-->
+    <!-- Start Permissions -->
+    <string name="permission_denied">没有权限。无法完成该指令。</string>
+    <!-- End Permissions-->
+    <!-- Start Ads -->
+    <string name="ads_folio">显示应用&amp;游戏</string>
+    <string name="ads_folio_des">是否在开启时显示也许你感兴趣的应用&amp;游戏？此选项可以在任意时间关闭。</string>
+    <!-- End Ads -->
+    <!-- START OF LICENSES: DO NOT TRANSLATE LEAVE AS IS-->
+    <string name="eula_string">EULA, Terms &amp; Policies:\n\n
+
+\nCopyright 2016 Creative Trends Apps. All Rights Reserved.
+
+\n\nThis software may not, in whole or in any part, be copied, reproduced, transmitted, translated (into any
+language, natural or computer), stored in a retrieval system, reduced to any electronic medium or machine readable
+format, or by any other form or means without prior consent, in writing, from Creative Trends.
+
+\n\nYou are granted a limited license to use this software. The software may be used or copied only in accordance
+with the terms of that license, which is described in the following paragraphs.
+
+\n\nTRADEMARKS:
+\n\nFolio for Facebook, NewsBite, Creative Trends, Creative Trends Apps. All Folio and NewsBite Icons and logos. All apps made or produced by Creative Trends.
+
+\n\nLICENSE:
+\n\n\"THE SOFTWARE\" shall be taken to mean the software contained in this app and any subsequent versions
+or upgrades received as a result of having purchased this app. \"BUYER\" shall be taken as the original
+purchaser of the software.
+
+\n\nBuyer has the non-exclusive right to the use of software only on a single device. Buyer may not electronically
+transfer the program from one device to another over any type of network. Buyer may not distribute copies
+of the software or the accompanying documentation to others either for a fee or without charge. Buyer may not modify
+or translate the program or documentation. User may not disassemble the program or allow it to be disassembled
+into its constituent source code. Buyer\'s use of the software indicates his/her acceptance of these terms
+and conditions. If buyer does not agree to these conditions, return the distribution media, documentation, and
+associated materials to the vendor from whom the software was purchased, and/or uninstall the software from the device,
+and erase the software from any and all storage devices upon which it may have been installed.
+
+\n\nThis license agreement shall be governed by the laws of The United States of America, New Jersey and
+shall inure to the benefit of Creative Trends Apps or its assigns.
+
+\n\nREFUNDS:
+\n\nCreative Trends Apps will grant the buyer of any of our apps a full refund of their purchase within two hours of purchase. After this time has passed refunds will only be granted at the discretion of Creative Trends.
+
+\n\nCHANGES:
+\n\nYou agree that Creative Trends has the right to test and remove features at it\'s discretion.
+
+\n\nDISCLAIMER / LIMITATION OF LIABILITY:
+\n\nBuyer acknowledges that the software may not be free from defects and may not satisfy all of buyer\'s
+needs. The software and any accompanying written materials are licensed \"AS IS\". Buyer\'s exclusive
+remedy during the warranty period (if any) shall be fixes via software updates if needed. In no event will Creative Trends be liable for direct, indirect, incidental or consequential damage or
+damages resulting from loss of use, or loss of anticipated profits resulting from any defect in the software,
+even if it has been advised of the possibility of such damage. Some laws do not allow exclusion or limitation
+of implied warranties or liabilities for incidental or consequential damages, so the above limitations or
+exclusion may not apply.
+
+\n\nSPECIFIC RESTRICTIONS:
+\n\nIn accordance with the COMPUTER SOFTWARE RENTAL ACT OF 1990, this software may not be rented, lent or leased.
+\n\nThe software and accompanying documentation may not be provided by a \"Backup Service\" or any other vendor
+which does not provide an original package as composed of Creative Trends, including but not limited to all original
+distribution media, documentation, registration cards, and insertions.</string>
+    <string name="about_header">应用开源条款\n以文件形式打开</string>
+    <string name="copyright">\u00a9 2016 Creative Trends Apps LLC.</string>
+    <string name="allrights">版权所有。</string>
+    <string name="about_version">http://www.creativetrendsapps.com</string>
+    <string name="about_image">图片来源：Klyph for Facebook</string>
+    <string name="download_complete">图片下载完成</string>
+    <string name="fullscreen">全屏</string>
+    <string name="minimize">最小化</string>
+    <string name="notifications_quickbar">启用通知并禁用快速下拉栏</string>
+    <string name="about_links">关闭以禁用内置浏览器</string>
+    <string name="new_share_about">开启桌面分享快捷方式并打开悬浮按钮分享功能。升级Folio Pro以开启此功能。</string>
+    <string name="error_general">错误</string>
+    <string name="save_img">保存</string>
+    <string name="download_manager_disabled">下载管理器已禁用</string>
+    <string name="new_feed_items">新动态项目</string>
+    <string name="load_news_feed">载入新动态</string>
+    <string name="new_notifications">新的通知</string>
+    <string name="use_messenger">使用Messenger</string>
+    <string name="use_messenger_hint">使用messenger.com来浏览和发送消息</string>
+    <string name="enable_location">启用定位</string>
+    <string name="enable_location_hint">启用签到和附近消息的定位。</string>
+    <string name="hide_editor">隐藏状态编辑器</string>
+    <string name="hide_editor_hint">开启后会隐藏顶上的新动态状态编辑器。可通过悬浮按钮发布新消息。</string>
+    <string name="showtabs">显示标签</string>
+    <string name="showtabs_hint">用标签代替Facebook状态栏。这些标签不能滑动。</string>
+    <string name="round_pics">圆形图像</string>
+    <string name="round_pics_hint">使用圆形图片而不是方形图片。</string>
+    <!-- END OF LICENSES -->
+
+    <string name="hide_ads">移除推广消息</string>
+    <string name="hide_ads_hint">开启以移除推广消息。</string>
+</resources>

@@ -3,7 +3,7 @@ body, #root, .storyStream, ._2v9s, ._4nmh, ._4u3j, ._35aq, ._146a,
 .jx-typeahead-results, ._56bt,
 ._52x7, ._vqv, ._4g33, ._5rgt, .popover_flyout, .flyout,
 #m_newsfeed_stream,
-._55wo, ._3iln, .mentions-suggest,
+._3iln, .mentions-suggest,
 #header, ._xy, ._bgx,
 .acb, .acg, .aclb, textarea,
 ._59e9, .nontouch ._5ui0,
@@ -11,23 +11,190 @@ input[type=text],
 .acw, ._5up8, ._5kgn,
 .tlLinkContainer, .aps,
 .jewel .flyout .header, .appCenterCategorySelectorButton,
-.tlBody, #timelineBody, .timelineX, .timeline .feed, .timeline .tlPrelude, .timeline .tlFeedPlaceholder,
 .touch ._5c9u, .touch ._5ca9, .innerLink,
 ._5dy4, ._52x3, #m_group_stories_container, .albums, .subpage,
 ._uwu, ._uww, .scrollAreaBody, .al, .apl, .structuredPublisher, .groupChromeView,
 ._djv, ._bjg, ._5kgn, ._3f50, ._55wm, ._58f0
  {
-  background: #000 !important;
+  background: #000000 !important;
 
    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
     outline: none !important;
 }
+.tlBody, #timelineBody, .timelineX, .timeline .feed, .timeline .tlPrelude, .timeline .tlFeedPlaceholder {
+    background-color: #000000;
+}
+
+.tlBody, #timelineBody, .timelineX, .timeline .feed, .timeline .tlPrelude, .timeline .tlFeedPlaceholder {
+    background-color: #000000 !important;
+}
+
+.timeline .timelinePublisher.inlineComposer {
+  padding: 2px;
+   margin-bottom: 15px;
+   background-color:#000000;
+
+}
+
+._5xp2 {
+    background-color: #000;
+    padding: 10px;
+}
+
+.touch ._3r8b {
+    background: #000;
+    border-bottom: 1px solid #111;
+    min-height: 20px;
+    padding: 15px;
+}
+.touch, .touch tr, .touch input, .touch textarea, .touch .mfsm {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+._46c5 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+._skt, ._5f28 {
+    background-color: #000;
+    display: block;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 
 
-.profpic {
-border: none !important;
+html ._37ih {
+    background: #000;
+    border: none;
+    bottom: 0;
+    color: #fff;
+    height: 48px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+._5xuj, ._1sv1 {
+    background: #000;
+    border-bottom: 1px solid #d8deea;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    width: 100%;
+}
+
+._3lvo ._5xum._5xuk {
+    border-bottom: 4px solid #fff;
+    display: block;
+    padding-bottom: 11px;
+}
+
+#root {
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background: #000;
+}
+._2v9s {
+    background: #000 important!;
+}
+
+._1ypi {
+    background: #000 important!;
+    position: relative;
+}
+
+._1ypi:after {
+    background: #000 important!;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 12px;
+    position: absolute;
+    right: 12px;
+}
+
+._2ip_ ._2zh4::before, ._2ip_ ._15kk::before, ._2ip_ ._15kk+._4u3j::before {
+    background: #333333;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+._55wo {
+    background: #000000;
+}
+
+._10c_ ._2jl2 {
+    background: #000000 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .16);
+    border-top: 1px solid rgba(0, 0, 0, .16);
+}
+
+._5f99 {
+    border-top: 1px solid #000000;
+}
+
+._391s {
+    color: #ffffff;
+    font: 26px helvetica, arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.25px;
+    line-height: 1;
+}
+
+.touch ._1n8h ._1oby {
+    border-top: 1px solid #000000;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(33, 33, 33);
+}
+
+._1ha {
+    border-bottom: 1px solid #111111;
+    border-top: 1px solid #111111;
+    text-align: center;
+}
+
+.touch ._53i6._53i6._53i6 {
+    margin: 5px 0 -6px;
+    padding: 0;
+}
+
+.touch ._37fd {
+    border-bottom: 1px solid #212121;
+    height: 20px;
+    margin: 0 10px;
+    padding: 6px 0;
+}
+
+.touch ._37fb {
+    background: #000000;
+    padding: 0 0 0px;
+}
+
+.profpic{
 border-radius: 200px !important;
+}
+
+._129_ > :first-child {
+    border-top: 0px solid transparent;
+        border-top-width: 0px;
+        border-top-style: none;
+        border-top-color: transparent;
+}
+
+._129- {
+    border-top: none;
 }
 
 ._50cg._2ss {
@@ -37,7 +204,7 @@ border-radius: 200px !important;
   color: #d2d2d2 !important;
 }
 
-/* white text */
+
 
 body,textarea,
 .composerTextSelected,
@@ -46,66 +213,66 @@ input[type=text], ._5001,
 .timeline .cover .profileName, .appListTitle, ._52jd, ._52jb, ._52jg, ._5qc3,
 .tlActorText, .tlLinkTitle, ._5379, ._5cqn, ._592p, ._3c9l, ._4yrh, .name, .btn, .upText,
 .tlLinkTitleOnly, ._5rgt, ._52x2, ._52jh, ._52ja, ._56bz, ._2tbu, ._1mwn, ._55sr, ._5t6r,
-._1_oe, ._52lz, ._2l5v {
+._1_oe, ._52lz, ._2l5v, .inputtext, .inputpassword, strong, ._5c4t._1g06, ._26p9, ._1e3a,
+ ._391s, ._1g06, ._90t{
   color: #d2d2d2 !important;
 }
 
-/* blue link text */
+
 
 a, .actor, .mfsl, .fcw, .title, .blueName, ._5aw4, ._vqv, ._5yll, ._5qc3,
 ._52lz, ._4nwe, ._27vp, ._ir4, ._5wsv, ._46pa {
-  color: #DFEFF0 !important;
+  color: #ffffff !important;
 }
 
-/* dark important */
+
 
 .acy,
 .nontouch ._55mb .actor-link,
 .nontouch a.btnD,
 .inlineMedia.storyAttachment {
-  background: #304702 !important;
+  background: #000000 !important;
 }
 .statusBox, ._5whq, ._56bt,
 .composerInput, .mentions-input, ._1svy,
 ._bji {
-  background: #323232 !important;
+  background: #000000 !important;
 }
 .ufiBorder, ._5as0, ._5ef_, ._35aq {
-  border-color: #555 !important;
+  border-color: #111111 !important;
 }
 
-/* buttons */
+
 
 .button>a.touchable, .btn, .touch ._5c9u, ._2l5v,
 ._52x1, ._tn0, ._52ja, ._5lm6 {
-  background: #323232 !important;
+  background: #000000 !important;
 }
 .flyout {
   border: 1px solid #000 !important;
 }
 
-/* context menu */
 
 ._5c0e, ._5bn_ {
   background: #4e4e4e !important;
 }
 article, ._4o50, .acw,
 ._53_-, ._3wjp, ._usq, ._55wq, ._400s{
-  border: 1px solid #383838 !important;
+  border: 1px solid #111111 !important;
   border-radius: 4px;
 }
 ._1_oa, ._bmx, ._52x1 {
-  border-bottom: 1px solid #383838 !important;
+  border-bottom: 1px solid #111111 !important;
 }
 article h3 {
-  color: #999 !important;
+  color: #111111 !important;
 }
 
-/* no border */
 .aclb, ._53_-, ._52x6, ._52x1, ._2l5v,
 ._tn0, ._52ja, ._5lm6 {
   border-top: 0px;
   border-bottom: 0px;
+  background: #00000
 
 ._35aq, .d4i, ._4-cr {
 
@@ -116,3 +283,4 @@ article h3 {
 
   background: #00000 !important;
 }
+

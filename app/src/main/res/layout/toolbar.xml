@@ -13,7 +13,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     android:layout_height="?attr/actionBarSize"
     android:background="?attr/colorPrimary"
     app:layout_scrollFlags="scroll|enterAlways|snap"
-    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android" />
 

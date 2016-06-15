@@ -47,7 +47,8 @@
         <item>facebooktheme</item>
         <item>darktheme</item>
         <item>draculatheme</item>
-        <item>materialtheme</item>    
+        <item>materialtheme</item>
+        <item>folioclassic</item>
       </string-array>
       
       <string-array name="pref_feed">

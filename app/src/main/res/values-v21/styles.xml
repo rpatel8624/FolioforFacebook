@@ -13,7 +13,7 @@
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -45,7 +45,7 @@
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -73,7 +73,7 @@
     <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>
-        <item name="colorPrimary">@color/dcP</item>
+        <item name="colorPrimary">@color/dcPD</item>
         <item name="colorPrimaryDark">@color/dcPD</item>
         <item name="colorAccent">@color/dcP</item>
         <item name="colorControlNormal">@color/white</item>
@@ -103,7 +103,7 @@
         <item name="colorButtonNormal">@color/md_purple_500</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -142,7 +142,7 @@
         <item name="colorButtonNormal">@color/md_deep_purple_500</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -181,7 +181,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_orange_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -224,7 +224,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_deep_orange_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -264,7 +264,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_falcon_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -305,7 +305,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_lime_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -343,7 +343,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_green_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
         <item name="android:navigationBarColor">@color/md_green_700</item>
 
@@ -383,7 +383,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_light_green_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -421,7 +421,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_amber_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -461,7 +461,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_yellow_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -503,7 +503,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_red_700</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -543,7 +543,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_blue_700</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -584,7 +584,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_light_blue_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -624,7 +624,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_cyan_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -664,7 +664,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_teal_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -704,7 +704,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_brown_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -745,7 +745,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_grey_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -786,7 +786,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorAccent">@color/md_blue_grey_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -819,7 +819,7 @@
         <item name="colorButtonNormal">@color/PrimaryColor</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 
@@ -864,7 +864,7 @@
     <style name="FolioDark" parent="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>
-        <item name="colorPrimary">@color/dcP</item>
+        <item name="colorPrimary">@color/dcPD</item>
         <item name="colorPrimaryDark">@color/dcPD</item>
         <item name="colorAccent">@color/md_grey_400</item>
         <item name="colorButtonNormal">@color/dcP</item>
@@ -884,7 +884,7 @@
         <item name="colorButtonNormal">@color/md_purple_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -919,7 +919,7 @@
         <item name="colorButtonNormal">@color/md_deep_purple_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -954,7 +954,7 @@
         <item name="colorButtonNormal">@color/md_orange_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -992,7 +992,7 @@
         <item name="colorButtonNormal">@color/md_deep_orange_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1028,7 +1028,7 @@
         <item name="colorButtonNormal">@color/md_falcon_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1064,7 +1064,7 @@
         <item name="colorButtonNormal">@color/md_lime_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1096,7 +1096,7 @@
         <item name="colorButtonNormal">@color/md_green_700</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1129,7 +1129,7 @@
         <item name="colorButtonNormal">@color/md_light_green_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1161,7 +1161,7 @@
         <item name="colorButtonNormal">@color/md_amber_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1195,7 +1195,7 @@
         <item name="colorButtonNormal">@color/md_yellow_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1231,7 +1231,7 @@
         <item name="colorButtonNormal">@color/md_red_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1265,7 +1265,7 @@
         <item name="colorButtonNormal">@color/md_blue_700</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1300,7 +1300,7 @@
         <item name="colorButtonNormal">@color/md_light_blue_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1334,7 +1334,7 @@
         <item name="colorButtonNormal">@color/md_cyan_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1368,7 +1368,7 @@
         <item name="colorButtonNormal">@color/md_teal_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1402,7 +1402,7 @@
         <item name="colorButtonNormal">@color/md_brown_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
 
 
@@ -1433,7 +1433,7 @@
         <item name="colorButtonNormal">@color/md_grey_500</item>
         <item name="colorControlHighlight">@color/colorTransparent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 
@@ -1457,7 +1457,7 @@
         <item name="colorPrimaryDark">@color/md_blue_grey_700</item>
         <item name="colorAccent">@color/md_blue_grey_500</item>
         <item name="colorButtonNormal">@color/md_blue_grey_500</item>
-        <item name="android:windowBackground">@color/white</item>
+
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 

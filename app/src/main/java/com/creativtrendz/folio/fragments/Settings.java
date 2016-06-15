@@ -21,7 +21,6 @@ import com.creativetrends.folio.app.R;
 import com.creativtrendz.folio.activities.AboutActivity;
 import com.creativtrendz.folio.activities.FolioApplication;
 import com.creativtrendz.folio.activities.FolioLockSetup;
-import com.creativtrendz.folio.activities.MainActivity;
 import com.creativtrendz.folio.utils.FileOperation;
 import com.facebook.login.LoginManager;
 
@@ -86,7 +85,7 @@ public class Settings extends PreferenceFragment implements Preference.OnPrefere
         Preference credits = findPreference("credits_settings");
         Preference tabs = findPreference("allow_inside");
         Preference navigation = findPreference("customnav");
-        Preference fontset = findPreference("tap");
+
         Preference terms = findPreference("terms");
         Preference getkey = findPreference("help_development");
         Preference clearCachePref = findPreference("clear");
@@ -97,7 +96,7 @@ public class Settings extends PreferenceFragment implements Preference.OnPrefere
         credits.setOnPreferenceClickListener(this);
         tabs.setOnPreferenceClickListener(this);
         navigation.setOnPreferenceClickListener(this);
-        fontset.setOnPreferenceClickListener(this);
+
         terms.setOnPreferenceClickListener(this);
         clearCachePref.setOnPreferenceClickListener(this);
         getkey.setOnPreferenceClickListener(this);
@@ -149,9 +148,7 @@ public class Settings extends PreferenceFragment implements Preference.OnPrefere
 
                 break;
 
-            case "tap":
-                relaunch();
-                break;
+
 
             case "customnav":
                 getFragmentManager().beginTransaction()
@@ -231,15 +228,7 @@ public class Settings extends PreferenceFragment implements Preference.OnPrefere
     }
 
 
-    private void relaunch() {
 
-        Intent intent = new Intent(getActivity(), MainActivity.class);
-        intent.putExtra("apply_changes_to_app", true);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
-
-
-    }
 
     private void requestLocationPermission() {
         String locationPermission = Manifest.permission.ACCESS_FINE_LOCATION;
@@ -248,7 +237,7 @@ public class Settings extends PreferenceFragment implements Preference.OnPrefere
         if (hasPermission != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(getActivity(), permissions, REQUEST_LOCATION);
         } else
-            Log.i(TAG, "We already have location permission.");
+            Log.e(TAG, "We already have location permission.");
     }
 
 

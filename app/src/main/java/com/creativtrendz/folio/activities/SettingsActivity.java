@@ -82,9 +82,10 @@ public class SettingsActivity extends AppCompatActivity {
     public void onBackPressed() {
         int count = getFragmentManager().getBackStackEntryCount();
 
-        if (count == 0)
-            super.onBackPressed();
-        else
+        if (count == 0) {
+            changes();
+            //super.onBackPressed();
+        } else
             getFragmentManager().popBackStack();
     }
     
@@ -138,4 +139,12 @@ public class SettingsActivity extends AppCompatActivity {
         }
     }
 
+
+    private void changes() {
+
+        Intent intent = new Intent(SettingsActivity.this, MainActivity.class);
+        intent.putExtra("apply_changes_to_app", true);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
 }

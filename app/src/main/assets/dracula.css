@@ -42,11 +42,20 @@ input[type=text],
 }
 
 
-.profpic {
-border: none !important;
+.profpic{
 border-radius: 200px !important;
 }
 
+._129_ > :first-child {
+    border-top: 0px solid transparent;
+        border-top-width: 0px;
+        border-top-style: none;
+        border-top-color: transparent;
+}
+
+._129- {
+    border-top: none;
+}
 
 
 .profileName{

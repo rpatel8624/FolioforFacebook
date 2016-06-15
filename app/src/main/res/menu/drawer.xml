@@ -19,11 +19,6 @@ Copyright notice must remain here if you're using any part of this code.-->
                     android:title="@string/login_button"
                     android:visible="true"/>
 
-                <item
-                    android:id="@+id/goPro"
-                    android:icon="@drawable/ic_go_pro"
-                    android:title="@string/preference_donate_category"
-                    android:visible="true"/>
 
                 <item
             android:id="@+id/newsfeed"
@@ -115,16 +110,22 @@ Copyright notice must remain here if you're using any part of this code.-->
 
 
             <item
-            android:id="@+id/instagram"
-            android:icon="@drawable/ic_instagram"
-            android:title="@string/switch_to_gram"
-            android:visible="true"/>
+                android:id="@+id/instagram"
+                android:icon="@drawable/ic_instagram"
+                android:title="@string/switch_to_gram"
+                android:visible="true"/>
 
             <item
-            android:id="@+id/googleplus"
-            android:icon="@drawable/ic_google"
-            android:title="@string/switch_to_gplus"
-            android:visible="true"/>
+                android:id="@+id/googleplus"
+                android:icon="@drawable/ic_google"
+                android:title="@string/switch_to_gplus"
+                android:visible="true"/>
+
+            <item
+                android:id="@+id/tumblr"
+                android:icon="@drawable/ic_tumblr"
+                android:title="@string/switch_to_tum"
+                android:visible="true"/>
 
             </group>
             </menu>

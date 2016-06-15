@@ -1,12 +1,10 @@
 package com.creativtrendz.folio.fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 
 import com.creativetrends.folio.app.R;
-import com.creativtrendz.folio.activities.MainActivity;
 
 public class Customize extends PreferenceFragment implements Preference.OnPreferenceClickListener {
 
@@ -17,11 +15,9 @@ public class Customize extends PreferenceFragment implements Preference.OnPrefer
         Preference images = findPreference("no_images");
         Preference people = findPreference("hide_people");
         Preference fab = findPreference("show_fab");
-        Preference tap = findPreference("tap");
         images.setOnPreferenceClickListener(this);
         people.setOnPreferenceClickListener(this);
         fab.setOnPreferenceClickListener(this);
-        tap.setOnPreferenceClickListener(this);
 
 
     }
@@ -55,9 +51,6 @@ public class Customize extends PreferenceFragment implements Preference.OnPrefer
 
                 break;
 
-            case "tap":
-                refresh();
-                break;
 
 
         }
@@ -68,14 +61,6 @@ public class Customize extends PreferenceFragment implements Preference.OnPrefer
     }
 
 
-    private void refresh() {
-        Intent intent = new Intent(getActivity(), MainActivity.class);
-        intent.putExtra("apply_changes_to_app", true);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
-
-
-    }
 }
 
 

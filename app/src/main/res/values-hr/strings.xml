@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Start Basic Strings -->
+    <string name="app_name">Folio Free</string>
+    <string name="app_name_pro">Folio</string>
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_toolbar_pro">Folio Pro</string>
+    <string name="app_name_about">Folio za Facebook</string>
+    <string name="app_name_about_pro">Folio za Facebook Pro</string>
+    <string name="action_settings">Postavke</string>
+    <string name="closeDrawer">Navigacijski prikaz</string>
+    <string name="openDrawer">Otvori lijevu ladicu</string>
+    <string name="get_started">Prijavite se s Facebookom</string>
+    <string name="status_updated">Status je ažuriran.</string>
+    <string name="loading_video">Učitavanje&#8230;</string>
+    <string name="ok">OK</string>
+    <string name="tap_to_set">Dodirnite za primjenu promjena</string>
+    <string name="send_feedback">Folio povratne informacije</string>
+    <string name="applying_changes">Čišćenje privremene memorije. Ponovno pokrenite Folio.</string>
+    <string name="cancel">Poništi</string>
+    <string name="choose_email_client">Odaberi e-mail klijent</string>
+    <string name="no_network">Niste povezani.</string>
+    <string name="title_activity_settings">Postavke</string>
+    <string name="title_activity_about">O aplikaciji</string>
+    <string name="preference_about_category">O aplikaciji</string>
+    <string name="preference_set_category">Sve spremno?</string>
+    <string name="share_action">Podijeli trenutnu stranicu</string>
+    <string name="share_action_subject">Facebook stranica</string>
+    <string name="not_valid_title">Nije valjano</string>
+    <string name="not_valid_message">Ova verzija Folia nije sa Play Trgovine i zato neće normalno raditi.</string>
+    <string name="success">Uspjeh</string>
+    <string name="successfully_posted_post">ID objave: %1$s</string>
+    <string name="error">Pogreška</string>
+    <string name="crash_toast_text">Nešto nije u redu.</string>
+    <string name="crash_dialog_title">Folio Pro se srušio</string>
+    <string name="crash_dialog_text">Nažalost Folio Pro se srušio. Molimo dodirnite OK za slanje zapisnika preko emaila.</string>
+    <string name="crash_dialog_comment_prompt">Ovdje možete ostaviti komentare o rušenju:</string>
+    <string name="permission_read_external_storage">Potrebno je dopuštenje za čitanje datoteka</string>
+    <string name="permission_write_external_storage">Potrebno je dopuštenje za pisanje datoteka</string>
+    <string name="permission_access_location">Potrebno je dopuštenje za provjeru lokacije</string>
+    <string name="permission_get_accounts">Potrebno je dopuštenje za dobavljanje računa zbog dohvaćanja obavijesti</string>
+    <string name="fragment_main_downloading">Preuzimanje&#8230;</string>
+    <string name="like_on_facebook">Preuzimanje&#8230;</string>
+    <string name="like_on">Lajkajte na Facebooku</string>
+    <string name="join_on">Pridružite se Google+ zajednici</string>
+    <string name="follow_on">Pratite na Twitteru</string>
+    <string name="new_share">Omogući novo dijeljenje</string>
+    <string name="new_share_hint">Ovo omogućuje dijeljenje sa radne površine koje omogućava dijeljenje sa prijateljima, stranicama i grupama.</string>
+    <string name="share_success">Stavka je podijeljena. Učitavanje novosti&#8230;</string>
+    <string name="terms_settings">Uvjeti</string>
+    <string name="settings_more">Više</string>
+    <!-- End Basic Strings -->
+    <!-- Start FAB Labels -->
+    <string name="folio_video">Učitaj video</string>
+    <string name="folio_checkins">Prijavi lokaciju</string>
+    <string name="folio_tags">Označi prijatelja</string>
+    <string name="folio_images">Učitajte sliku iz galerije</string>
+    <string name="update_share">Podijeli sada</string>
+    <string name="update_status">Objavi status</string>
+    <string name="update_photo">Dodaj fotografije</string>
+    <string name="show_fab">Prikaži plutajući akcijski gumb</string>
+    <string name="show_fab_hint">Prikažite plutajući akcijski gumb pri dnu zaslona.</string>
+    <!-- End FAB Labels -->
+    <!-- Start Folio Drawer -->
+    <string name="quickaccess">Brzi pristup</string>
+    <string name="newsfeed">Novosti</string>
+    <string name="topnews">Bilješke</string>
+    <string name="fbmenu">Facebook izbornik</string>
+    <string name="trending">Popularno</string>
+    <string name="messages">Poruke</string>
+    <string name="faved">Favoriti</string>
+    <string name="friends">Prijatelji</string>
+    <string name="groups">Grupe</string>
+    <string name="pages">Stranice</string>
+    <string name="photos">Fotografije</string>
+    <string name="reminders">Podsjetnici</string>
+    <string name="events">Događaji</string>
+    <string name="onthisday">Na današnji dan</string>
+    <string name="saved">Spremljeno</string>
+    <string name="prefs">Postavke</string>
+    <string name="settings">Postavke</string>
+    <string name="helpfeed">Povratne informacije</string>
+    <string name="bugs">Prijavite pogrešku</string>
+    <string name="switch_to_folio">Prebaci na Folio</string>
+    <string name="switch_to_twitter">Prebaci na Twitter</string>
+    <string name="switch_to_gplus">Prebaci na Google+</string>
+    <string name="switch_to_gram">Prebaci na Instagram</string>
+    <string name="switch_to_tum">Prebaci na Tumblr</string>
+    <!-- End Folio Drawer -->
+    <!-- Start Twitter Drawer-->
+    <string name="discover">Istraži</string>
+    <string name="connect">Poveži</string>
+    <string name="twitter_search">Pretraživanje</string>
+    <string name="twitter_home">Početna stranica</string>
+    <string name="twitter_me">Ja</string>
+    <!-- End Twitter Drawer -->
+    <!-- Start Add ons Custom Navigation Drawer Removals-->
+    <string name="addons">Društveni dodaci</string>
+    <string name="enable_twitter">Prikaži Twitter</string>
+    <string name="enable_google">Prikaži Google+</string>
+    <string name="enable_instagram">Prikaži Instagram</string>
+    <string name="enable_tumblr">Prikaži Tumblr</string>
+    <!-- End Add ons Custom Navigation Drawer Removals -->
+    <!-- Start Navigation Drawer Removals -->
+    <string name="navigation_pref">Stavke iz navigacijske ladice</string>
+    <string name="navigation_pref_hint">Prilagodite navigacijsku ladicu uklanjanjem stavki koje ne koristite.</string>
+    <string name="recent_nav">Prikaži Novosti</string>
+    <string name="top_nav">Prikaži Bilješke</string>
+    <string name="trending_nav">Prikaži Popularno</string>
+    <string name="friends_nav">Prikaži Prijatelje</string>
+    <string name="groups_nav">Prikaži Grupe</string>
+    <string name="pages_nav">Prikaži Stranice</string>
+    <string name="photos_nav">Prikaži Fotografije</string>
+    <string name="events_nav">Prikaži Događaje</string>
+    <string name="onday_nav">Prikaži Na današnji dan</string>
+    <string name="saved_nav">Prikaži Spremljeno</string>
+    <!-- Start Navigation Drawer Removals -->
+    <!-- Start News Feed Preference -->
+    <string name="news_feed_preferences">Postavke novosti</string>
+    <string name="feed_choice">Sortiraj novosti</string>
+    <string name="feed_choice_hint">Trenutno sortiranje: %s.</string>
+    <string-array name="pref_default_feed">
+        <item>Zadano (Brzo se učitava)</item>
+        <item>Najnovije (Sporo se učitava)</item>
+        <item>Najzanimljivije (Sporo se učitava)</item>
+    </string-array>
+    <!-- End News Feed Preference -->
+    <!-- Start Font Preference -->
+    <string name="choose_font_facebook">Veličina Facebook fonta</string>
+    <string name="choose_font_facebook_hint">Trenutna veličina fonta: %s</string>
+    <string name="font_preference">Postavke Facebook fonta</string>
+    <string-array name="font_choice">
+        <item>Zadani font</item>
+        <item>Mali font</item>
+        <item>Srednji font</item>
+        <item>Veliki font</item>
+        <item>XVeliki font</item>
+        <item>XXVeliki font</item>
+    </string-array>
+    <!-- End Font Preference -->
+    <!-- Start Overflow Menu-->
+    <string name="top">Skok na vrh</string>
+    <string name="fb_settings">Facebook postavke</string>
+    <string name="fb_chat">Aktivni prijatelji</string>
+    <string name="fb_recent">Najnovije</string>
+    <string name="refresh">Osvježi</string>
+    <string name="notifications">Obavijesti</string>
+    <string name="notifications_about_hint">Postavite vaše obavijesti.</string>
+    <string name="search">Pretraži Facebook</string>
+    <string name="end">Odjavi se</string>
+    <string name="exit">Izlaz</string>
+    <!-- End Overflow Menu-->
+    <!-- Start Folio Main Customizations & Facebook Themes-->
+    <string name="customize_folio">Prilagodite Folio</string>
+    <string name="customize_folio_hint">Izmjenite izgled i raspored.</string>
+    <string name="preferences_auto">Onemogući Facebook traku</string>
+    <string name="preferences_auto_hint">Ovo će uključiti Folio alatnu traku.</string>
+    <string name="hidden_bar">Onemogući Folio alatnu traku</string>
+    <string name="hidden_bar_hint">Koristite samo Facebook traku. Molimo prvo isključite Folio alatnu traku.</string>
+    <string name="choose_theme_folio">Odaberi temu aplikacije</string>
+    <string name="choose_theme_facebook">Odaberi Facebook temu</string>
+    <string name="choose_theme_facebook_hint">Trenutna tema: %s</string>
+    <string name="choose_theme_folio_hint">Trenutna tema: %s</string>
+    <string name="preference_category7">Prilagodbe</string>
+    <string name="preference_category4">Folio teme</string>
+    <string name="preference_category15">Postavke Folio rasporeda</string>
+    <string name="preference_facebook_layouts">Postavke Facebook rasporeda</string>
+    <string name="preference_category3">Facebook teme</string>
+    <string name="hide_web">Sakrij učitavanje WebView-a.</string>
+    <string name="hide_web_hint">Sakriva zadanu Facebook temu dok se stranica učitava. (Nije preporučeno za Jelly Bean uređaje)</string>
+
+    <string-array name="pref_theme_entries">
+        <item>Folio Theme</item>
+        <item>Pink Theme</item>
+        <item>Dark Theme</item>
+        <item>Blue Grey Theme</item>
+    </string-array>
+
+    <string-array name="pref_theme_fb_entries">
+        <item>Facebook tema</item>
+        <item>Crna tema</item>
+        <item>Dracula tema</item>
+        <item>Folio tema</item>
+        <item>Folio Člasikue</item>
+    </string-array>
+    <!-- End Folio Main Customizations & Facebook Themes-->
+    <!-- START MIXED STRINGS -->
+    <string name="fb_offline">Pogreška</string>
+    <string name="cancelled">Otkazano</string>
+    <string name="permission_not_granted">Nije mogući završiti odabranu radnju zato što dopuštenja nisu dozvoljena.</string>
+    <string name="image_chooser">Odabir slike</string>
+    <string name="donate_jorell">Podržite razvoj i otključajte značajke</string>
+    <string name="preference_donate_category">Kupi Folio Pro</string>
+    <string name="preferences_feedback">Pošalji povratne informacije</string>
+    <string name="preferences_rate_description">Ocijeni Folio</string>
+    <string name="clear_cache">Očisti podatke</string>
+    <string name="clear_cache_title">Jeste li sigurni?</string>
+    <string name="clear_cache_message">Dodirnite OK za čišćenje Folio podataka. Ovo će vas odjaviti</string>
+    <string name="clear_cache_description">Očistite Folio podatke. Ovo će vas odjaviti.</string>
+    <string name="people_you">Ljudi koje možda poznajete</string>
+    <string name="people_you_hint">Sakrijte ljude koje možda poznajete.</string>
+    <string name="open_link_title">Otvaraj poveznice u Foliu</string>
+    <string name="open_link_hint">Uključite za brže pregledavanje.</string>
+    <string name="addPage">Dodaj u Favorite</string>
+    <string name="removePage">Ukloni iz Favorita</string>
+    <string name="preference_category5">Općenito</string>
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    <string name="get_app_store">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app</string>
+    <string name="no_images">Onemogući slike</string>
+    <string name="no_images_hint">Smanjite potrošnju podataka uklanjanjem slika.</string>
+    <!-- END MIXED STRINGS -->
+    <!-- START CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <string name="credits_settings">Zahvale</string>
+    <string name="credits_licenses">Dodirnite ovdje kako bi pročitali više o licencama korištenim u Foliu.</string>
+    <string name="credits_licenses_description">Licecne softvera otvorenog koda</string>
+    <string name="preference_category6">Zahvale</string>
+    <string name="credits_bejan">Patryk Goworowski</string>
+    <string name="credits_bejan_description">Za ikone pokretača za Folio i Folio Pro. Pritisnite ovdje za kupovinu Cornie Icons-a.</string>
+    <string name="credits_bejan_link" translatable="true">https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons&amp;hl=en</string>
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">Za pomoć s naslovnim fotografijama.</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrappe&amp;hl=en</string>
+    <string name="credits_fadev">Florent Anders</string>
+    <string name="credits_fadev_description">Za pomoć s Folio zaklj.</string>
+    <string name="credits_fadev_link" translatable="true">https://play.google.com/store/apps/details?id=com.fa.touch.app&amp;hl=en</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">Za dijeljenje interesa u tehnologiju i strpljenje dok je tatica radio.</string>
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">Za podršku i ohrabrenje kroz zadnjih par godina. Hvala ti što si mi posudila laptop.</string>
+    <string name="credits_facebook">Facebook Inc.</string>
+    <string name="credits_facebook_description">Za njihov novi graph api. I za njihovu mobilnu stranicu koja se koristi u Foliu.</string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">Za AppCompat v7, kao i za otvaranje koda za Material Design ikone.</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    <string name="preference_category10">Korištene licence softvera otvorenog koda</string>
+    <string name="preference_category8">Licence otvorenog koda</string>
+    <string name="preference_category12">Prijevodi</string>
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">Talijanski</string>
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">Španjolski</string>
+    <string name="credits_german">Lucas Krause</string>
+    <string name="credits_german_description">Njemački</string>
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Portugalski Brazilski</string>
+    <string name="credits_turk">Mehmet Çalışkan</string>
+    <string name="credits_turk_description">Turski</string>
+    <string name="credits_fren">Jean Philippe</string>
+    <string name="credits_fren_description">Francuski</string>
+    <string name="credits_pol">seba112</string>
+    <string name="credits_pol_description">Poljski</string>
+    <string name="credits_dut">Robert Boes</string>
+    <string name="credits_dut_description">Nizozemski</string>
+    <string name="credits_dut2">Dennis</string>
+    <string name="credits_dut2_description">Nizozemski</string>
+    <string name="credits_rom">Iulian Szidelo</string>
+    <string name="credits_rom_description">Rumunjski</string>
+    <string name="credits_rus">Артём Петров</string>
+    <string name="credits_rus_description">Русский</string>
+    <string name="help_trans">Prevođenje</string>
+    <string name="about_translate">Folio prevoditelji</string>
+    <string name="about_translate_hint">Dodirnite ovdje kako bi pogledali tko je pomogao prevesti Folio.</string>
+    <!-- END CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <!-- Start Notifications -->
+    <string name="interval_pref">Interval usklađivanja.
+Pritisnite za izmjenu.</string>
+    <string name="interval_pref_description">Obavijesti će biti provjerene svakih: %s.</string>
+    <string-array name="update_interval">
+        <item>Trenutno (Visoka potrošnja baterije i podataka)</item>
+        <item>1 minuta</item>
+        <item>5 minuta</item>
+        <item>15 minuta</item>
+        <item>30 minuta</item>
+        <item>1 sat</item>
+        <item>6 sati</item>
+        <item>3 sata</item>
+    </string-array>
+    <string name="folio_message_bubble">Message Bubbles (ALPHA)</string>
+    <string name="folio_message_bubble_hint">Dodirnite za aktivaciju.</string>
+    <string name="notify_log">Zapisnik obavijesti</string>
+    <string name="btn_chioce">Odaberi(%d)</string>
+    <string name="you_have_one_message">Imate 1 novu poruku</string>
+    <string name="you_have_n_messages">Imate %d novih poruka</string>
+    <string name="sync_problem">Molimo prijavite se kako bi počeli primati obavijesti.</string>
+    <string name="activate_notifications">Facebook obavijesti</string>
+    <string name="activate_messages">Obavijesti za poruke</string>
+    <string name="notifications_service_created">Obavijesti su aktivirane</string>
+    <string name="notifications_settings">Obavijesti</string>
+    <string name="all_notifications">Prikaži obavijesti</string>
+    <string name="all_messages">Prikaži poruke</string>
+    <string name="all_requests">Prikaži zahtjeve za prijateljstvo</string>
+    <string name="notification_sound">Zvuk obavijesti</string>
+    <string name="notification_sound_description">Trenutni:</string>
+    <string name="message_sound">Zvuk obavijesti poruke</string>
+    <string name="message_sound_description">"Trenutni: "</string>
+    <string name="silent">Bez zvuka</string>
+    <string name="vibrate">Vibracija</string>
+    <string name="led_light">LED lampica za obavijesti</string>
+    <string name="led_color">Boja LED lampice</string>
+    <string name="led_color_description">Trenutna boja LED lampice: %s.</string>
+    <string name="notifications_extra">Dodatno</string>
+    <string name="notifications_everywhere">Uvijek budite obavješteni</string>
+    <string name="notifications_everywhere_description">Čak i kada koristite Folio.</string>
+    <string name="quick_bar">QuickBar</string>
+    <string name="quick_bar_hint">Prikažite Folio QuickBar u obavijestima kako bi otvorali plutajući prozor za vašu najdražu društvenu mrežu.</string>
+    <string name="quick_bar_on">Folio QuickBar je sada uključen.</string>
+    <!-- End Notifications -->
+    <!-- Start Folio Lock -->
+    <string name="folio_lock">Omogući Folio zaklj.</string>
+    <string name="unlock_text">Molimo unesite lozinku</string>
+    <string name="lock_abort">Odustani</string>
+    <string name="lock_pin">lozinka</string>
+    <string name="lock_text">Osigurajte Folio s lozinkom</string>
+    <string name="lock_confirm">potvrdite lozinku</string>
+    <string name="lock_wrong">Lozinka je netočna</string>
+    <string name="lock_empty">Lozinka ne može biti prazna</string>
+    <!-- End Folio Lock -->
+    <!-- Start Saving Images Context Menu. -->
+    <string name="context_save_image">Spremiti sliku</string>
+    <string name="context_share_image">Podijeli sliku</string>
+    <string name="context_copy_image_link">Kopiraj vezu</string>
+    <string name="context_share_link">Podijeli vezu</string>
+    <string name="context_copy_link">Kopiraj vezu</string>
+    <string name="context_share_image_progress">Priprema&#8230;</string>
+    <string name="content_copy_link_done">Veza je kopirana u međuspremnik</string>
+    <!-- End Saving Images Context Menu. -->
+    <!-- Start Login -->
+    <string name="not_logged_in">Niste povezani s Foliom</string>
+    <string name="error_login">Nešto je pošlo po krivu, molimo pokušajte se ponovno prijaviti</string>
+    <string name="error_super_wrong">Prijava je prekinuta</string>
+    <string name="error_facebook_noconnection">Nije moguće pristupiti Facebooku</string>
+    <string name="error_facebook_error">Dobavljanje informacija&#8230;</string>
+    <string name="login_button">Poveži s Foliom</string>
+    <!-- End Login-->
+    <!-- Start Permissions -->
+    <string name="permission_denied">Dopuštenje je odbijeno. Ova radnja ne može biti dovršena.</string>
+    <!-- End Permissions-->
+    <!-- Start Ads -->
+    <string name="ads_folio">Prikaži Aplikacije i Igre</string>
+    <string name="ads_folio_des">Prikaži aplikacije i igre koje bi vas mogle zanimati pri pokretanju? Aplikacije i igre se mogu isključiti bilo kada.</string>
+    <!-- End Ads -->
+    <!-- START OF LICENSES: DO NOT TRANSLATE LEAVE AS IS-->
+
+    <string name="about_header">Licence otvorenog koda\nObavijesti za datoteke</string>
+    <string name="copyright">\u00a9 2016 Creative Trends Apps LLC.</string>
+    <string name="allrights">Sva prava pridržana.</string>
+    <string name="about_version">http://www.creativetrendsapps.com</string>
+    <string name="about_image">Zahvale za sliku: Klyph for Facebook</string>
+    <!-- END OF LICENSES -->
+</resources>

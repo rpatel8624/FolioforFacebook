@@ -58,10 +58,7 @@
             android:title="@string/choose_font_facebook"
             android:defaultValue="default_font" />
         
-        <Preference
-            android:key="tap"
-            android:title="@string/tap_to_set"/>
-            
+
                     
      </PreferenceCategory>
      
@@ -86,11 +83,7 @@
     <PreferenceCategory
         android:title="@string/settings_more">
         
-       	<Preference
-            android:key="clear"
-            android:title="@string/clear_cache"
-            android:summary="@string/clear_cache_description"/>
-       
+
     
         <Preference
             android:key="about_settings"
@@ -103,7 +96,13 @@
         <Preference
             android:key="terms"
             android:title="@string/terms_settings"/>
-        
+
+
+
+        <Preference
+            android:key="clear"
+            android:title="@string/clear_cache"
+            android:summary="@string/clear_cache_description"/>
         
            
         <Preference
