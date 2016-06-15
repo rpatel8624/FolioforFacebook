@@ -46,3 +46,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 app/src/main/assets/selectshit.css
+app/src/main/res/layout/quick_message.xml
+app/src/main/res/layout/share_view.xml
