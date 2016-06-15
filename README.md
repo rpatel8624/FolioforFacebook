@@ -10,7 +10,7 @@ Please create a Facebook app on Facebooks development portal, if you'd like the 
 6/15/16 This update converts most all of the drawables used in Folio to vector drawables. This reduces the apps size and also helps with scaling images for different screen resolutions better.
 
 # Please Read:
-DO NOT USE THE NAME FOLIO. DO NOT INCLUDE FOLIO IN YOUR APPS NAME. DO NOT USE ANY OF FOLIO'S LAUNCHER ICONS. YOU MUST NOT USE THE CREATIVE TRENDS NAME EXCEPT TO GIVE CREDIT. PLEASE GIVE CREDIT IF YOU USE THIS SOURCE. Also include credit to <a href="https://github.com/indywidualny/FaceSlim"><b>Face Slim</b></a> and <a href="https://github.com/JakeLane/Toffeed"><b>Toffeed</a></a>. Folio uses some source code from <a href="https://github.com/JakeLane/Toffeed">Toffeed</a> as well as <a href="https://github.com/indywidualny/FaceSlim">Face Slim</a>. Which may be licesed differently. Enjoy & FOLLOW THE LICENSE.
+DO NOT USE THE NAME FOLIO. DO NOT INCLUDE FOLIO IN YOUR APPS NAME. DO NOT USE ANY OF FOLIO'S LAUNCHER ICONS. YOU MUST NOT USE THE CREATIVE TRENDS NAME EXCEPT TO GIVE CREDIT. PLEASE GIVE CREDIT IF YOU USE THIS SOURCE. Also include credit to <a href="https://github.com/indywidualny/FaceSlim"><b>Face Slim</b></a> and <a href="https://github.com/JakeLane/Toffeed"><b>Toffeed</b></a></a>. Folio uses some source code from <a href="https://github.com/JakeLane/Toffeed">Toffeed</a> as well as <a href="https://github.com/indywidualny/FaceSlim">Face Slim</a>. Which may be licesed differently. Enjoy & FOLLOW THE LICENSE.
 
 <img src="http://jnsdesigns.webs.com/hero1.png" width="100%" height=""><br><br><br>
 
