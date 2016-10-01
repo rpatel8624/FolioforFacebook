@@ -1175,7 +1175,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
                     }
                 }
 
-                webViewUrl = String.format("https://m.facebook.com/sharer.php?&app_id=749196541804006&u=%s&t=%s", sharedUrl, sharedSubject);
+                webViewUrl = String.format("https://m.facebook.com/sharer.php?u=%s&t=%s", sharedUrl, sharedSubject);
                 webViewUrl = Uri.parse(webViewUrl).toString();
 
             }
