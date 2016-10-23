@@ -60,7 +60,7 @@ public class PhotoViewer extends AppCompatActivity {
     @SuppressWarnings("ConstantConditions")
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            AppTheme.getTheme(this);
+            setTheme(R.style.FolioDark);
             setContentView(R.layout.photoviewer);
             requestDownloadPermission();
             getWindow().setFlags(WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED, WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
@@ -117,7 +117,7 @@ public class PhotoViewer extends AppCompatActivity {
             @SuppressWarnings("ConstantConditions")
             @Override
             public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
-                fullImage.setLayoutParams(new RelativeLayout.LayoutParams(-1, -1));
+                fullImage.setLayoutParams(new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
                 findViewById(R.id.photoprogress).setVisibility(View.GONE);
                 return false;
             }
@@ -213,15 +213,13 @@ public class PhotoViewer extends AppCompatActivity {
     @Override
     protected void onStart(){
         super.onStart();
-        PreferencesUtility.putString("needs_lock", "false");
+        
     }
 
     public void onBackPressed() {
         super.onBackPressed();
         Glide.clear(fullImage);
         fullImage.setImageDrawable(null);
-        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
-
     }
 
     public void onDestroy() {
