@@ -7,7 +7,7 @@ This repo will be updated as much as possbile.
 Please create a Facebook app on Facebooks development portal, if you'd like the ability for users to login with Facebook. If you'd like to enable ads please create an AdBuddiz developer account. Some of the themes were removed and will have to be added by you if you choose to fork the project.
 
 # Update:
-6/15/16 This update converts most all of the drawables used in Folio to vector drawables. This reduces the apps size and also helps with scaling images for different screen resolutions better.
+10/23/16: THERE ARE SEVERAL APPS ON THE PLAY STORE (OR SOME ON GITHUB) THAT AREN'T CREDITING THIS SOURCE. PLEASE READ THE LICENSE BEFORE FORKING OR USING THIS PROJECT TO CREATE A FACEBOOK APP. PLEASE DO NOT VIOLATE THE LICENSE. ALSO, STRINGS AND THEMES NEED TO BE CREATED BY YOU IF YOU FORK OR USE THIS SOURCE.
 
 # Please Read:
 DO NOT USE THE NAME FOLIO. DO NOT INCLUDE FOLIO IN YOUR APPS NAME. DO NOT USE ANY OF FOLIO'S LAUNCHER ICONS. YOU MUST NOT USE THE CREATIVE TRENDS NAME EXCEPT TO GIVE CREDIT. PLEASE GIVE CREDIT IF YOU USE THIS SOURCE. Also include credit to <a href="https://github.com/indywidualny/FaceSlim"><b>Face Slim</b></a> and <a href="https://github.com/JakeLane/Toffeed"><b>Toffeed</b></a></a>. Folio uses some source code from <a href="https://github.com/JakeLane/Toffeed">Toffeed</a> as well as <a href="https://github.com/indywidualny/FaceSlim">Face Slim</a>. Which may be licesed differently. Enjoy & FOLLOW THE LICENSE.
